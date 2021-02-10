@@ -1,0 +1,159 @@
+//--------------------------
+//---- Media min 1200px ----
+//--------------------------
+
+@media screen and (min-width: 1200px) {
+    .s1 {
+        background: url("../img/11.jpg") center center;
+        background-size: cover;
+    }
+    .s2 {
+        background: url('../img/12.jpg') center;
+        background-size: cover;
+    }
+    .s4 {
+        background: url('../img/13.jpg') center;
+        background-size: cover;
+    }
+    .s14 {
+        background: url('../img/14.jpg') center;
+        background-size: cover;
+    }
+    .s12 {
+        background: url('../img/21.jpg') center;
+        background-size: cover;
+    }
+    .s3 {
+        background: url('../img/camp-1200.jpg') center;
+        background-size: cover;
+    }
+    .s13 {
+        background: url('../img/41.jpg') center;
+        background-size: cover;
+    }
+    .s5 {
+        background-size: cover;
+        background-image: $gradient;
+    }
+}
+
+//--------------------------
+//---- Media max 1199px ----
+//--------------------------
+
+@media screen and (max-width: 1199px) {
+    .s1 {
+        background: url("../img/home-900.jpg") center center;
+        background-size: cover;
+
+    }
+    .s2 {
+        background: url('../img/12.jpg') center;
+        background-size: cover;
+
+    }
+    .s4 {
+        background: url('../img/13.jpg') center;
+        background-size: cover;
+
+    }
+    .s14 {
+        background: url('../img/14.jpg') center;
+        background-size: cover;
+    }
+    .s12 {
+        background: url('../img/21.jpg') center;
+        background-size: cover;
+
+    }
+    .s3 {
+        background: url('../img/camp-1200.jpg') center;
+        background-size: cover;
+
+    }
+    .s13 {
+        background: url('../img/41.jpg') center;
+        background-size: cover;
+
+    }
+    .s5 {
+        background-size: cover;
+        background-image: $gradient;
+    }
+}
+
+//--------------------------
+//---- Media max 576px ----
+//--------------------------
+
+@media screen and (max-width: 576px) {
+    .s1 {
+        background: url("../img/home-600.jpg") center center;
+        background-size: cover;
+
+    }
+    .s2 {
+        background: url('../img/train-600.jpg') center;
+        background-size: cover;
+    }
+    .s4 {
+        background: url('../img/landing-4-600.jpg') center;
+        background-size: cover;
+    }
+    .s14 {
+        background: url('../img/travel-600.jpg') center;
+        background-size: cover;
+    }
+    .s12 {
+        background: url('../img/comp-600.jpg') center;
+        background-size: cover;
+    }
+    .s3 {
+        background: url('../img/camp-600.jpg') center;
+        background-size: cover;
+    }
+    .s13 {
+        background: url('../img/group-600.jpg') center;
+        background-size: cover;
+    }
+    .s5 {
+        background-image: $gradient;
+        background-size: cover;
+    }
+}
+
+//--------------------------
+//---- Media max 375px ----
+//--------------------------
+
+@media screen and (max-width: 375px) {
+    .s1 {
+        background: url("../img/11m.jpg") center center;
+        background-size: cover;
+    }
+    .s2 {
+        background: url('../img/train-600.jpg') center;
+        background-size: cover;
+    }
+    .s14 {
+        background: url('../img/travel-375.jpg') center;
+        background-size: cover;
+    }
+
+    .s12 {
+        background: url('../img/comp-600.jpg') center;
+        background-size: cover;
+    }
+    .s3 {
+        background: url('../img/landing-3-600.jpg') center;
+        background-size: contain;
+    }
+    .s13 {
+        background: url('../img/group-600.jpg') center;
+        background-size: cover;
+    }
+    .s5 {
+        background-image: $gradient;
+        background-size: cover;
+    }
+}

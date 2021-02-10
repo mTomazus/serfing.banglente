@@ -1,0 +1,71 @@
+//--------------------------
+//---- Media min 1200px ----
+//--------------------------
+
+@media screen and (min-width: 1200px) {
+    h1, h6 {
+        font-size: 10rem;
+    }
+    h1 {
+        line-height: 9rem;
+        margin: auto;
+    }
+    .h1-small {
+        transform: translate(0px, 2.4104px);
+        opacity: 1.0803;
+        text-align: center;
+        color: $text-color;
+        margin: auto;
+        text-shadow: $shadow;
+        line-height: 6rem;
+        font-size: 6rem;
+    }
+    .remejai img {
+        zoom: 0.9;
+    }
+
+    .heading {
+        display: flex;
+        max-width: 80rem;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .landing__second {
+        h2 {
+            margin: 2rem auto;
+            text-align: center;
+            font-size: 3rem;
+            text-shadow: $shadow-deep;
+            color: $text-color;
+            line-height: 3rem;
+        }
+        img {
+            text-align: center;
+            filter: invert(1);
+        }
+    }
+
+    .landing > button {
+        margin: 8rem auto;
+    }
+
+    .stars {
+        svg {
+            height: 50px;
+            width: 50px;
+        }
+    }
+    .listas {
+        display: none;
+    }
+    .s3-apacia {
+        text-align: center;
+        h2 {
+        color: $alt-text-color;
+        }
+    }
+
+    .circle_svg {
+        text-align: center;
+    }
+}

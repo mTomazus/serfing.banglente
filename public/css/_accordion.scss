@@ -1,0 +1,21 @@
+.accordion__button {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s;
+}
+.accordion__button::after {
+    content: '\25be';
+    float: right;
+    transform: scale(1);
+}
+.accordion__button--active::after {
+    content: '\25b4';
+    float: right;
+}
+.accordion__container {
+    margin: 5px auto;
+    width: 100%;
+    background: $fills;
+    box-shadow: $shadow;
+}

@@ -1,0 +1,171 @@
+/* --------------------------------------- */
+/* ---------------NAVIGATION-------------- */
+/* --------------------------------------- */
+
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    min-height: 8vh;
+    align-items: center;
+    width: 100vw;
+    background-image: $gradient;
+    font-family: 'Anton', sans-serif;
+    z-index: 2;
+}
+
+//---- Fulpage css overrides----
+#fp-nav {
+    .fp-right {
+        right: 0;
+    }
+}
+.fp-slidesNav.fp-bottom {
+    bottom: 0px;
+}
+
+.logo-pic{
+    margin: auto;
+    img{
+        max-height: 6vh;
+        filter: drop-shadow($shadow-deep);
+    }
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: auto;
+    h6{
+        font-size: 2rem;
+        margin: 0;
+        text-shadow: $shadow;
+    }
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 5px;
+        text-shadow: $shadow;
+    }
+}
+
+.burger{
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    div{
+        width: 25px;
+        height: 4px;
+        background-color: white;
+        margin: 4px;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+};
+
+@media screen and (max-width:1200px){
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 92vh;
+        background-color:#2f78a8;
+        font-size: 20px;
+        width: 65%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+        font-size: 24px;
+    }
+    .logo{
+        cursor: pointer; 
+    }
+    .burger{
+        display: block;
+    }
+    .nav-active{
+        transform: translateX(0%);
+        background-image: $gradient;
+    }
+    
+    .nav-active{
+        li:nth-child(1){
+            animation: navLinkFade 1s ease 0.54s forwards;
+        }
+        li:nth-child(2){
+            animation: navLinkFade 1s ease 0.58s forwards;
+        }
+        li:nth-child(3){
+            animation: navLinkFade 1s ease 0.62s forwards;
+        }
+        li:nth-child(4){
+            animation: navLinkFade 1s ease 0.66s forwards;
+        }
+        li:nth-child(5){
+            animation: navLinkFade 1s ease 0.7s forwards;
+        }
+        li:nth-child(6){
+            animation: navLinkFade 1s ease 0.74s forwards;
+        }
+    }
+}
+
+//------ Burger x closes --------
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+};
+
+//--- Fullpage blur on burger click
+    .blur {
+        filter: blur(8px);
+    }
+    .fullpage-wrapper {
+        transition: filter 0.5s 0.2s linear;
+    }
