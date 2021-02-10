@@ -44,6 +44,13 @@
             filter: invert(1);
         }
     }
+    .landing__third, .s3-apacia {
+        h2 {
+            color: white;
+            font-size: 3rem;
+            text-shadow: $shadow-deep;
+        }
+    }
 
     .landing > button {
         margin: 8rem auto;

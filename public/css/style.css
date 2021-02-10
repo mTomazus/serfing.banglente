@@ -588,6 +588,11 @@ button:hover {
     -webkit-filter: invert(1);
             filter: invert(1);
   }
+  .landing__third h2, .s3-apacia h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0.2rem 0.2rem #00000075;
+  }
   .landing > button {
     margin: 8rem auto;
   }

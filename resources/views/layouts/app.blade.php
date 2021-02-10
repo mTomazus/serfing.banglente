@@ -7,9 +7,10 @@
 
         @include('partials._header')
 
-        @include('partials._footer')
+        @yield('content')
 
         @include('partials._scripts')
         
     </body>
+    
 </html>
