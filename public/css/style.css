@@ -609,6 +609,205 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 576px) {
+  h1, h6 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+  }
+  .remejai img {
+    zoom: 0.7;
+  }
+  section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section h4 {
+    padding-top: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1, h6 {
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+  }
+  h2 {
+    margin: auto;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.3rem;
+    margin: 10px;
+    text-align: center;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: white;
+  }
+  .listas {
+    font-family: 'Source Sans Pro';
+    list-style: none;
+    font-weight: 600;
+    line-height: 2.3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+    width: 85vw;
+    margin: 2rem auto;
+  }
+  .listas li {
+    margin: 5px;
+  }
+  .listas a {
+    text-decoration: none;
+    color: white;
+  }
+  .popular {
+    margin-top: 15px;
+  }
+  .remejai img {
+    zoom: 0.5;
+  }
+  .landing__second img {
+    margin: 0px 0 60px;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  .info {
+    margin: auto;
+  }
+  .info p {
+    color: black;
+    font-size: 1rem;
+  }
+  .nuoma {
+    width: 80vw;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .nuoma h1 {
+    margin-top: 0rem;
+  }
+  .nuoma .carousel {
+    height: 260px;
+    margin: 10px 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .nuoma .accordion__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .rent img {
+    width: 60%;
+  }
+  .camp {
+    color: white;
+  }
+  .camp h2 {
+    margin-top: 93px;
+    text-align: center;
+  }
+  .camp h3 {
+    margin: 75px 10px 0;
+  }
+  .footer__content {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .footer__content p {
+    margin: 0;
+  }
+  .footer__kontaktai {
+    text-align: center;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
+    color: white;
+  }
+  .footer__kontaktai h2 {
+    margin: 0;
+  }
+  .footer__kontaktai img {
+    display: block;
+    width: 100px;
+    margin: auto;
+  }
+  .footer__menu {
+    margin: 2rem 0;
+  }
+  .footer__menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    width: 75vw;
+  }
+  .footer__menu a {
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
+  }
+  .content {
+    overflow: hidden;
+    padding-top: 8vh;
+    height: 92vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s3-apacia {
+    margin: 0 0 3rem;
+  }
+  .stars svg {
+    height: 27px;
+    width: 27px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -799,214 +998,5 @@ ul span {
   background: white !important;
   -webkit-box-shadow: 0px 0px 3px white;
           box-shadow: 0px 0px 3px white;
-}
-
-@media screen and (max-width: 576px) {
-  h1, h6 {
-    font-size: 4rem;
-  }
-  p {
-    font-size: 2.5rem;
-    line-height: 4.5rem;
-  }
-  .remejai img {
-    zoom: 0.7;
-  }
-  section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  section h4 {
-    padding-top: 0;
-    font-size: 1rem;
-    line-height: 1rem;
-    font-weight: 300;
-  }
-}
-
-@media screen and (max-width: 476px) {
-  h1, h6 {
-    font-size: 3.5rem;
-  }
-  p {
-    font-size: 2rem;
-    line-height: 4.5rem;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  h1, h6 {
-    margin-top: 1rem;
-    font-size: 3.5rem;
-    line-height: 2.5rem;
-  }
-  h2 {
-    margin: auto;
-    text-align: center;
-  }
-  h3 {
-    font-size: 1.3rem;
-    margin: 10px;
-    text-align: center;
-  }
-  p {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    color: white;
-  }
-  .listas {
-    font-family: 'Source Sans Pro';
-    list-style: none;
-    font-weight: 600;
-    line-height: 2.3rem;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0;
-    width: 85vw;
-    margin: 2rem auto;
-  }
-  .listas li {
-    margin: 5px;
-  }
-  .listas a {
-    text-decoration: none;
-    color: white;
-  }
-  .popular {
-    margin-top: 15px;
-  }
-  .remejai img {
-    zoom: 0.5;
-  }
-  .landing__second img {
-    margin: 0px 0 60px;
-    -webkit-filter: invert(1);
-            filter: invert(1);
-  }
-  .info {
-    margin: auto;
-  }
-  .info p {
-    color: black;
-    font-size: 1rem;
-  }
-  .nuoma {
-    width: 80vw;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .nuoma h1 {
-    margin-top: 0rem;
-  }
-  .nuoma .carousel {
-    height: 260px;
-    margin: 10px 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .nuoma .accordion__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .rent img {
-    width: 60%;
-  }
-  .camp {
-    color: white;
-  }
-  .camp h2 {
-    margin-top: 93px;
-    text-align: center;
-  }
-  .camp h3 {
-    margin: 75px 10px 0;
-  }
-  .footer__content {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-  }
-  .footer__content p {
-    margin: 0;
-  }
-  .footer__kontaktai {
-    text-align: center;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-    color: white;
-  }
-  .footer__kontaktai h2 {
-    margin: 0;
-  }
-  .footer__kontaktai img {
-    display: block;
-    width: 100px;
-    margin: auto;
-  }
-  .footer__menu {
-    margin: 2rem 0;
-  }
-  .footer__menu ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Source Sans Pro';
-    font-weight: 900;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin: auto;
-    list-style: none;
-    width: 75vw;
-  }
-  .footer__menu a {
-    text-decoration: none;
-    color: yellow;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-  }
-  .content {
-    overflow: hidden;
-    padding-top: 8vh;
-    height: 92vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .s3-apacia {
-    margin: 0 0 3rem;
-  }
-  .stars svg {
-    height: 27px;
-    width: 27px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

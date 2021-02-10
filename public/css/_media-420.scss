@@ -1,0 +1,158 @@
+//--------------------------
+//---- Media max 420px ----
+//--------------------------
+
+@media screen and (max-width: 420px) {
+    h1, h6 {
+        margin-top: 1rem;
+        font-size: 3.5rem;
+        line-height: 2.5rem;
+    }
+    h2 {
+        margin: auto;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.3rem;
+        margin: 10px;
+        text-align: center;
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: $text-color;
+    }
+    .listas {
+        font-family: 'Source Sans Pro';
+        list-style: none;
+        font-weight: 600;
+        line-height: 2.3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+        width: 85vw;
+        margin: 2rem auto;
+        li {
+            margin: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: $text-color;
+        }
+    }
+    .popular {
+        margin-top: 15px;
+    }
+    .remejai {
+        img {
+            zoom: 0.5;
+        }
+    }
+    .landing__second {
+        img {
+        margin: 0px 0 60px;
+        filter: invert(1);  
+        }
+    }
+    .info {
+        margin: auto;
+        p {
+            color: black;
+            font-size: 1rem;
+        }
+    } 
+    .nuoma {
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h1 {
+            margin-top: 0rem;
+        }
+        .carousel {
+            height: 260px;
+            margin: 10px 0;
+            box-shadow: none;
+        }
+        .accordion__content {
+            display: flex;
+        }
+    }
+
+    .rent img {
+        width: 60%;
+    }
+    .camp {
+        color: white;
+        h2 {
+            margin-top: 93px;
+            text-align: center;
+        }
+        h3 {
+            margin: 75px 10px 0;
+        }
+
+    }
+    .footer__content {
+        justify-content: end;
+        p{
+            margin: 0;
+        }
+    }
+
+    .footer__kontaktai {
+        text-align: center;
+        text-shadow: $shadow;
+        color: white;
+        h2 {
+            margin: 0;
+        }
+        img {
+            display: block;
+            width: 100px;
+            margin: auto;
+        }
+    }
+    .footer__menu {
+        margin: 2rem 0;
+        ul {
+            @include clear;
+            text-align: center;
+            font-size: 1.2rem;
+            font-family: 'Source Sans Pro';
+            font-weight: 900;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: auto;
+            list-style: none;
+            width: 75vw;
+        }
+        a {
+            text-decoration: none;
+            color: yellow;
+            text-shadow: $shadow;
+        }
+    }
+    .content {
+
+        overflow: hidden;
+        padding-top: 8vh;
+        height: 92vh;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .s3-apacia {
+        margin: 0 0 3rem;
+    }
+    .stars {
+        svg {
+            height: 27px;
+            width: 27px;
+        }
+    }
+}
