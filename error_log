@@ -1,0 +1,16 @@
+[31-Jan-2021 22:07:47 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home2/banglent/public_html/serfing/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[31-Jan-2021 22:07:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(955): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/CliDumper.php(571): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(804): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Cloner/Data.php(401 in /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[31-Jan-2021 22:15:19 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home2/banglent/public_html/serfing/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[31-Jan-2021 22:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(955): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/CliDumper.php(571): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(804): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Cloner/Data.php(401 in /home2/banglent/public_html/serfing/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
