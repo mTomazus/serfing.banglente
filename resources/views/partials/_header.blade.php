@@ -4,7 +4,7 @@
         <img src="img/logo-7.png" title="Banglentes - ismok plaukti banlente." alt="banglente ir banglentes">
       </div>
       <div class="logo">
-        <h6>Banglente</h6>
+        <h6>Banglentė</h6>
       </div>
       <ul class="nav-links">
         <li><a href="#">Pamokos</a></li>
