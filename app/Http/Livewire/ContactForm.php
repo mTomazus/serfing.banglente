@@ -10,18 +10,21 @@ class ContactForm extends Component
     public $name;
     public $email;
     public $message;
+    public $success;
 
     public function submitForm()
     {
         $validatedData = $this->validate([
-            'name' => 'required|min:10',
+            'name' => 'required|min:5',
             'email' => 'required|email',
-            'message' => 'required',
+            'message' => 'required|min:8',
         ]);
    
         Contact::create($validatedData);
    
         return redirect()->to('/form');
+        $this->reset(['name', 'email', 'message']);
+        $this->success = 'Your inquiry has been SUCCESSFULLY submited!';
     }
 
     public function render()
