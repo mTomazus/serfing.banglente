@@ -10,6 +10,8 @@
         @yield('content')
 
         @include('partials._scripts')
+    
+        @livewireScripts
         
     </body>
     
