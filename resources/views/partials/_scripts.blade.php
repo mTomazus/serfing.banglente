@@ -19,6 +19,9 @@
                 gsap.from('h1', {delay:0.5, stagger:0.5, opacity:0, duration: 2, y:-30, ease: "back"});
                 gsap.from('.stars', {delay:2, stagger:0.5, opacity:0, scale:2, duration: 2, ease: "back"});    
                 gsap.from('h2', {delay:0.9, stagger:0.5, opacity:0, duration: 1.5, scale:2, ease: "bounce"});
+                gsap.from('.elastic', {delay:3, opacity:0, duration: 1.5, scale:.2, ease: "elastic"});
+                gsap.from('.menu', {delay:2, stagger:0.5, opacity:0, scale:2, duration: 2, ease: "back"}); 
+                gsap.from('h3', {delay:2, stagger:0.5, opacity:0, y:90, duration: 2, ease: "back"}); 
             });
         };
     });

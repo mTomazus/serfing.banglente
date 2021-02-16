@@ -3,7 +3,7 @@ const navSlide  = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
-    const blurPage  = document.querySelector('#fullpage');
+    const blurPage  = document.querySelector('.content');
 
     //--- Toggle burger Nav -----
     burger.addEventListener('click', ()=> {
@@ -17,6 +17,11 @@ const navSlide  = () => {
         blurPage.classList.toggle("blur")
 
     });
+    blurPage.addEventListener('click', ()=> {
+        nav.classList.remove('nav-active');
+        blurPage.classList.remove("blur");
+        urger.classList.remove("toggle");
+    })
 
     //--- Nav links animamtion ---
     navLinks.forEach((link, index) => {

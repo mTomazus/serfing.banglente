@@ -1,7 +1,7 @@
 <header>
     <nav>
       <div class="logo-pic">
-        <img src="img/logo-7.png" title="Banglentes - ismok plaukti banlente." alt="banglente ir banglentes">
+        <a href="/"><img src="img/logo-7.png" title="Banglentes - ismok plaukti banlente." alt="banglente ir banglentes"></a>
       </div>
       <div class="logo">
         <h6>Banglentė</h6>
@@ -12,7 +12,7 @@
         <li><a href="#">Stovykla</a></li>
         <li><a href="#">Būrelis</a></li>
         <li><a href="#">Varžybos</a></li>
-        <li><a href="#">Apie mus</a></li>
+        <li><a href="/contacts">Kontaktai</a></li>
       </ul>
       <div class="burger">
         <div class="line1"></div>

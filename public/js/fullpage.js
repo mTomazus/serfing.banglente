@@ -308,7 +308,6 @@
                 }
             }else{
                 css($htmlBody, {
-                    'overflow' : 'visible',
                     'height' : 'initial'
                 });
 

@@ -1,9 +1,5 @@
 <div>
-    {{-- If your happiness depends on money, you will never be happy with yourself. --}}
-    @if('success')
-    <div class="alert alert-primary" role="alert">{{ $success }}</div>
-    @endif
-
+    
     <form wire:submit.prevent="submitForm">
         <div class="form-group">
             <label for="exampleInputName">Name</label>
@@ -17,7 +13,7 @@
         </div>
        
         <div class="form-group">
-            <label for="exampleInputbody">Message</label>
+            <label for="exampleInputMessage">Message</label>
             <textarea class="form-control" id="exampleInputbody" placeholder="Enter Message" wire:model="message"></textarea>
             @error('message') <span class="text-danger">{{ $message }}</span> @enderror
         </div>

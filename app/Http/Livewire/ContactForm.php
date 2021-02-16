@@ -24,7 +24,7 @@ class ContactForm extends Component
    
         return redirect()->to('/form');
         $this->reset(['name', 'email', 'message']);
-        $this->success = 'Your inquiry has been SUCCESSFULLY submited!';
+        $this->success = 'Your inquiry has been SUCCESSFULLY submitted!';
     }
 
     public function render()
