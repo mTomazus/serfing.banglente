@@ -7,7 +7,7 @@
         <h6>Banglentė</h6>
       </div>
       <ul class="nav-links">
-        <li><a href="#">Pamokos</a></li>
+        <li><a href="/pamokos">Pamokos</a></li>
         <li><a href="#">Nuoma</a></li>
         <li><a href="#">Stovykla</a></li>
         <li><a href="#">Būrelis</a></li>

@@ -20,7 +20,7 @@ const navSlide  = () => {
     blurPage.addEventListener('click', ()=> {
         nav.classList.remove('nav-active');
         blurPage.classList.remove("blur");
-        urger.classList.remove("toggle");
+        burger.classList.remove("toggle");
     })
 
     //--- Nav links animamtion ---

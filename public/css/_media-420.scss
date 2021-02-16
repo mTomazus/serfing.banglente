@@ -40,9 +40,6 @@
             color: $text-color;
         }
     }
-    .popular {
-        margin-top: 15px;
-    }
     .remejai {
         img {
             zoom: 0.5;
@@ -187,6 +184,9 @@
                 border-color: $text-color;
             }
         }
+        .about {
+            margin: 0 1rem;
+        }
         ul {
             @include clear;
             font-size: 1.2rem;
@@ -199,4 +199,12 @@
             width: 75vw;
         }
     }
+
+//----------- contacts page specific --------------
+    .pamokos {
+        h2 {
+            display: none;
+        }
+    }
+    
 }

@@ -9,6 +9,12 @@
     float: right;
     transform: scale(1);
 }
+.accordion__button::before {
+    font-family: FontAwesome;
+    content: '\f044';
+    float: left;
+}
+
 .accordion__button--active::after {
     content: '\25b4';
     float: right;

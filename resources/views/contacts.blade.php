@@ -8,8 +8,10 @@
 
     <div class="content contacts-page">
         <div class="contacts__content bg-gradient">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa rerum distinctio, non voluptatum qui enim veritatis?
+            <div>
+                <h3 class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa rerum distinctio, non voluptatum qui enim veritatis?
                 At autem deserunt exercitationem consequatur.</h3>
+            </div>
             <div class="menu">
                 <a href="#">karjera</a>
                 <a href="#">parama</a>

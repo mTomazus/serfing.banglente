@@ -23,6 +23,10 @@ Route::get('contacts', function () {
     return view('contacts');
 });
 
+Route::get('pamokos', function () {
+    return view('pamokos');
+});
+
 
 Route::get('form', function () {
     return view('form');

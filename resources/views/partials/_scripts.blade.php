@@ -22,6 +22,7 @@
                 gsap.from('.elastic', {delay:3, opacity:0, duration: 1.5, scale:.2, ease: "elastic"});
                 gsap.from('.menu', {delay:2, stagger:0.5, opacity:0, scale:2, duration: 2, ease: "back"}); 
                 gsap.from('h3', {delay:2, stagger:0.5, opacity:0, y:90, duration: 2, ease: "back"}); 
+                gsap.from('.accordion__container', {delay:2, stagger:0.5, opacity:0, y:90, duration: 2, ease: "back"}); 
             });
         };
     });
