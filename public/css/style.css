@@ -531,12 +531,6 @@ button:hover {
           transform: scale(1);
 }
 
-.accordion__button::before {
-  font-family: FontAwesome;
-  content: '\f044';
-  float: left;
-}
-
 .accordion__button--active::after {
   content: '\25b4';
   float: right;
@@ -548,6 +542,14 @@ button:hover {
   background: white;
   -webkit-box-shadow: 0 0.2rem 0.5rem #00000075;
           box-shadow: 0 0.2rem 0.5rem #00000075;
+}
+
+.accordion__container img {
+  position: absolute;
+  height: 24px;
+  fill: white;
+  z-index: 2;
+  margin: 10px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -873,8 +875,16 @@ button:hover {
     list-style: none;
     width: 75vw;
   }
+  .pamokos h1 {
+    margin: 1rem 0 0;
+  }
   .pamokos h2 {
-    display: none;
+    color: white;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
+    margin: 0;
+  }
+  .pamokos h3 {
+    text-shadow: none;
   }
 }
 

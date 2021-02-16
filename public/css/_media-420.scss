@@ -202,8 +202,16 @@
 
 //----------- contacts page specific --------------
     .pamokos {
+        h1 {
+            margin: 1rem 0 0;
+        }
         h2 {
-            display: none;
+            color: $text-color;
+            text-shadow: $shadow;
+            margin: 0;
+        }
+        h3 {
+            text-shadow: none;
         }
     }
     
