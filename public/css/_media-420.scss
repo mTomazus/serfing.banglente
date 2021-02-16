@@ -1,6 +1,6 @@
-//--------------------------
-//---- Media max 420px ----
-//--------------------------
+//---------------------------------
+//-------- Media max 420px --------
+//---------------------------------
 
 @media screen and (max-width: 420px) {
     h1, h6 {
@@ -200,7 +200,7 @@
         }
     }
 
-//----------- contacts page specific --------------
+//----------- pamokos page specific --------------
     .pamokos {
         h1 {
             margin: 1rem 0 0;
@@ -214,5 +214,47 @@
             text-shadow: none;
         }
     }
-    
+
+//----------- stovykla page specific --------------
+ 
+    .stovykla::-webkit-scrollbar {
+        display: none;
+    }
+    .stovykla {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        color:$text-color;
+        img {
+            width: 90%;
+            margin: 5%;
+        }
+        .contain {
+            width: 95%;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 1rem auto 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            text-shadow: $shadow;
+        }
+        h2:last-of-type {
+            margin-bottom: 2rem;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        a {
+            color: $text-color;
+        }
+        a:hover {
+            color: $alt-text-color;
+        }
+    }
+    .stovykla.content {
+        overflow: scroll;
+    }
+
 }

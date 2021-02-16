@@ -886,6 +886,47 @@ button:hover {
   .pamokos h3 {
     text-shadow: none;
   }
+  .stovykla::-webkit-scrollbar {
+    display: none;
+  }
+  .stovykla {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    color: white;
+  }
+  .stovykla img {
+    width: 90%;
+    margin: 5%;
+  }
+  .stovykla .contain {
+    width: 95%;
+  }
+  .stovykla h1 {
+    font-size: 2.5rem;
+    margin: 1rem auto 0;
+  }
+  .stovykla h2 {
+    font-size: 1.5rem;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
+  }
+  .stovykla h2:last-of-type {
+    margin-bottom: 2rem;
+  }
+  .stovykla h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .stovykla a {
+    color: white;
+  }
+  .stovykla a:hover {
+    color: #114161;
+  }
+  .stovykla.content {
+    overflow: scroll;
+  }
 }
 
 * {

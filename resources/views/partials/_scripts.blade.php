@@ -15,6 +15,7 @@
             window.requestAnimationFrame(function() {
                 gsap.from('svg', {delay:2, stagger:0.2, x:-280, opacity:0, duration: 0.4, ease: "none"});
                 gsap.from('button', {delay:3, opacity:0, duration: 0.5, scale:.2, ease: "elastic"});
+                gsap.from('.stovykla img', {delay:2, opacity:0, duration: 2, scale:.5, ease: "elastic"});
                 gsap.from('.listas', {delay:2, y:180, opacity:0, duration: 0.5, ease: "none"});
                 gsap.from('h1', {delay:0.5, stagger:0.5, opacity:0, duration: 2, y:-30, ease: "back"});
                 gsap.from('.stars', {delay:2, stagger:0.5, opacity:0, scale:2, duration: 2, ease: "back"});    
