@@ -9,7 +9,7 @@
       <ul class="nav-links">
         <li><a href="/pamokos">Pamokos</a></li>
         <li><a href="#">Nuoma</a></li>
-        <li><a href="#">Stovykla</a></li>
+        <li><a href="/stovykla">Stovykla</a></li>
         <li><a href="#">Būrelis</a></li>
         <li><a href="#">Varžybos</a></li>
         <li><a href="/contacts">Kontaktai</a></li>

@@ -27,6 +27,10 @@ Route::get('pamokos', function () {
     return view('pamokos');
 });
 
+Route::get('stovykla', function () {
+    return view('stovykla');
+});
+
 
 Route::get('form', function () {
     return view('form');
