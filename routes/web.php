@@ -31,6 +31,10 @@ Route::get('stovykla', function () {
     return view('stovykla');
 });
 
+Route::get('nuoma', function () {
+    return view('nuoma');
+});
+
 
 Route::get('form', function () {
     return view('form');

@@ -20,7 +20,6 @@
             <h3>Maitinimas įskaičiuotas</h3>
             <h3>Mes jau penktus metus veikianti banglenčių mokykla Melnragėje. Ši savaitinė programa apima tiek teorines, tiek praktines žinias apie jūrą, bangas ir banglentes. Visi instruktoriai patyrę Klaipėdos gelbėtojai ir ilgametę patirtį turintys banglenčių instruktoriai, bet, svarbiausia, jie žino, kaip padaryti stovyklą nepamirštamu vasaros nuotykiu kiekvienam stovyklos dalyviui.</h3>
             <h2><a href="#">Norint registruotis užpildykite šią anketa</a></h2>
-            
         </div>
     </div>
 </div>
