@@ -13,7 +13,7 @@
         window.onload = function() {
             // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
             window.requestAnimationFrame(function() {
-                gsap.from('svg', {delay:2, stagger:0.2, x:-280, opacity:0, duration: 0.4, ease: "none"});
+                gsap.from('svg', {delay:4, stagger:0.2, x:-280, opacity:0, duration: 0.4, ease: "circ"});
                 gsap.from('button', {delay:3, opacity:0, duration: 0.5, scale:.2, ease: "elastic"});
                 gsap.from('.stovykla img', {delay:2, opacity:0, duration: 2, scale:.5, ease: "elastic"});
                 gsap.from('.listas', {delay:2, y:180, opacity:0, duration: 0.5, ease: "none"});
@@ -24,6 +24,7 @@
                 gsap.from('.menu', {delay:2, stagger:0.5, opacity:0, scale:2, duration: 2, ease: "back"}); 
                 gsap.from('h3', {delay:2, stagger:0.5, opacity:0, y:90, duration: 2, ease: "back"}); 
                 gsap.from('.accordion__container', {delay:2, stagger:0.5, opacity:0, y:90, duration: 2, ease: "back"}); 
+                
             });
         };
     });

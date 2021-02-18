@@ -38,13 +38,6 @@ body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro';
 }
-
-.content {
-    padding-top: 8vh;
-    height: 92vh;
-    overflow: hidden;
-}
-
 h1 {
     @include main-text;
     margin: 2rem auto 0;
@@ -157,9 +150,6 @@ section {
 
 .knopkes {
     svg {
-        width: 3rem;
-        height: 3rem;
-        margin: 0 1rem;
         filter: drop-shadow($shadow-deep);
         path{
             fill:$fills;

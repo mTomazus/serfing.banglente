@@ -22,6 +22,14 @@
         line-height: 2rem;
         color: $text-color;
     }
+    .knopkes {
+        display: none;
+        svg {
+            width: 2.5rem;
+            height: 3rem;
+            margin: .3rem;
+        }
+    }
     .listas {
         font-family: 'Source Sans Pro';
         list-style: none;
@@ -94,13 +102,10 @@
         h3 {
             margin: 75px 10px 0;
         }
-
     }
-
     .content {
-
         overflow: hidden;
-        padding-top: 8vh;
+        padding-bottom: 8vh;
         height: 92vh;
         flex-direction: column;
         display: flex;
@@ -116,10 +121,28 @@
             width: 27px;
         }
     }
+    .logo {
+        transform: translateY(-55px);
+        animation-name: logo-knpk;
+        animation-duration: 2s;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        .knopkes{
+            display: block;
+        }
+    }
+    //------ .logo animation -------
+    @keyframes logo-knpk {
+        from {transform: translateY(-55px);}
+        to {transform: translateY(0px);}
+    }
+
+
 
     .bg-gradient {
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
+        z-index: 2;
         animation: gradient 15s ease infinite;
         @keyframes gradient {
             0% {
@@ -134,6 +157,13 @@
         }
     }
 
+    nav {
+        bottom: 0;
+    }
+    .nav-links {
+        bottom: 8vh;
+        top: -92vh;
+    }
 //----------- contacts page specific --------------
     
     .contacts__content {

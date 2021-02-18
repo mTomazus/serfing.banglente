@@ -7,6 +7,7 @@ nav{
     position: fixed;
     justify-content: space-around;
     min-height: 8vh;
+    max-height: 8vh;
     align-items: center;
     width: 100vw;
     background-image: $gradient;
@@ -40,7 +41,11 @@ nav{
     h6{
         font-size: 2rem;
         margin: 0;
+        text-align: center;
         text-shadow: $shadow;
+    }
+    .knopkes{
+        display: none;
     }
 }
 
