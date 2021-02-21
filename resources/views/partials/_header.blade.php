@@ -29,7 +29,7 @@
         <li><a href="/nuoma">Nuoma</a></li>
         <li><a href="/stovykla">Stovykla</a></li>
         <li><a href="#">Būrelis</a></li>
-        <li><a href="#">Varžybos</a></li>
+        <li><a href="/varzybos">Varžybos</a></li>
         <li><a href="/contacts">Kontaktai</a></li>
       </ul>
       <div class="burger">

@@ -35,6 +35,10 @@ Route::get('nuoma', function () {
     return view('nuoma');
 });
 
+Route::get('varzybos', function () {
+    return view('varzybos');
+});
+
 
 Route::get('form', function () {
     return view('form');
