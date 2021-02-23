@@ -48,11 +48,6 @@
             color: $text-color;
         }
     }
-    .remejai {
-        img {
-            zoom: 0.5;
-        }
-    }
     .landing__second {
         img {
         margin: 0px 0 60px;
@@ -295,4 +290,56 @@
         color: $alt-text-color;
     }
 
+//---------- varzybos page specific -------------
+
+    .varzybos {
+        color: $text-color;
+        font-size: 1.3rem;
+        text-shadow: $shadow;
+        h4 {
+            margin: 0.5rem 0 3rem;
+            text-align: center;
+        }
+        h3 {
+            line-height: 1rem;
+        }
+        h2 {
+            margin: auto;
+            text-align: center;
+            line-height: 1.7rem;
+            font-size: 2rem;
+        }
+        .remejai {
+            section{
+                position: relative;
+                display: flex;
+                background-color: white;
+                border-radius: .5rem;
+                margin: 1rem;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 90vw;
+                img:nth-child(1) {
+                    height: 120px;
+                    filter: brightness(0) invert(0);
+                }
+                img:nth-child(2) {
+                    height: 94px;
+                    filter: brightness(0) invert(0);
+                }
+                img:nth-child(3) {
+                    height: 153px;
+                }
+                img:nth-child(4) {
+                    height: 90px;
+                }
+            }
+            img {
+                zoom: 0.4;
+            }
+        }
+ 
+    }
 }

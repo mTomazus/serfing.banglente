@@ -706,9 +706,6 @@ button:hover {
     text-decoration: none;
     color: white;
   }
-  .remejai img {
-    zoom: 0.5;
-  }
   .landing__second img {
     margin: 0px 0 60px;
     -webkit-filter: invert(1);
@@ -993,6 +990,65 @@ button:hover {
             text-decoration-color: #114161;
     color: #114161;
   }
+  .varzybos {
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
+  }
+  .varzybos h4 {
+    margin: 0.5rem 0 3rem;
+    text-align: center;
+  }
+  .varzybos h3 {
+    line-height: 1rem;
+  }
+  .varzybos h2 {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 2rem;
+  }
+  .varzybos .remejai section {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    border-radius: .5rem;
+    margin: 1rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90vw;
+  }
+  .varzybos .remejai section img:nth-child(1) {
+    height: 120px;
+    -webkit-filter: brightness(0) invert(0);
+            filter: brightness(0) invert(0);
+  }
+  .varzybos .remejai section img:nth-child(2) {
+    height: 94px;
+    -webkit-filter: brightness(0) invert(0);
+            filter: brightness(0) invert(0);
+  }
+  .varzybos .remejai section img:nth-child(3) {
+    height: 153px;
+  }
+  .varzybos .remejai section img:nth-child(4) {
+    height: 90px;
+  }
+  .varzybos .remejai img {
+    zoom: 0.4;
+  }
 }
 
 * {
@@ -1067,14 +1123,6 @@ p {
 .listas a {
   text-decoration: none;
   color: #114161;
-}
-
-.remejai {
-  left: 50%;
-  bottom: 50px;
-  position: absolute;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .remejai section {
