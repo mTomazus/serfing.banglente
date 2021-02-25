@@ -70,6 +70,7 @@
                 <div class="content">
                     <div>
                         <h1>VASAROS</h1>
+                        <h1>DIENOS</h1>
                         <h1>STOVYKLA</h1>
                         <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
                         <h2>GRYNAS ORAS IR JŪRA</h2>

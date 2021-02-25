@@ -55,8 +55,20 @@
         }
     }
     .landing__third {
+        h1 {
+            margin: 0 auto;
+        }
+        h1:nth-child(1) {
+            margin-top: 2rem;
+        }
         h2 {
-            color: $text-color;
+            color: $alt-text-color;
+        }
+        .s3-apacia {
+            margin: 0 0 3rem;
+            h2 {
+                color: $text-color;
+            }
         }
     }
     .info {
@@ -100,9 +112,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    .s3-apacia {
-        margin: 0 0 3rem;
     }
     .stars {
         svg {
@@ -309,37 +318,35 @@
             line-height: 1.7rem;
             font-size: 2rem;
         }
-        .remejai {
-            section{
-                position: relative;
-                display: flex;
-                background-color: white;
-                border-radius: .5rem;
-                margin: 1rem;
-                flex-direction: row;
-                justify-content: space-evenly;
-                flex-wrap: wrap;
-                align-items: center;
-                width: 90vw;
-                img:nth-child(1) {
-                    height: 120px;
-                    filter: brightness(0) invert(0);
-                }
-                img:nth-child(2) {
-                    height: 94px;
-                    filter: brightness(0) invert(0);
-                }
-                img:nth-child(3) {
-                    height: 153px;
-                }
-                img:nth-child(4) {
-                    height: 90px;
-                }
+        section{
+            position: relative;
+            display: flex;
+            background-color: white;
+            border-radius: .5rem;
+            margin: 1rem;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 90vw;
+            img:nth-child(1) {
+                height: 120px;
+                filter: brightness(0) invert(0);
+            }
+            img:nth-child(2) {
+                height: 94px;
+                filter: brightness(0) invert(0);
+            }
+            img:nth-child(3) {
+                height: 153px;
+            }
+            img:nth-child(4) {
+                height: 90px;
             }
             img {
                 zoom: 0.4;
             }
         }
- 
+
     }
 }

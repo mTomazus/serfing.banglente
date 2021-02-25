@@ -81,8 +81,8 @@ p {
         color: $alt-text-color;
     }
 }
-.remejai {
-    section{
+.varzybos {
+    section {
         position: relative;
         display: flex;
         justify-content: space-evenly;
@@ -91,11 +91,9 @@ p {
         width: 90vw;
         img:nth-child(1) {
             height: 120px;
-            filter: brightness(0) invert(1);
         }
         img:nth-child(2) {
             height: 94px;
-            filter: brightness(0) invert(1);
         }
         img:nth-child(3) {
             height: 153px;
@@ -103,9 +101,6 @@ p {
         img:nth-child(4) {
             height: 90px;
         }
-    }
-    img {
-        zoom: 0.6;
     }
 }
 
