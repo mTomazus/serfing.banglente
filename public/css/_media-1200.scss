@@ -34,6 +34,10 @@
         max-width: 80rem;
         flex-wrap: wrap;
         margin: auto;
+        h1 {
+            line-height: 8rem;
+            margin: 5rem auto 0;
+        }
     }
     .landing__second {
         h2 {
@@ -54,6 +58,12 @@
             color: white;
             font-size: 3rem;
             text-shadow: $shadow-deep;
+            font-size: 4.5rem;
+            line-height: 4.5rem;
+            margin: auto;
+        }
+        h2:nth-child(1) {
+            margin: 4rem auto 0;
         }
     }
 

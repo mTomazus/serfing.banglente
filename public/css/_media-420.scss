@@ -11,6 +11,7 @@
     h2 {
         margin: auto;
         text-align: center;
+        color: $alt-text-color;
     }
     h3 {
         font-size: 1.3rem;
@@ -30,28 +31,22 @@
             margin: .3rem;
         }
     }
-    .listas {
-        font-family: 'Source Sans Pro';
-        list-style: none;
-        font-weight: 600;
-        line-height: 2.3rem;
-        text-align: center;
+    button {
         font-size: 1.5rem;
-        padding: 0;
-        width: 85vw;
-        margin: 2rem auto;
-        li {
-            margin: 5px;
-        }
-        a {
-            text-decoration: none;
-            color: $text-color;
-        }
+        border: 3px solid #114161;
+        color: #114161;
     }
+    button:hover {
+        border: 3x solid #ffc107;
+    }
+
     .landing__second {
         img {
         margin: 0px 0 60px;
         filter: invert(1);  
+        }
+        .s3-apacia {
+            margin: 2rem 0;
         }
     }
     .landing__third {
@@ -114,9 +109,15 @@
         align-items: center;
     }
     .stars {
+        margin: 0 auto 3rem;
         svg {
             height: 27px;
             width: 27px;
+        }
+        p {
+            color: white;
+            line-height: 2.5rem;
+            margin-bottom: 1rem;
         }
     }
     .logo {

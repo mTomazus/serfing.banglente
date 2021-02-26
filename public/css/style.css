@@ -333,16 +333,16 @@ nav {
 button {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
-  color: #15496c;
-  width: 130px;
+  border: 5px solid #114161;
+  color: #114161;
+  margin: auto;
   box-shadow: 1px 1px 3px #114161;
-  background: #ffffff;
+  background: none;
   display: block;
-  width: 250px;
-  border: 0px;
-  margin: 40px auto;
-  padding: 1rem;
-  font-size: 1.5rem;
+  width: auto;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  font-size: 3.5rem;
   transition: all 0.6s ease-in-out;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.6s;
@@ -350,8 +350,8 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(to right, #2f78a8, #114161);
-  color: white;
+  border: 5px solid #ffc107;
+  color: #ffc107;
   transform: translateY(3px);
 }
 
@@ -529,6 +529,10 @@ button:hover {
     flex-wrap: wrap;
     margin: auto;
   }
+  .heading h1 {
+    line-height: 8rem;
+    margin: 5rem auto 0;
+  }
 
   .landing__second h2 {
     margin: 2rem auto;
@@ -547,6 +551,12 @@ button:hover {
     color: white;
     font-size: 3rem;
     text-shadow: 0 0.2rem 0.2rem #00000075;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    margin: auto;
+  }
+  .landing__third h2:nth-child(1), .s3-apacia h2:nth-child(1) {
+    margin: 4rem auto 0;
   }
 
   .landing > button {
@@ -613,6 +623,7 @@ button:hover {
   h2 {
     margin: auto;
     text-align: center;
+    color: #114161;
   }
 
   h3 {
@@ -636,28 +647,22 @@ button:hover {
     margin: 0.3rem;
   }
 
-  .listas {
-    font-family: "Source Sans Pro";
-    list-style: none;
-    font-weight: 600;
-    line-height: 2.3rem;
-    text-align: center;
+  button {
     font-size: 1.5rem;
-    padding: 0;
-    width: 85vw;
-    margin: 2rem auto;
+    border: 3px solid #114161;
+    color: #114161;
   }
-  .listas li {
-    margin: 5px;
-  }
-  .listas a {
-    text-decoration: none;
-    color: white;
+
+  button:hover {
+    border: 3x solid #ffc107;
   }
 
   .landing__second img {
     margin: 0px 0 60px;
     filter: invert(1);
+  }
+  .landing__second .s3-apacia {
+    margin: 2rem 0;
   }
 
   .landing__third h1 {
@@ -723,9 +728,17 @@ button:hover {
     align-items: center;
   }
 
+  .stars {
+    margin: 0 auto 3rem;
+  }
   .stars svg {
     height: 27px;
     width: 27px;
+  }
+  .stars p {
+    color: white;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   .logo {
@@ -995,7 +1008,6 @@ p {
   text-align: center;
   color: white;
   fill: currentColor;
-  margin: 10px;
 }
 .stars p {
   color: white;

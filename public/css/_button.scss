@@ -1,24 +1,24 @@
 button {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 900;
-    color: #15496c;
-    width: 130px;
+    border: 5px solid #114161;
+    color: #114161;
+    margin: auto;
     box-shadow: 1px 1px 3px #114161;
-    background: #ffffff;
+    background: none;
     display: block;
-    width: 250px;
-    border: 0px;
-    margin: 40px auto;
-    padding: 1rem;
-    font-size: 1.5rem;
+    width: auto;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    font-size: 3.5rem;
     transition: all 0.6s ease-in-out;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.6s;
     cursor: pointer;
 }
 button:hover {
-    background: $gradient;
-    color: white;
+    border: 5px solid #ffc107;
+    color: #ffc107;
     transform: translateY(3px);
 
 }
