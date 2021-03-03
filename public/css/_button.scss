@@ -1,62 +1,23 @@
 button {
     font-family: "Source Sans Pro", sans-serif;
+    font-size: 3vh;
+    padding: 2vh 6vh;
     font-weight: 900;
-    border: 5px solid #114161;
-    color: #114161;
-    margin: auto;
+    border: 3px solid white;
+    color: white;
+    margin: 0 auto;
     box-shadow: 1px 1px 3px #114161;
     background: none;
     display: block;
     width: auto;
-    padding: 1rem 5rem;
     border-radius: 10px;
-    font-size: 3.5rem;
     transition: all 0.6s ease-in-out;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.6s;
     cursor: pointer;
 }
 button:hover {
-    border: 5px solid #ffc107;
-    color: #ffc107;
+    border: 3px solid #23a3ec;
+    color: #23a3ec;
     transform: translateY(3px);
-
-}
-.pamokos-reg {
-    font-family: 'Source Sans Pro', sans-serif;
-    background: transparent;
-    margin: 5px auto;
-    background-image: url(https://www.recap-h2020.eu/wp-content/uploads/2017/09/registration-icon-blue.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    position: absolute;
-    filter: drop-shadow(2px 4px 6px black);
-    top: 9vh;
-    right: 760px;
-    height: 50px;
-    font-size: 1.5rem;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-    cursor: pointer;
-}
-.pamokos-reg:hover {
-    color: #1e9cce;
-    -webkit-transform: translateY(2px);
-    transform: translateY(2px);
-    border: none;
-    background-color: transparent;
-    background-image: url(https://www.recap-h2020.eu/wp-content/uploads/2017/09/registration-icon-blue.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-    cursor: pointer;
 }

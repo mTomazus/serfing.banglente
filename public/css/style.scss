@@ -38,16 +38,10 @@ body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro';
 }
-h1 {
+h1, p, h2 {
     @include main-text;
-    margin: 2rem auto 0;
 }
 
-p {
-    @include main-text;
-    font-size: 3rem;
-    line-height: 5rem;
-}
 .fp-right {
     right: 0;
 }

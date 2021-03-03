@@ -2,7 +2,7 @@
 //-------- Media max 420px --------
 //---------------------------------
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     h1, h6 {
         margin-top: 1rem;
         font-size: 3.5rem;
@@ -31,16 +31,11 @@
             margin: .3rem;
         }
     }
-    button {
-        font-size: 1.5rem;
-        border: 3px solid #114161;
-        color: #114161;
-    }
-    button:hover {
-        border: 3x solid #ffc107;
-    }
-
     .landing__second {
+        h2 {
+            font-size: 3.5vh;
+            color: $alt-text-color;
+        }
         img {
         margin: 0px 0 60px;
         filter: invert(1);  
@@ -105,7 +100,7 @@
         height: 92vh;
         flex-direction: column;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     .stars {
@@ -177,11 +172,11 @@
         text-shadow: $shadow;
         color: white;
         h3  {
-            margin: 0;
+            margin: auto;
             color: $text-color;
         }
         h2 {
-            margin: 0;
+            margin: auto;
             font-size: 1.3rem;
         }
         img {
@@ -243,12 +238,12 @@
             text-shadow: none;
         }
     }
+    .pamoka-box {
+        display: none;
+    }
 
 //----------- stovykla page specific --------------
  
-    .stovykla::-webkit-scrollbar {
-        display: none;
-    }
     .stovykla {
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
@@ -256,9 +251,6 @@
         img {
             width: 90%;
             margin: 5%;
-        }
-        .contain {
-            width: 95%;
         }
         h1 {
             font-size: 2.5rem;
@@ -282,8 +274,15 @@
             color: $alt-text-color;
         }
     }
-    .stovykla.content {
+    .content {
         overflow: scroll;
+        padding-bottom: 0%;
+    }
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+    .content--scroll {
+        height: 100%;
     }
 
 //----------- nuoma page specific --------------
@@ -303,11 +302,7 @@
 //---------- varzybos page specific -------------
 
     .varzybos {
-        color: $text-color;
-        font-size: 1.3rem;
-        text-shadow: $shadow;
         h4 {
-            margin: 0.5rem 0 3rem;
             text-align: center;
         }
         h3 {

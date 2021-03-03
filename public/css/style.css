@@ -332,17 +332,17 @@ nav {
 }
 button {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 3vh;
+  padding: 2vh 6vh;
   font-weight: 900;
-  border: 5px solid #114161;
-  color: #114161;
-  margin: auto;
+  border: 3px solid white;
+  color: white;
+  margin: 0 auto;
   box-shadow: 1px 1px 3px #114161;
   background: none;
   display: block;
   width: auto;
-  padding: 1rem 5rem;
   border-radius: 10px;
-  font-size: 3.5rem;
   transition: all 0.6s ease-in-out;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.6s;
@@ -350,49 +350,9 @@ button {
 }
 
 button:hover {
-  border: 5px solid #ffc107;
-  color: #ffc107;
+  border: 3px solid #23a3ec;
+  color: #23a3ec;
   transform: translateY(3px);
-}
-
-.pamokos-reg {
-  font-family: "Source Sans Pro", sans-serif;
-  background: transparent;
-  margin: 5px auto;
-  background-image: url(https://www.recap-h2020.eu/wp-content/uploads/2017/09/registration-icon-blue.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 50px;
-  position: absolute;
-  filter: drop-shadow(2px 4px 6px black);
-  top: 9vh;
-  right: 760px;
-  height: 50px;
-  font-size: 1.5rem;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-shadow: 0 0.2rem 0.5rem #00000075;
-  cursor: pointer;
-}
-
-.pamokos-reg:hover {
-  color: #1e9cce;
-  -webkit-transform: translateY(2px);
-  transform: translateY(2px);
-  border: none;
-  background-color: transparent;
-  background-image: url(https://www.recap-h2020.eu/wp-content/uploads/2017/09/registration-icon-blue.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 50px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-shadow: 0 0.2rem 0.5rem #00000075;
-  cursor: pointer;
 }
 
 .is-hidden {
@@ -493,74 +453,52 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
-  h1, h6 {
-    font-size: 10rem;
-  }
-
   h1 {
-    line-height: 9rem;
+    line-height: 13vh;
+    font-size: 15vh;
     margin: auto;
   }
 
-  .h1-small {
-    transform: translate(0px, 2.4104px);
-    opacity: 1.0803;
-    text-align: center;
-    color: white;
-    margin: auto;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-    line-height: 6rem;
-    font-size: 6rem;
+  .small {
+    zoom: 0.75;
+  }
+
+  p {
+    font-size: 8vh;
+    line-height: 8vh;
   }
 
   .content {
     padding-top: 8vh;
     height: 92vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .remejai img {
     zoom: 0.9;
   }
 
-  .heading {
+  .heading__first {
     display: flex;
-    max-width: 80rem;
+    max-width: 85vw;
     flex-wrap: wrap;
     margin: auto;
   }
-  .heading h1 {
+  .heading__first h1 {
     line-height: 8rem;
     margin: 5rem auto 0;
   }
 
-  .landing__second h2 {
-    margin: 2rem auto;
-    text-align: center;
-    font-size: 3rem;
-    text-shadow: 0 0.2rem 0.2rem #00000075;
-    color: white;
-    line-height: 3rem;
-  }
   .landing__second img {
     text-align: center;
     filter: invert(1);
   }
 
-  .landing__third h2, .s3-apacia h2 {
-    color: white;
-    font-size: 3rem;
-    text-shadow: 0 0.2rem 0.2rem #00000075;
-    font-size: 4.5rem;
-    line-height: 4.5rem;
-    margin: auto;
-  }
   .landing__third h2:nth-child(1), .s3-apacia h2:nth-child(1) {
     margin: 4rem auto 0;
-  }
-
-  .landing > button {
-    margin: 8rem auto;
   }
 
   .stars svg {
@@ -581,6 +519,31 @@ button:hover {
 
   .content {
     text-align: center;
+  }
+
+  .pamokos .akordionas {
+    display: none;
+  }
+  .pamokos h1 {
+    line-height: 11vh;
+    font-size: 13vh;
+  }
+  .pamokos h2 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+  }
+  .pamokos > div {
+    margin: auto;
+  }
+
+  .pamoka-box {
+    width: 90vw;
+  }
+  .pamoka-box div {
+    width: 30%;
+    background: white;
+    margin-bottom: 2rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -613,7 +576,7 @@ button:hover {
     margin: 0 1rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   h1, h6 {
     margin-top: 1rem;
     font-size: 3.5rem;
@@ -647,16 +610,10 @@ button:hover {
     margin: 0.3rem;
   }
 
-  button {
-    font-size: 1.5rem;
-    border: 3px solid #114161;
+  .landing__second h2 {
+    font-size: 3.5vh;
     color: #114161;
   }
-
-  button:hover {
-    border: 3x solid #ffc107;
-  }
-
   .landing__second img {
     margin: 0px 0 60px;
     filter: invert(1);
@@ -724,7 +681,7 @@ button:hover {
     height: 92vh;
     flex-direction: column;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -800,11 +757,11 @@ button:hover {
     color: white;
   }
   .contacts__content h3 {
-    margin: 0;
+    margin: auto;
     color: white;
   }
   .contacts__content h2 {
-    margin: 0;
+    margin: auto;
     font-size: 1.3rem;
   }
   .contacts__content img {
@@ -862,7 +819,7 @@ button:hover {
     text-shadow: none;
   }
 
-  .stovykla::-webkit-scrollbar {
+  .pamoka-box {
     display: none;
   }
 
@@ -876,9 +833,6 @@ button:hover {
   .stovykla img {
     width: 90%;
     margin: 5%;
-  }
-  .stovykla .contain {
-    width: 95%;
   }
   .stovykla h1 {
     font-size: 2.5rem;
@@ -902,8 +856,17 @@ button:hover {
     color: #114161;
   }
 
-  .stovykla.content {
+  .content {
     overflow: scroll;
+    padding-bottom: 0%;
+  }
+
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .content--scroll {
+    height: 100%;
   }
 
   .kainos {
@@ -919,13 +882,7 @@ button:hover {
     color: #114161;
   }
 
-  .varzybos {
-    color: white;
-    font-size: 1.3rem;
-    text-shadow: 0 0.2rem 0.5rem #00000075;
-  }
   .varzybos h4 {
-    margin: 0.5rem 0 3rem;
     text-align: center;
   }
   .varzybos h3 {
@@ -977,7 +934,7 @@ body {
   font-family: "Source Sans Pro";
 }
 
-h1 {
+h1, p, h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-weight: 900;
@@ -985,19 +942,6 @@ h1 {
   margin: auto;
   text-shadow: 0 0.2rem 0.5rem #00000075;
   max-width: 85vw;
-  margin: 2rem auto 0;
-}
-
-p {
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
-  font-weight: 900;
-  color: white;
-  margin: auto;
-  text-shadow: 0 0.2rem 0.5rem #00000075;
-  max-width: 85vw;
-  font-size: 3rem;
-  line-height: 5rem;
 }
 
 .fp-right {

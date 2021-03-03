@@ -9,7 +9,7 @@
         <!--------------------------------->  
 
         <div class="s1 section"> 
-            <div class="content landing">
+            <div class="content landing__first">
                 <div class="heading">
                     <h1>LAIKAS IŠMOKTI SERFINTI</h1>
                 </div>
@@ -30,21 +30,19 @@
         <!------------------------------------>
 
         <div class="s2 section">
-            <div class="landing__second">
-                <div class="content">
-                    <div>
-                        <h1>PAMOKOS</h1>
-                        <h1 class="h1-small">NUOMA</h1>
-                        <h2>ČIA TIK VISKO PRADŽIA</h2>
-                    </div>
-                    <div class="circle_svg">
-                        <img src="/img/circle.svg" height="200" width="200" fill="white" alt="">
-                    </div>
-                    <div class="s3-apacia">
-                        <h2>DIDELIS LENTŲ PASIRINKIMAS</h3>
-                        <h2>BANGLENTĖS - RIEDLENTĖS</h2>
-                        <h2>IRKLENTĖS - HIDROKOSTIUMAI</h2>
-                    </div>
+            <div class="landing__second content">
+                <div class="heading">
+                    <h1>PAMOKOS</h1>
+                    <h1 class="small">NUOMA</h1>
+                    <h2>ČIA TIK VISKO PRADŽIA</h2>
+                </div>
+                <div class="circle_svg">
+                    <img src="/img/circle.svg" height="200" width="200" fill="white" alt="">
+                </div>
+                <div class="s3-apacia">
+                    <h2>DIDELIS LENTŲ PASIRINKIMAS</h3>
+                    <h2>BANGLENTĖS - RIEDLENTĖS</h2>
+                    <h2>IRKLENTĖS - HIDROKOSTIUMAI</h2>
                 </div>
             </div>
         </div>    <!--- end Sekcija 2  --->
@@ -54,20 +52,17 @@
         <!------------------------------------->
 
         <div class="s3 section">
-            <div class="landing__third">
-                <div class="content">
-                    <div class="heading">
-                        <h1>VASAROS DIENOS STOVYKLA</h1>
-                        <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
-                        <h2>GRYNAS ORAS IR JŪRA</h2>
-                    </div>                        
-                    <div class="s3-apacia">
-                        <div>
-                            <button>SPAUSK ČIA</button>
-                        </div>
-                        <h1>BANGLENČIŲ</h1>
-                        <h2>SPORTO BŪRELIS</h2>
-                    </div>
+            <div class="landing__third content">
+                <div class="heading">
+                    <h1>VASAROS DIENOS STOVYKLA</h1>
+                    <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
+                    <h2>GRYNAS ORAS IR JŪRA</h2>
+                </div>
+                <button>SPAUSK ČIA</button>                      
+                <div class="s3-apacia">
+                    <h2 class="small">RUDENIOP</h2>
+                    <h1>BANGLENČIŲ</h1>
+                    <h2>SPORTO BŪRELIS</h2>
                 </div>
             </div>     
         </div>    <!--- end Sekcija 3  --->

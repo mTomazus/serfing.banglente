@@ -3,35 +3,33 @@
 //--------------------------
 
 @media screen and (min-width: 1200px) {
-    h1, h6 {
-        font-size: 10rem;
-    }
     h1 {
-        line-height: 9rem;
+        line-height: 13vh;
+        font-size: 15vh;
         margin: auto;
     }
-    .h1-small {
-        transform: translate(0px, 2.4104px);
-        opacity: 1.0803;
-        text-align: center;
-        color: $text-color;
-        margin: auto;
-        text-shadow: $shadow;
-        line-height: 6rem;
-        font-size: 6rem;
+    .small {
+        zoom: 0.75;
+    }
+    p {
+        font-size: 8vh;
+        line-height: 8vh;
     }
     .content {
         padding-top: 8vh;
         height: 92vh;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .remejai img {
         zoom: 0.9;
     }
 
-    .heading {
+    .heading__first {
         display: flex;
-        max-width: 80rem;
+        max-width: 85vw;
         flex-wrap: wrap;
         margin: auto;
         h1 {
@@ -40,35 +38,15 @@
         }
     }
     .landing__second {
-        h2 {
-            margin: 2rem auto;
-            text-align: center;
-            font-size: 3rem;
-            text-shadow: $shadow-deep;
-            color: $text-color;
-            line-height: 3rem;
-        }
         img {
             text-align: center;
             filter: invert(1);
         }
     }
     .landing__third, .s3-apacia {
-        h2 {
-            color: white;
-            font-size: 3rem;
-            text-shadow: $shadow-deep;
-            font-size: 4.5rem;
-            line-height: 4.5rem;
-            margin: auto;
-        }
         h2:nth-child(1) {
             margin: 4rem auto 0;
         }
-    }
-
-    .landing > button {
-        margin: 8rem auto;
     }
 
     .stars {
@@ -89,5 +67,31 @@
 
     .content {
         text-align: center;
+    }
+//----pamokos page specifics ------
+    .pamokos {
+        .akordionas {
+            display: none;
+        }
+        h1 {
+            line-height: 11vh;
+            font-size: 13vh;
+        }
+        h2 {
+            color: white;
+            font-size: 3rem;
+            margin: 0;
+        }
+        & > div {
+            margin: auto;
+        }
+    }
+    .pamoka-box {
+        div {
+            width: 30%;
+            background: white;
+            margin-bottom: 2rem;
+        }
+        width: 90vw;
     }
 }
