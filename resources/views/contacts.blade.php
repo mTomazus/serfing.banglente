@@ -7,7 +7,7 @@
     <!----------------------------------->
 
     <div class="content contacts-page">
-        <div class="contacts__content bg-gradient">
+        <div class="contacts__content bg-grad">
             <div>
                 <h3 class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa rerum distinctio, non voluptatum qui enim veritatis?
                 At autem deserunt exercitationem consequatur.</h3>

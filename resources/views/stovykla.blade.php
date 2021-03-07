@@ -5,14 +5,18 @@
 <!---------------------------------->
 <!-------- SECTION STOVYKLA -------->
 <!---------------------------------->
-<div class="stovykla bg-gradient">
+<div class="stovykla bg-grad">
     <div class="content">    
         <div class="content--scroll">
             <div>
                 <h1>Vasaros stovykla 2021</h1>
                 <h2>Penktus metus Lietuvoje!</h2>
             </div>
-            <div>
+            <div class="lg">
+                <div class="content-box"></div>
+                <div class="content-side"></div>
+            </div>
+            <div class="sm">
                 <img src="http://www.banglente.com/images/vaikas2.jpg">
                 <h3>Stovykla organizuojama nuo Birželio vidurio iki Rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje. Grupės sudaromos iš 6-8 mokančių plaukti vaikų nuo 10 iki 18 metų.</h3>
                 <h3>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30), bet galimi ir vienos ar keletos dienų variantai.</h3>

@@ -60,7 +60,7 @@
                 </div>
                 <button>SPAUSK ČIA</button>                      
                 <div class="s3-apacia">
-                    <h2 class="small">RUDENIOP</h2>
+                    <h2>RUDENIOP</h2>
                     <h1>BANGLENČIŲ</h1>
                     <h2>SPORTO BŪRELIS</h2>
                 </div>

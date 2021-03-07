@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="content varzybos bg-gradient"">
+<div class="content varzybos bg-grad"">
     <div class="heading">
         <h1>VARŽYBOS</h1>
         <h3>Liepos 1 - Rugpjūčio 31</h3>

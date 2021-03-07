@@ -11,13 +11,26 @@
     .small {
         zoom: 0.75;
     }
+    .lg {
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
     p {
         font-size: 8vh;
         line-height: 8vh;
     }
+    .logo h6 {
+        font-size: 4.5vh;
+        letter-spacing: .5vw;
+    }
+    .nav-links a {
+        font-size: 2.5vh;
+        letter-spacing: .5vh;
+    }
     .content {
         padding-top: 8vh;
-        height: 92vh;
+        min-height: 92vh;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -80,18 +93,76 @@
         h2 {
             color: white;
             font-size: 3rem;
-            margin: 0;
-        }
-        & > div {
             margin: auto;
         }
     }
-    .pamoka-box {
-        div {
-            width: 30%;
-            background: white;
-            margin-bottom: 2rem;
+    .pamokos__list {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-around;
+        width: 95vw;
+        max-width: 1620px;
+        font-size: 1vw;
+        color: white;
+        padding: 1vh;
+        margin: auto;
+        background-image: $gradient;
+        border-radius: 5px;
+    }
+    .pamokos__info {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        width: 95vw;
+        max-width: 1620px;
+        font-size: 1.2vw;
+        padding: 3vh 0;
+        margin: auto;
+    }
+
+    .content-side {
+        margin-left: 2vw;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        h2 {
+            background-image: $gradient;
+            padding: 1vw;
         }
-        width: 90vw;
+        img {
+            width: 100%;
+        }
+        div {
+            background-color: white;
+            margin: 1vw auto;
+            
+        }
+    }
+    .pamokos-form {
+        margin: 2vw auto;
+        width: 100%;
+        background: white;
+    }
+    .wi-80 {
+        width: 80%;
+    }
+    .content-box {
+        div {
+            background: white;
+            margin-bottom: 2vw;
+            font-size: 2.5vh;
+            padding: 1rem;
+            box-shadow: 0 0.2rem 0.5rem #00000075;
+        }
+        svg {
+            float: right;
+        }
+        width: 60%;
+        max-width: 1120px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: justify;
     }
 }

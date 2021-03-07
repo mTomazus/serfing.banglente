@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="content nuoma bg-gradient">
+<div class="content nuoma bg-grad">
     <h1>NUOMA</h1>         
     <h2>Didžiausias pasirinkimas!</h2>
     <!--------- Carousel --------->
