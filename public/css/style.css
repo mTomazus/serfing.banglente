@@ -493,9 +493,8 @@ button {
 }
 
 button:hover {
-  border: 3px solid #23a3ec;
+  border-color: #23a3ec;
   color: #23a3ec;
-  transform: translateY(3px);
 }
 
 .is-hidden {
@@ -597,9 +596,9 @@ button:hover {
 
 @media screen and (min-width: 1200px) {
   h1 {
-    line-height: 13vh;
-    font-size: 15vh;
-    margin: auto;
+    line-height: 11vh;
+    font-size: 13vh;
+    margin: 5vh auto;
   }
 
   .small {
@@ -608,8 +607,12 @@ button:hover {
 
   .lg {
     display: block;
-    width: 95%;
+    max-width: 1280px;
     margin: auto;
+  }
+
+  .sm {
+    display: none;
   }
 
   p {
@@ -622,6 +625,9 @@ button:hover {
     letter-spacing: 0.5vw;
   }
 
+  .nav-links {
+    margin: 0 2rem;
+  }
   .nav-links a {
     font-size: 2.5vh;
     letter-spacing: 0.5vh;
@@ -680,71 +686,68 @@ button:hover {
     text-align: center;
   }
 
-  .pamokos .akordionas {
-    display: none;
-  }
-  .pamokos h1 {
-    line-height: 11vh;
-    font-size: 13vh;
-  }
-  .pamokos h2 {
-    color: white;
-    font-size: 3rem;
-    margin: auto;
-  }
-
-  .pamokos__list {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-    width: 95vw;
-    max-width: 1620px;
-    font-size: 1vw;
-    color: white;
-    padding: 1vh;
-    margin: auto;
-    background-image: linear-gradient(to right, #2f78a8, #114161);
-    border-radius: 5px;
-  }
-
-  .pamokos__info {
+  .lg__info {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    width: 95vw;
-    max-width: 1620px;
     font-size: 1.2vw;
     padding: 3vh 0;
     margin: auto;
   }
+  .lg__info h2 {
+    box-shadow: 0 0.2rem 0.5rem #00000075;
+    padding: 0.5rem 0;
+  }
+  .lg__info h3 {
+    font-family: "Alegreya", serif;
+  }
+  .lg__info h4 {
+    font-size: 1.2rem;
+  }
 
   .content-side {
     margin-left: 2vw;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
     width: 40%;
   }
   .content-side h2 {
     background-image: linear-gradient(to right, #2f78a8, #114161);
-    padding: 1vw;
+    padding: 0;
+    margin-bottom: 1rem;
   }
   .content-side img {
     width: 100%;
-  }
-  .content-side div {
-    background-color: white;
-    margin: 1vw auto;
+    margin-bottom: 2vw;
+    box-shadow: 0 0.2rem 0.5rem #00000075;
   }
 
   .pamokos-form {
-    margin: 2vw auto;
     width: 100%;
     background: white;
+    overflow: auto;
+  }
+
+  .pamokos-form > div {
+    margin: 1rem auto;
   }
 
   .wi-80 {
     width: 80%;
+  }
+
+  .kuponas {
+    text-align: justify;
+    background: white;
+    margin-bottom: 2vw;
+    font-size: 2.5vh;
+    padding: 1rem;
+    box-shadow: 0 0.2rem 0.5rem #00000075;
+  }
+  .kuponas h4:nth-of-type(1) {
+    font-family: "Alegreya", serif;
+    margin-bottom: 1.5rem;
+  }
+  .kuponas h3 {
+    margin: 0;
   }
 
   .content-box {
@@ -761,6 +764,13 @@ button:hover {
     font-size: 2.5vh;
     padding: 1rem;
     box-shadow: 0 0.2rem 0.5rem #00000075;
+  }
+  .content-box div h4:nth-of-type(1) {
+    font-family: "Alegreya", serif;
+    margin-bottom: 1.5rem;
+  }
+  .content-box div h3 {
+    margin: 0;
   }
   .content-box svg {
     float: right;

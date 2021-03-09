@@ -17,7 +17,6 @@ button {
     cursor: pointer;
 }
 button:hover {
-    border: 3px solid #23a3ec;
+    border-color:#23a3ec;
     color: #23a3ec;
-    transform: translateY(3px);
 }
