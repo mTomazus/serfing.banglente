@@ -758,22 +758,30 @@ button:hover {
     flex-wrap: wrap;
     text-align: justify;
   }
-  .content-box div {
+  .content-box > div {
     background: white;
     margin-bottom: 2vw;
     font-size: 2.5vh;
     padding: 1rem;
     box-shadow: 0 0.2rem 0.5rem #00000075;
   }
-  .content-box div h4:nth-of-type(1) {
+  .content-box > div h4:nth-of-type(1) {
     font-family: "Alegreya", serif;
     margin-bottom: 1.5rem;
   }
-  .content-box div h3 {
+  .content-box > div h3 {
     margin: 0;
   }
   .content-box svg {
     float: right;
+  }
+  .content-box > div:nth-child(odd) img {
+    float: right;
+    margin-left: 1rem;
+  }
+  .content-box > div:nth-child(even) img {
+    float: left;
+    margin-right: 1rem;
   }
 }
 @media screen and (max-width: 576px) {

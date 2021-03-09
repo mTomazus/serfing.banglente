@@ -149,7 +149,7 @@
         }
     }
     .content-box {
-        div {
+        & > div {
             background: white;
             margin-bottom: 2vw;
             font-size: 2.5vh;
@@ -172,5 +172,17 @@
         display: flex;
         flex-wrap: wrap;
         text-align: justify;
+        & > div:nth-child(odd) {
+            img {
+                float: right;
+                margin-left: 1rem;
+            }
+        }
+        & > div:nth-child(even) {
+            img {
+                float: left;
+                margin-right: 1rem;
+            }
+        }
     }
 }

@@ -10,33 +10,39 @@
         <div class="lg__info">
             <div class="content-box">
                 <div>
+                    <img src="./img/bangle-sm.jpg" alt="banglentes surfboards">
                     <h3>BANGLENTĖ</h3>
                     <h4>10€ - dvi valandos</h4>
                     <h4>Pakete dvi 1h trukmės pamokos, pirmoje pamokoje ramiame vandenyje išmokstam irklavimo, atsistojimo techniką ir balanso ant lentos. Antroje pamokoje jau bangose - pozicionavimą ir technikos tolimesnis įsisavinimas praktikoje.</h4>
                 </div>
                 <div>
+                    <img src="./img/sup-sm.jpg" alt="irklentes standup paddle">
                     <h3>IRKLENTĖ</h3>
                     <h4>10€ - valanda</h4>
                     <h4>Per šią pusantros valandos privačią serfingo pamoką pristatysime Jums etiketo, saugumo, serfingo pagrindus, irklavimo techniką, pozicionavimą bangose bei atsistojimo būdus.</h4>
                 </div>
                 <div>
+                    <img src="./img/hidro-sm.jpg" alt="hidrokostiumai wetsuits">
                     <h3>HIDROKOSTIUMAS</h3>
                     <h4>5€ - dvi valandos</h4>
                     <h4>Idealiai tinka pradedantiesiems ar tiems, kurie nori prisiminti pagrindus ir techniką. Pamoka kartu su mumis reiškia, kad mokotės iš geriausių, kad galėtumėte tapti geriausiais.</h4>
                 </div>
                 <div>
+                    <img src="./img/skate-sm.jpg" alt="riedlentes skateboards">
                     <h3>RIEDLENTĖ</h3>
                     <h4>10€ - dvi valandos</h4>
                     <h4>Geriausiai tinka 2 asmenims - draugams ar draugėms, poroms ar artimiesiems. Čia mes pristatysime Jums saugumo ir serfingo pagrindus, irklavimo techniką bei atsistojimo būdus.</h4>
                 </div>
                 <div>
-                    <h3>KOMANDOS FORMAVIMAS</h3>
-                    <h4>nuo 200€</h4>
+                    <img src="./img/skim-sm.jpg" alt="skimboards">
+                    <h3>SKIM BOARDAS</h3>
+                    <h4>10€ - dvi valandos</h4>
                     <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
                 </div>
                 <div>
-                    <h3>INDIVIDUALI PLUS</h3>
-                    <h4>120€</h4>
+                    <img src="./img/body-sm.jpg" alt="puslentės bodyboard">
+                    <h3>PUSLENTĖ</h3>
+                    <h4>10€ - dvi valandos</h4>
                     <h4>Ši serfingo pamoka tinka tiek naujokams tiek pažengusiems ir su orientuocija į pastioviai daromas esmines klaidas ir kilstelėtų Jūsų techniką į naują lygį. Jei ieškote vertos pamokos - Jūs ją radote.</h4>
                 </div>
             </div>
