@@ -6,7 +6,7 @@
     <!-------- Sekcija KONTAKTAI -------->
     <!----------------------------------->
 
-    <div class="content contacts-page">
+    <div class="content section contacts-page">
         <div class="contacts__content bg-grad">
             <div>
                 <h3 class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa rerum distinctio, non voluptatum qui enim veritatis?

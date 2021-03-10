@@ -5,7 +5,7 @@
 <!---------------------------------->
 <!-------- SECTION STOVYKLA -------->
 <!---------------------------------->
-<div class="stovykla bg-grad">
+<div class="stovykla section bg-grad">
     <div class="content">    
         <div class="content--scroll">
             <div>

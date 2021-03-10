@@ -30,6 +30,12 @@
             height: 3rem;
             margin: .3rem;
         }
+        a {
+            text-decoration: none;
+        }
+    }
+    .section {
+        transition: all 2s;
     }
     .landing__second {
         h2 {
@@ -116,19 +122,10 @@
         }
     }
     .logo {
-        transform: translateY(-55px);
-        animation-name: logo-knpk;
-        animation-duration: 2s;
-        animation-delay: 3s;
-        animation-fill-mode: both;
-        .knopkes{
-            display: block;
-        }
+        display: block
     }
-    //------ .logo animation -------
-    @keyframes logo-knpk {
-        from {transform: translateY(-55px);}
-        to {transform: translateY(0px);}
+    .knopkes{
+        display: none;
     }
 
     nav {
@@ -137,6 +134,7 @@
     .nav-links {
         bottom: 8vh;
         top: -92vh;
+        padding: 5rem 0;
     }
 //----------- contacts page specific --------------
     

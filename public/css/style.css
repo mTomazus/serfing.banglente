@@ -186,9 +186,6 @@ nav {
   text-align: center;
   text-shadow: 0 0.2rem 0.5rem #00000075;
 }
-.logo .knopkes {
-  display: none;
-}
 
 .nav-links {
   display: flex;
@@ -529,7 +526,7 @@ button:hover {
 
 .carousel {
   position: relative;
-  height: 74vh;
+  height: 100%;
   width: 270px;
   margin: 0 auto;
   transition: 0.5s ease-in-out 0.5s;
@@ -847,6 +844,13 @@ button:hover {
     height: 3rem;
     margin: 0.3rem;
   }
+  .knopkes a {
+    text-decoration: none;
+  }
+
+  .section {
+    transition: all 2s;
+  }
 
   .landing__second h2 {
     font-size: 3.5vh;
@@ -937,24 +941,13 @@ button:hover {
   }
 
   .logo {
-    transform: translateY(-55px);
-    animation-name: logo-knpk;
-    animation-duration: 2s;
-    animation-delay: 3s;
-    animation-fill-mode: both;
-  }
-  .logo .knopkes {
     display: block;
   }
 
-  @keyframes logo-knpk {
-    from {
-      transform: translateY(-55px);
-    }
-    to {
-      transform: translateY(0px);
-    }
+  .knopkes {
+    display: none;
   }
+
   nav {
     bottom: 0;
   }
@@ -962,6 +955,7 @@ button:hover {
   .nav-links {
     bottom: 8vh;
     top: -92vh;
+    padding: 5rem 0;
   }
 
   .contacts__content {
