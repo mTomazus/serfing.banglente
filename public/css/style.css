@@ -622,6 +622,10 @@ button:hover {
     letter-spacing: 0.5vw;
   }
 
+  .knopkes {
+    display: none;
+  }
+
   .nav-links {
     margin: 0 2rem;
   }
@@ -940,7 +944,7 @@ button:hover {
     margin-bottom: 1rem;
   }
 
-  .logo {
+  .logo, .knopkes {
     display: block;
   }
 
