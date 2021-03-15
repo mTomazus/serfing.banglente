@@ -8,8 +8,11 @@
         font-size: 13vh;
         margin: 5vh auto;
     }
-    .small {
-        zoom: 0.75;
+    .link {
+        margin: 2rem auto;
+        background: white;
+        padding: 0 1rem;
+        border-radius: 3px;
     }
     .lg {
         display: block;
@@ -151,6 +154,9 @@
             margin: 0;
         }
     }
+    #pamaina {
+        width: 260px;
+    }
     .content-box {
         & > div {
             background: white;
@@ -164,6 +170,16 @@
             }
             h3 {
                 margin: 0;
+            }
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            text-align: left;
+            font-family: alegreya;
+            text-shadow: none;
+            &::first-letter {
+                font-size: 150%;
             }
         }
         svg {

@@ -33,12 +33,10 @@
             <div class="landing__second content">
                 <div class="heading">
                     <h1>PAMOKOS</h1>
-                    <h1 class="small">NUOMA</h1>
+                    <h1>NUOMA</h1>
                     <h2>ČIA TIK VISKO PRADŽIA</h2>
                 </div>
-                <div class="circle_svg">
-                    <img src="/img/circle.svg" height="200" width="200" fill="white" alt="">
-                </div>
+                <button>REGISTUOKIS</button>
                 <div class="s3-apacia">
                     <h2>DIDELIS LENTŲ PASIRINKIMAS</h3>
                     <h2>BANGLENTĖS - RIEDLENTĖS</h2>

@@ -28,8 +28,9 @@ nav{
 .logo-pic{
     margin: auto;
     img{
-        max-height: 6vh;
+        max-height: 4vh;
         filter: drop-shadow($shadow-deep);
+        vertical-align: auto;
     }
 }
 

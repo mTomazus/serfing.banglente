@@ -12,14 +12,14 @@
                 <div>
                     <img src="./img/bangle-sm.jpg" alt="banglentes surfboards">
                     <h3>BANGLENTĖ</h3>
-                    <h4>10€ - dvi valandos</h4>
-                    <h4>Pakete dvi 1h trukmės pamokos, pirmoje pamokoje ramiame vandenyje išmokstam irklavimo, atsistojimo techniką ir balanso ant lentos. Antroje pamokoje jau bangose - pozicionavimą ir technikos tolimesnis įsisavinimas praktikoje.</h4>
+                    <h4>nuo 10€ - dvi valandos</h4>
+                    <h4>Mes visada jums padėsime išsirinkti tinkamą banglentę, patarsime kur plaukti. Ne vienerius metus daugelyje pasaulio vietų skrieje banga patarsime ir kitais klausimais. Nesidrovėkite klausti.</h4>
                 </div>
                 <div>
                     <img src="./img/sup-sm.jpg" alt="irklentes standup paddle">
                     <h3>IRKLENTĖ</h3>
                     <h4>10€ - valanda</h4>
-                    <h4>Per šią pusantros valandos privačią serfingo pamoką pristatysime Jums etiketo, saugumo, serfingo pagrindus, irklavimo techniką, pozicionavimą bangose bei atsistojimo būdus.</h4>
+                    <h4>Kietos įvairaus dydžio irklentės puikiausiai tinka pasiplaukioti jūroje. Gera viso kūno treniruotė su irklente idealiai tiks bet kokioo amžiaus sportuojančiam.</h4>
                 </div>
                 <div>
                     <img src="./img/hidro-sm.jpg" alt="hidrokostiumai wetsuits">
