@@ -756,7 +756,23 @@ button:hover {
   }
 
   #pamaina {
-    width: 260px;
+    width: 250px;
+  }
+
+  select {
+    font-size: initial;
+  }
+
+  table {
+    margin: auto;
+    color: white;
+    font-family: "Alegreya";
+  }
+  table tr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
   }
 
   .content-box {
