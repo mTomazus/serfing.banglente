@@ -59,55 +59,8 @@
                         <h4>Galioja metus, puiki dovana draugui ar kolegai. Galimi įvairus variantai, nuo grupinės pamokos iki individualios ar net kelių pamokų paketų</h4>
                     </div>
                     <h2>REGISTRACIJA</h2>
-                    <form class="pamokos-form"> 
-                        <div class="row align-items-center wi-80">
-                            <div>
-                                <select class="form-select" name="pamoka">
-                                    <option selected="Pasirinkti">pasirinkite jūs dominančią paslaugą...</option>
-                                    <option value="pamokų paketas">Pamokų paketas</option>
-                                    <option value="privati pamoka">Privati pamoka</option>
-                                    <option value="grupinė pamoka">Grupinė pamoka</option>
-                                    <option value="pamoka dviem">Pamoka dviem</option>
-                                    <option value="individuali plius">Individuali +</option>
-                                </select>                          
-                            </div>
-                        </div>
-                        <div class="input-group wi-80">
-                            <span class="input-group-text" id="basic-addon3">pageidaujama data nuo...</span>
-                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="2021-06-22">
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                              <input type="text" name="name" class="form-control" placeholder="Vardas" aria-label="First name" required>
-                            </div>
-                            <div class="col">
-                              <input type="text" name="surname" class="form-control" placeholder="Pavardė" aria-label="Last name" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" name="address" class="form-control" id="zip" placeholder="Adresas" required>
-                            </div>
-                        </div>   
-                        <div class="row">
-                            <div class="col-5">
-                                <input type="text" name="phone" class="form-control" id="floatingInput" placeholder="Telefono numeris" required="">
-                       
-                            </div>
-                            <div class="col-7">
-                                <input type="text" name="el. paštas" id="floatingInput" class="form-control" required="" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Elektroninis paštas">
-       
-                            </div>
-                        </div>
-                        <div class="form-check form-switch col-10">
-                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                            <label class="form-check-label" for="flexSwitchCheckDefault">I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</label>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">REGISTRUOTI</button>
-                        </div>
-                    </form>
 
+                    @livewire('pamokos-form')
 
                 </div>
             </div>

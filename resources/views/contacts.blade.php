@@ -25,6 +25,7 @@
                 <h2>Įmonės kodas - 304105037</h2>
                 <h2>Bankas - LT227300010144594068</h2>
             </div>
+            @livewire('contact-form')
         </div>
     </div>
 @endsection

@@ -4,13 +4,13 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Contact;
+use Mail;
 
 class ContactForm extends Component
 {
     public $name;
     public $email;
     public $message;
-    public $success;
 
     public function submitForm()
     {
@@ -21,10 +21,22 @@ class ContactForm extends Component
         ]);
    
         Contact::create($validatedData);
+
+        Mail::send('mail',
+        array(
+            'name' => $this->name,
+            'email' => $this->email,
+            'message' => $this->message,
+            ),
+            function($comment){
+                $comment->from('sales@banglente.com');
+                $comment->cc('sales@banglente.com');
+                $comment->to('sales@banglente.com')->subject('Banglente kontaktų Forma');
+            }
+        );
    
-        return redirect()->to('/form');
         $this->reset(['name', 'email', 'message']);
-        $this->success = 'Your inquiry has been SUCCESSFULLY submitted!';
+        session()->flash('message', 'Jūsų žinutė sėkmingai išsiųsta!');
     }
 
     public function render()

@@ -39,77 +39,24 @@
                         <h2>GALERIJA</h2>
                         <img src="http://www.banglente.com/images/vaikas2.jpg">
                         <h2>REGISTRACIJA</h2>
-                        <div class="bg-white mb-4">
-                            <form id="stovykla--form" class="col-11 m-auto" action="" method="post" novalidate="">
-                                <div class="input-group p-3">
-                                    <div class="input-group-append">
-                                        <label class="input-group-text" for="pamaina">Stovyklos pamaina</label>
-                                    </div>
-                                    <select class="custom-select" name="pamaina" id="pamaina">
-                                        <option>1. Birželio 14d.	- Birželio 18d.</option>
-                                        <option>2. Birželio 21d.	- Birželio 25d.</option>
-                                        <option>3. Birželio 28d. -	Liepos 2d.</option>
-                                        <option>4.	Liepos 5d. -	Liepos 9d.</option>
-                                        <option>5. Liepos 12d.	- Liepos 16d.</option>
-                                        <option>6. Liepos 19d. -	Liepos 23d.</option>
-                                        <option>7. Rugpjūčio 2d. -	Rugpjūčio 6d.</option>
-                                        <option>8. Rugpjūčio 9d. -	Rugpjūčio 13d.</option>
-                                        <option>9. Rugpjūčio 16d. -	Rugpjūčio 20d.</option>
-                                        <option>10.	Rugpjūčio 23d. - Rugpjūčio 27d.</option>
-                                    </select>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col">
-                                      <input type="text" class="form-control" placeholder="Vardas">
-                                    </div>
-                                    <div class="col">
-                                      <input type="text" class="form-control" placeholder="Pavardė">
-                                    </div>
-                                </div>
-                                <input class="form-control mb-3" type="text" placeholder="Gyvenamoji vieta" aria-label="default input example">
-                                <div class="row mb-3 justify-content-around">
-                                    <div class="input-group w-auto">
-                                        <div class="input-group-append">
-                                            <label class="input-group-text" for="metai" aria-describedby="metai">Metai</label>
-                                        </div>
-                                        <select class="custom-select" name="metai" id="metai">
-                                            <option>10</option>
-                                            <option>11</option>
-                                            <option>12</option>
-                                            <option selected="selected">13</option>
-                                            <option>14</option>
-                                            <option>15</option>
-                                            <option>16</option>
-                                            <option>17</option>
-                                            <option>18</option>
-                                        </select>
-                                    </div>
-                                    <div class="input-group w-auto">
-                                        <div class="input-group-append">
-                                            <label class="input-group-text" for="plaukti" aria-describedby="plaukti">Plaukia:</label>
-                                        </div>
-                                        <select class="custom-select" name="plaukti" id="plaukti">
-                                            <option>Labai gerai</option>
-                                            <option>Gerai</option>
-                                            <option>Silpnai</option>
-                                            <option>Nemoka plaukti</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input class="form-control" type="text" name="alergija" aria-describedby="alergija" placeholder="Ar alergiškas ir kam ?" required="">
-                                </div>                    
-                                <input class="form-control mb-3" type="email" name="email" aria-describedby="emailHelp" placeholder="Elektroninis paštas" required="">
-                                <input type="tel" class="form-control mb-3" name="phone" aria-describedby="phoneHelp" placeholder="Telefono numeris" maxlength="14" required="">
-                                <div class="pb-3">
-                                    <button type="reset" class="btn btn-secondary col-5" data-dismiss="modal">Išvalyti</button>
-                                    <button id="submitButton" type="submit" name="submit" class="btn btn-primary col-5" >Registruoti</button>
-                                </div>
-                            </form>
+
+                        @livewire('stovykla-form')
+
+                        <h2>DIENOTVARKĖ</h2>
+                        <div class="">
+                            <ul>
+                                <li>8:45–9:30 val. Atvykimas ir registracija;</li>
+                                <li>Supažindinimas su stovyklos saugumo taisyklėmis;</li>
+                                <li>Susipažinimas su inventoriumi ir priemonėmis;</li>
+                                <li>Banglenčių treniruotės krante ir vandenyje;</li>
+                                <li>Maitinimas du kartus: pietūs ir užkandžiai;</li>
+                                <li>Daug puikių įspudžių atvirame ore;</li>
+                                <li>Teorija apie jūrą, banglentes ir bangas;</li>
+                                <li>Užsiėmimai su riedlentėmis;</li>
+                                <li>Išvykimas 17:00-17:30 val.</li>
+                            </ul>
                         </div>
-                        <h2>PARSISIŲSTI</h2>
-                        <h3><a class="link" href="http://www.banglente.com/incoming/programa.pdf" target="_blank" style="display: initial">Preliminari programa</a></h3>
-                        <h3><a class="link" href="http://www.banglente.com/incoming/programa.pdf" target="_blank" style="display: initial">Sutartis</a></h3>
+                        <h3><a class="link" href="http://www.banglente.com/incoming/programa.pdf" target="_blank" style="display: initial">Preliminari pilna programa</a></h3>
                     </div>
                 </div>
             </div>
