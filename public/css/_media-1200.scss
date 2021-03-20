@@ -51,6 +51,9 @@
     .remejai img {
         zoom: 0.9;
     }
+    .rekvizitai {
+        margin-bottom: 2rem;
+    }
 
     .heading__first {
         display: flex;
@@ -93,6 +96,26 @@
     .content {
         text-align: center;
     }
+
+    .stovykla {
+        .carousel {
+            width: 500px;
+            height: 250px;
+            margin-bottom: 2rem;
+            .b-right {
+                right: 0.5rem;
+            }
+            .b-left {
+                left: 0.5rem;
+            }
+        }
+        button img {
+            margin-bottom: 0;
+            box-shadow: none;
+            width: 1.2rem;
+        }
+    }
+
 //----pamokos page specifics ------
 
     .lg__info {
@@ -112,6 +135,16 @@
         h4 {
             font-size: 1.2rem;
         }
+        ul {
+            font-family: alegreya;
+            font-size: 1.2rem;
+            font-weight: 600;    
+            text-align: left;
+            text-shadow: none;
+            line-height: 1.5rem;
+            color: white;
+            margin: auto;
+        }
     }
 
     .content-side {
@@ -127,6 +160,10 @@
             margin-bottom: 2vw;
             box-shadow: 0 0.2rem 0.5rem #00000075;
         }
+        .elastic {
+            width: 50%;
+            box-shadow: none;
+        }
     }
     .pamokos-form {
         width: 100%;
@@ -138,6 +175,9 @@
     }
     .wi-80 {
         width: 80%;
+    }
+    table tr {
+        display: inherit;
     }
     .kuponas {
         text-align: justify;
@@ -165,10 +205,12 @@
         color: white;
         font-family: 'Alegreya';
         tr {
-            display: flex;
-            flex-direction: column;
+            display: inherit;
             text-align: center;
             font-weight: 600;
+        }
+        td {
+            min-width: 150px;
         }
     }
     .content-box {

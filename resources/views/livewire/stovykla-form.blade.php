@@ -31,7 +31,7 @@
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
         
-        <div class="row mb-3">
+        <div class="col-10 mx-auto row mb-3">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Vardas" wire:model="name">
                 @error('name') <span class="text-danger small error">{{ $message }}</span> @enderror
@@ -41,7 +41,7 @@
                 @error('surname') <span class="text-danger small error">{{ $message }}</span> @enderror
             </div>
         </div>
-        <div class="mb-3">
+        <div class="col-10 mx-auto mb-3">
             <input class="form-control" type="text" placeholder="Gyvenamoji vieta" aria-label="default input example" wire:model="address">
             @error('address') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
@@ -73,14 +73,14 @@
                 </select>
             </div>
         </div>
-        <div class="form-group mb-3">
+        <div class="col-9 mx-auto form-group mb-3">
             <input class="form-control" type="text" name="alergija" aria-describedby="alergija" placeholder="Ar alergiškas ir kam ?" wire:model="alergy">
         </div>
-        <div class="form-group col-8 mb-3 mx-auto">                    
+        <div class="form-group col-7 mb-3 mx-auto">                    
             <input class="form-control" type="email" name="email" aria-describedby="emailHelp" placeholder="Elektroninis paštas" wire:model="email">
             @error('email') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
-        <div class="form-group col-7 mb-3 mx-auto">
+        <div class="form-group col-5 mb-3 mx-auto">
             <input type="tel" class="form-control" name="phone" aria-describedby="phoneHelp" placeholder="Telefono numeris" maxlength="14" wire:model="phone">
             @error('phone') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>

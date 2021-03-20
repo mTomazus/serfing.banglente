@@ -43,3 +43,7 @@ Route::get('varzybos', function () {
 Route::get('form', function () {
     return view('form');
 });
+
+Route::get('table', function () {
+    return view('table');
+});

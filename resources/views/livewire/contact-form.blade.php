@@ -1,5 +1,5 @@
-<div class="col-6 bg-white mx-auto">    
-    <form wire:submit.prevent="submitForm" class="p-3">
+<div class="bg-white mx-auto">    
+    <form wire:submit.prevent="submitForm" class="col-8 mx-auto p-3">
 
         @csrf
 

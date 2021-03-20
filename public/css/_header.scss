@@ -1,18 +1,19 @@
 /* --------------------------------------- */
 /* ---------------NAVIGATION-------------- */
 /* --------------------------------------- */
-
-nav{
+header {
     display: flex;
     position: fixed;
-    justify-content: space-around;
     min-height: 8vh;
     max-height: 8vh;
+    background-image: linear-gradient(to right, #2f78a8, #114161);
+    font-family: "Anton", sans-serif;
+    z-index: 100;
+}
+nav{
+    display: flex;
     align-items: center;
     width: 100vw;
-    background-image: $gradient;
-    font-family: 'Anton', sans-serif;
-    z-index: 2;
 }
 
 //---- Fulpage css overrides----
