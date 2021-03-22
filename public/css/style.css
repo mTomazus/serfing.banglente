@@ -845,10 +845,15 @@ button:hover {
     flex-wrap: wrap;
     text-align: justify;
   }
+  .content-box a {
+    color: black;
+    text-decoration: none;
+  }
   .content-box > div {
     background: white;
     margin-bottom: 2vw;
     font-size: 2.5vh;
+    width: 100%;
     padding: 1rem;
     box-shadow: 0 0.2rem 0.5rem #00000075;
   }
@@ -865,6 +870,7 @@ button:hover {
     text-align: left;
     font-family: alegreya;
     text-shadow: none;
+    margin-bottom: 1rem;
   }
   .content-box p::first-letter {
     font-size: 150%;

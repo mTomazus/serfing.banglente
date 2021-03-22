@@ -31,7 +31,7 @@
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
         
-        <div class="col-10 mx-auto row mb-3">
+        <div class="col-11 mx-auto row mb-3">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Vardas" wire:model="name">
                 @error('name') <span class="text-danger small error">{{ $message }}</span> @enderror

@@ -40,8 +40,8 @@ Route::get('varzybos', function () {
 });
 
 
-Route::get('form', function () {
-    return view('form');
+Route::get('welcome', function () {
+    return view('welcome');
 });
 
 Route::get('table', function () {

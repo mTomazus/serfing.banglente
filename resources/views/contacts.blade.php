@@ -13,10 +13,15 @@
                 <div class="lg__info">
                     <div class="content-box">
                         <div>
-                            <img src="./img/skim-sm.jpg" alt="skimboards">
-                            <h3>KARJERA</h3>
-                            <h4>10€ - dvi valandos</h4>
-                            <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
+                            <a href="#">
+                                <div>
+                                    <img src="./img/savanoris.jpg" alt="savanorystė">
+                                    <h3>KARJERA</h3>
+                                    <h4>Svajonių darbas laukia taves!</h4>
+                                    <h4>Mus sieja - meilė banglenčių sportui, jūrai ir paplūdimiui. Visada ieškome žmonių su kuriais galėtume dalintis šia aistra, mokytis ir tobulėti kartu.</h4>
+                                    <h4> Junkis prie mūsų.</h4>
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <img src="./img/skim-sm.jpg" alt="skimboards">
@@ -25,10 +30,15 @@
                             <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
                         </div>
                         <div>
-                            <img src="./img/skim-sm.jpg" alt="skimboards">
-                            <h3>ATASKAITOS</h3>
-                            <h4>10€ - dvi valandos</h4>
-                            <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
+                            <a href="#">
+                                <div>
+                                    <img src="./img/dokumentai.jpg" alt="ataskaitos">
+                                    <h3>ATASKAITOS</h3>
+                                    <h4>Praėjusių metų finansiniai dokumentai.</h4>
+                                    <h4>Atlikti darbai</h4>
+                                    <h4>PN ataskaita - Balansas - Aiškinamasis raštas</h4>
+                                </div>
+                            </a>
                         </div>
                         
                     </div>
