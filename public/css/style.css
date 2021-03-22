@@ -27,6 +27,10 @@ h1, p, h2 {
   font-size: 1rem;
 }
 
+.vh-92 {
+  min-height: 92vh;
+}
+
 .lg {
   display: none;
 }
@@ -674,6 +678,27 @@ button:hover {
 
   .rekvizitai {
     margin-bottom: 2rem;
+  }
+
+  .pagination {
+    padding-left: 0;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .pagination .page-link {
+    background: none !important;
+    color: white !important;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100px;
+    padding: 0.2rem 0.5rem;
+    box-shadow: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+
+  .content nav {
+    width: auto;
   }
 
   .heading__first {

@@ -1,4 +1,4 @@
-<div class="data-table">
+<div class="data-table vh-92">
 
     <div class="col-11 mx-auto mt-4">
         <h2 class="mb-4">STOVYKLOS FORMA</h2>
@@ -30,6 +30,7 @@
             @endforeach
         
         </table>
+
     </div>
     <div class="col-11 mx-auto mt-4">
         <h2 class="mb-4">PAMOKŲ FORMA</h2>
@@ -61,6 +62,7 @@
             @endforeach
         
         </table>
+
     </div>
     <div class="col-10 mx-auto mt-4">
         <h2>KONTAKTAI</h2>

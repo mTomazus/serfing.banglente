@@ -37,13 +37,18 @@ Route::get('nuoma', function () {
 
 Route::get('varzybos', function () {
     return view('varzybos');
-});
+})->middleware('auth.basic');
 
 
 Route::get('welcome', function () {
     return view('welcome');
 });
 
+
+Route::get('login', function () {
+    return view('login');
+})->name('login');
+
 Route::get('table', function () {
     return view('table');
-});
+})->middleware('auth');

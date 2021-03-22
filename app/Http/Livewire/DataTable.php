@@ -12,12 +12,14 @@ class DataTable extends Component
 {
     use WithPagination;
 
+    protected $paginationTheme = 'bootstrap';
+
     public function render()
     {
         return view('livewire.data-table',[
-            'lines'=>Pamokos::all(),
+            'lines'=>Pamokos::simplePaginate(5),
             'lines2'=>Contact::simplePaginate(5),
-            'lines3'=>Stovyklos::all(),
+            'lines3'=>Stovyklos::simplePaginate(5),
         ]);
     }
 }
