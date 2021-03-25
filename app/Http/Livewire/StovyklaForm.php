@@ -4,6 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Stovyklos;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\mailFromStovykla;
 
 class StovyklaForm extends Component
 {
@@ -11,9 +13,9 @@ class StovyklaForm extends Component
     public $name;
     public $surname;
     public $address;
-    public $age;
-    public $swim;
-    public $alergy;
+    public $age = '12';
+    public $swim = 'gerai';
+    public $alergy = 'ne';
     public $email;
     public $phone;
     
@@ -33,6 +35,8 @@ class StovyklaForm extends Component
         ]);
    
         Stovyklos::create($validatedData);
+
+        Mail::to('sales@banglente.com')->send(new mailFromStovykla($this->pamaina, $this->name, $this->surname, $this->address, $this->age, $this->swim, $this->alergy, $this->email, $this->phone));
            
         $this->reset(['name', 'alergy', 'age', 'swim' ]);
         session()->flash('message', 'Stovyklos registracija sėkmingai išsiųsta!');

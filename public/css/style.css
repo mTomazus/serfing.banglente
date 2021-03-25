@@ -31,8 +31,29 @@ h1, p, h2 {
   min-height: 92vh;
 }
 
+.bg-def {
+  background-image: linear-gradient(to right, #2f78a8, #114161);
+}
+
 .lg {
   display: none;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blink;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
 }
 
 .bg-grad {
@@ -490,7 +511,7 @@ button {
   border: 3px solid white;
   color: white;
   margin: 0 auto;
-  box-shadow: 1px 1px 3px #114161;
+  box-shadow: 1px 1px 3px #23a3ec;
   background: none;
   display: block;
   width: auto;
@@ -655,16 +676,39 @@ button:hover {
     display: none;
   }
 
+  header {
+    top: 0;
+  }
+
   .nav-links {
     margin: 0 2rem;
   }
   .nav-links a {
     font-size: 2.5vh;
     letter-spacing: 0.5vh;
+    transition: color 0.5s ease;
+  }
+  .nav-links a:hover {
+    color: #23a3ec;
+  }
+
+  .career-list__item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #d3dbe3;
+    border-style: solid;
+    border-width: 1px 0;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+    color: inherit;
   }
 
   .content {
-    padding-top: 8vh;
+    margin-top: 8vh;
     min-height: 92vh;
     overflow: hidden;
     display: flex;
@@ -967,6 +1011,10 @@ button:hover {
     color: white;
   }
 
+  header {
+    bottom: 0;
+  }
+
   .knopkes {
     display: none;
   }
@@ -1174,7 +1222,6 @@ button:hover {
     scrollbar-width: none;
     /* Firefox */
     color: white;
-    padding-top: 8vh;
   }
   .stovykla img {
     width: 90%;

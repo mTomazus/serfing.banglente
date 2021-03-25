@@ -23,6 +23,9 @@
         line-height: 2rem;
         color: $text-color;
     }
+    header {
+        bottom: 0;
+    }
     .knopkes {
         display: none;
         svg {
@@ -226,7 +229,6 @@
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
         color:$text-color;
-        padding-top: 8vh;
         img {
             width: 90%;
             margin: 5%;

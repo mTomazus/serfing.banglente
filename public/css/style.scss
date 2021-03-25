@@ -4,6 +4,7 @@ $gradient : linear-gradient(to right, #2f78a8, #114161);
 $text-color :white;
 $fills :white;
 $alt-text-color :#114161;
+$hover-color :#23a3ec;
 
 @mixin main-text {
     font-family: 'Source Sans Pro', sans-serif;
@@ -43,11 +44,28 @@ h1, p, h2 {
 .vh-92 {
     min-height:92vh;
 }
-
+.bg-def {
+    background-image: $gradient;
+}
 //----- only for large display -----
 .lg {
     display: none;
 }
+
+//------blinking----------------
+@keyframes blink {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  .blink{
+      text-decoration: blink;
+      -webkit-animation-name: blink;
+      -webkit-animation-duration: 0.6s;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-timing-function:ease-in-out;
+      -webkit-animation-direction: alternate;
+  }
+
 //----- gradient background ------
 .bg-grad {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

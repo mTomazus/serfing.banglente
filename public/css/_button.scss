@@ -6,7 +6,7 @@ button {
     border: 3px solid white;
     color: white;
     margin: 0 auto;
-    box-shadow: 1px 1px 3px #114161;
+    box-shadow: 1px 1px 3px $hover-color;
     background: none;
     display: block;
     width: auto;
@@ -17,8 +17,8 @@ button {
     cursor: pointer;
 }
 button:hover {
-    border-color:#23a3ec;
-    color: #23a3ec;
+    border-color:$hover-color;
+    color: $hover-color;
 }
 .data-table {
     button {

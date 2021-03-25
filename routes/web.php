@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-
 Route::get('/', function () {
     return view('home');
 });
@@ -37,13 +36,14 @@ Route::get('nuoma', function () {
 
 Route::get('varzybos', function () {
     return view('varzybos');
-})->middleware('auth.basic');
-
+});
 
 Route::get('welcome', function () {
     return view('welcome');
 });
-
+Route::get('karjera', function () {
+    return view('karjera');
+});
 
 Route::get('login', function () {
     return view('login');

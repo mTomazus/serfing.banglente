@@ -4,7 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Contact;
-use Mail;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\mailFromContact;
 
 class ContactForm extends Component
 {
@@ -21,6 +22,8 @@ class ContactForm extends Component
         ]);
    
         Contact::create($validatedData);
+
+        Mail::to('sales@banglente.com')->send(new mailFromContact($this->name, $this->email, $this->message));
 
         $this->reset(['name', 'email', 'message']);
         session()->flash('message', 'Jūsų žinutė sėkmingai išsiųsta!');

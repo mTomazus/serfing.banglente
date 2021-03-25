@@ -1,8 +1,5 @@
 <div class="bg-white mx-auto">    
-    <form wire:submit.prevent="submitForm" class="col-8 mx-auto p-3">
-
-        @csrf
-
+    
         <div>
             @if (session()->has('message'))
                 <div class="alert h4 alert-success">
@@ -10,6 +7,10 @@
                 </div>
             @endif
         </div>
+        
+        <form wire:submit.prevent="submitForm" class="col-8 mx-auto p-3">
+
+        @csrf
 
         <div class="form-group">
             <label for="exampleInputName">Vardas</label>

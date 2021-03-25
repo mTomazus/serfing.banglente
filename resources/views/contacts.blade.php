@@ -8,12 +8,12 @@
 
     <div class="content section contacts-page">
         <div class="contacts__content bg-grad">
-            <h1>KONTAKTAMS</h1>
+            <h1>KONTAKTAM</h1>
             <div class="lg">
                 <div class="lg__info">
                     <div class="content-box">
                         <div>
-                            <a href="#">
+                            <a href="/karjera">
                                 <div>
                                     <img src="./img/savanoris.jpg" alt="savanorystė">
                                     <h3>KARJERA</h3>
@@ -24,10 +24,10 @@
                             </a>
                         </div>
                         <div>
-                            <img src="./img/skim-sm.jpg" alt="skimboards">
+                            <img src="./img/parama.jpg" alt="skimboards">
                             <h3>PARAMA</h3>
-                            <h4>10€ - dvi valandos</h4>
-                            <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
+                            <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
+                            <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
                         </div>
                         <div>
                             <a href="#">
@@ -45,9 +45,11 @@
                     <div class="content-side">
                         <h2>APIE MUS</h2>
                         <img class="elastic" width="50%" src="/img/naujas-title.png" alt="banglente logo">
-                        <div class="rekvizitai">
+                        <div class="rekvizitai text-white">
                             <h3>VšĮ Banglentė</h3>
                             <h3>Vėtros g. 8, Klaipėda</h3>
+                            <h3>Tel. +370 686 02356</h3>
+                            <h3>El.p. sales@banglente.com</h3>
                             <h3>Įmonės kodas - 304105037</h3>
                             <h3>Bankas - LT227300010144594068</h3>
                         </div>
