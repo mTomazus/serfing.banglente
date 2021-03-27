@@ -9,23 +9,23 @@
             <div class="lg__info">
                 <div class="content-box">
                     <div class="career-list__item">
-                        <h3>surf instruktorius / asistentas</h3>
+                        <h3 class="job-hover">surf instruktorius / asistentas</h3>
                         <h3 class="col-5 text-danger blink text-center"><strong>IEŠKOME</strong></h3>
                     </div>
                     <div class="career-list__item">
-                        <h3>stovyklos vadovas / asistentas</h3>
+                        <h3 class="job-hover">stovyklos vadovas / asistentas</h3>
                         <h3 class="col-5 text-danger blink text-center"><strong>IEŠKOME</strong>
                     </div>
                     <div class="career-list__item">
-                        <h3>social media marketingistas</h3>
+                        <h3 class="job-hover">social media marketingistas</h3>
                         <h3 class="col-5 text-danger blink text-center"><strong>IEŠKOME</strong>
                     </div>
                     <div class="career-list__item">
-                        <h3>bazės administratorius</h3>
+                        <h3 class="job-hover">bazės administratorius</h3>
                         <h3 class="col-5 text-danger blink text-center"><strong>IEŠKOME</strong>
                     </div>
                     <div class="career-list__item">
-                        <h3>video ir photo operatorius</h3>
+                        <h3 class="job-hover">video ir photo operatorius</h3>
                         <h3 class="col-5 text-danger blink text-center"><strong>IEŠKOME</strong>
                     </div>
                 </div>
@@ -43,4 +43,4 @@
 
     </main>
 
-@centersection
+@endsection

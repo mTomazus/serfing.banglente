@@ -4,31 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Stovyklos Registracija</title>
+    <title>Pamokos Registracija</title>
 </head>
-<body>
+<body style="background: #7ac570;">
     
-    <div style="background: #4ac4e2;text-align: center;width: 320px;margin:auto;padding:.5rem;">
-        <h1>Stovyklos Registracija</h1>
-        <h2>from {{ $sendername }} {{ $sendersurname }}</h2>
+    <div style="text-align: center;width: 320px;margin:auto;padding:.5rem;">
+        <h1>Pamokos Registracija</h1>
+        <h2>from {{ $sendername }}</h2>
     </div> 
     <br>
     <div>
         <pre>
-            <table>
+            <table style="margin:auto;width:100%;text-align:left;">
                 <tr>
-                <th>Pamaina</th>
-                <th>Vardas Pavardė</th>
-                <th>Metai</th>
-                <th>Adresas</th>
+                <th>Paslauga</th>
+                <th>Vardas</th>
+                <th>Data</th>
                 <th>Telefonas</th>
                 <th>El.Paštas</th>
                 </tr>
                 <tr>
-                <td>{{ $senderpamaina }}</td>
-                <td>{{ $sendername }} {{ $sendersurname }}</td>
-                <td>{{ $senderage }}</td>
-                <td>{{ $senderaddress }}</td>
+                <td>{{ $senderpaslauga }}</td>
+                <td>{{ $sendername }}</td>
+                <td>{{ $senderdate }}</td>
                 <td>{{ $senderphone }}</td>
                 <td>{{ $senderemail }}</td>
                 </tr>

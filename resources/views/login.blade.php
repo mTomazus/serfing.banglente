@@ -2,13 +2,11 @@
 
 @section('content')
 
-    <div class="content bg-grad">
+    <div class="content bg-grad section">
         <div class="vh-92 container">
-            <div class="row col-sm-5 mx-auto mt-5 justify-content-center">
+            <div class="row col-sm-5 mx-auto justify-content-center">
                 <div class="mt-5 col-12">
-                    <div class="card">
-                        <div class="logo w-100 card-header bg-def text-white">
-                            <h6 style='font-family:"Anton", sans-serif;'>banglente</h6></div>
+                    <div>
                         <div class="card-body">
                             @livewire('login-register')
                         </div>

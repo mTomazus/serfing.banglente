@@ -7,14 +7,17 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class mailFromPamokos extends Mailable
+class mailReplyStovykla extends Mailable
 {
     use Queueable, SerializesModels;
 
-    protected $paslauga;
+    protected $pamaina;
     protected $name;
+    protected $surname;
     protected $address;
-    protected $date;
+    protected $age;
+    protected $swim;
+    protected $alergy;
     protected $email;
     protected $phone;
 
@@ -23,12 +26,15 @@ class mailFromPamokos extends Mailable
      *
      * @return void
      */
-    public function __construct($paslauga,$name,$address,$date,$email,$phone)
+    public function __construct($pamaina,$name,$surname,$address,$age,$swim,$alergy,$email,$phone)
     {
-        $this->paslauga = $paslauga;
+        $this->pamaina = $pamaina;
         $this->name = $name;
+        $this->surname = $surname;
         $this->address = $address;
-        $this->date = $date;
+        $this->age = $age;
+        $this->swim = $swim;
+        $this->alergy = $alergy;
         $this->email = $email;
         $this->phone = $phone;
     }
@@ -40,11 +46,14 @@ class mailFromPamokos extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email)->subject('Banglente Pamokos forma')->view('emails.fromPamokos')->with([
-            'senderpaslauga' => $this->paslauga,
+        return $this->from('sales@banglente.com')->subject('Banglenčių Stovyklos Registracija')->view('emails.fromReply')->with([
+            'senderpamaina' => $this->pamaina,
             'sendername' => $this->name,
+            'sendersurname' => $this->surname,
             'senderaddress' => $this->address,
-            'senderdate' => $this->date,
+            'senderage' => $this->age,
+            'senderswim' => $this->swim,
+            'senderalergy' => $this->alergy,
             'senderemail' => $this->email,
             'senderphone' => $this->phone,
         ]);

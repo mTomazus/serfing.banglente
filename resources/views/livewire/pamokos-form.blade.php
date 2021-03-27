@@ -28,7 +28,7 @@
             <input type="date" class="form-control" id="basic-date" aria-describedby="basic-date" placeholder="2021-06-22" wire:model="date">
         </div>
         @error('date') <span class="text-danger small error">{{ $message }}</span> @enderror
-        <div class="row">
+        <div class="row col-7">
             <div class="col">
             <input type="text" name="name" class="form-control" placeholder="Vardas Pavardė" aria-label="Full Name" wire:model="name">
             @error('name') <span class="text-danger small">{{ $message }}</span> @enderror

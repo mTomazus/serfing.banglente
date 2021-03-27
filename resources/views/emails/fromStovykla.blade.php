@@ -15,22 +15,22 @@
     <br>
     <div>
         <pre>
-            <table>
-                <tr>
-                <th>Pamaina</th>
-                <th>Vardas Pavardė</th>
-                <th>Metai</th>
-                <th>Adresas</th>
-                <th>Telefonas</th>
-                <th>El.Paštas</th>
+            <table style="margin:auto;width:100%;text-align:left;border: 2px solid grey;padding: 0.5rem;">
+                <tr style="background: khaki;">
+                    <th>Pamaina</th>
+                    <th>Vardas Pavardė</th>
+                    <th>Metai</th>
+                    <th>Adresas</th>
+                    <th>Telefonas</th>
+                    <th>El.Paštas</th>
                 </tr>
                 <tr>
-                <td>{{ $senderpamaina }}</td>
-                <td>{{ $sendername }} {{ $sendersurname }}</td>
-                <td>{{ $senderage }}</td>
-                <td>{{ $senderaddress }}</td>
-                <td>{{ $senderphone }}</td>
-                <td>{{ $senderemail }}</td>
+                    <td>{{ $senderpamaina }}</td>
+                    <td>{{ $sendername }} {{ $sendersurname }}</td>
+                    <td>{{ $senderage }}</td>
+                    <td>{{ $senderaddress }}</td>
+                    <td>{{ $senderphone }}</td>
+                    <td>{{ $senderemail }}</td>
                 </tr>
             </table>
         </pre>

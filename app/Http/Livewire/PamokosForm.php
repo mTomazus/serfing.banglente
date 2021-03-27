@@ -4,6 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Pamokos;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\mailFromPamokos;
 
 class PamokosForm extends Component
 {
@@ -27,6 +29,8 @@ class PamokosForm extends Component
         ]);
    
         Pamokos::create($validatedData);
+
+        Mail::to('sales@banglente.com')->send(new mailFromPamokos($this->paslauga, $this->name, $this->address, $this->date, $this->email, $this->phone));
            
         $this->reset(['name', 'email', 'address', 'date', 'phone']);
         session()->flash('message', 'Jūsų registracija sėkmingai išsiųsta!');

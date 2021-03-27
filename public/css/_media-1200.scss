@@ -60,8 +60,18 @@
         position: relative;
         z-index: 1;
         color: inherit;
+        margin-bottom: 0;
+        box-shadow: none;
     }
-
+    .job-hover {
+        &:hover {
+            transform: translateX(50px);
+            transition: all 0.5s ease;
+        }
+        & {
+            transition: all 0.5s ease;
+        }
+    }
     .content {
         margin-top: 8vh;
         min-height: 92vh;
@@ -304,6 +314,40 @@
                 float: left;
                 margin-right: 1rem;
             }
+        }
+    }
+    .career-list__item {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-color: #d3dbe3;
+        border-style: solid;
+        border-width: 1px 0;
+        margin-top: -1px;
+        position: relative;
+        z-index: 1;
+        color: inherit;
+        margin-bottom: 0;
+        box-shadow: none;
+    }
+    .job-hover {
+        &:hover {
+            transform: translateX(50px);
+            transition: all 0.5s ease;
+        }
+        & {
+            transition: all 0.5s ease;
+        }
+    }
+    .varzybos img{
+        width: 25%;
+        margin: 1rem;
+        box-shadow: none;
+        transition:all 0.5s ease-in-out ;
+        &:hover{
+            transform: scale(1.2);
         }
     }
 }
