@@ -10,10 +10,12 @@
                 <div>
                     <h3>Molas Surf Longboard Classic 2021</h1>
                     <h4>Liepos 1 - Rugpjūčio 31</h4>
-                    <h3>Dvi grupės</h3>
-                    <h3>Max 12 dalyvių</h3>
-                    <h3>Vyrai ir moterys</h3>
-                    <h3>Min 9' lentos</h3>
+                    <div class="ms-4">
+                        <h6>Du pogrupiai - vyrai ir moterys</h6>
+                        <h6>Max 12 dalyvių pogrupyje</h6>
+                        <h6>Klasikinis longboardų vertinimas</h6>
+                        <h6>Min 9' lentos</h6>
+                    </div>
                 </div>
             </div>
             <div class="content-side">
