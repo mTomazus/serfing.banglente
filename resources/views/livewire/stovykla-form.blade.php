@@ -85,7 +85,7 @@
             @error('phone') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
         <div class="text-center pb-3">
-            <button  type="submit" name="submit" class="btn btn-primary ml-2 col-3" >Registruoti</button>
+            <button  type="submit" name="submit" class="btn btn-primary ml-2 col-5" >Registruoti</button>
         </div>
     </form>
 </div>

@@ -61,7 +61,6 @@
                 </div>
                 <button class="w-100 mb-3 mt-5 btn btn-lg btn-primary" wire:click.prevent="login" type="submit">Sign in</button>
                 <div class="col-md-12 mt-1">Don't have account? <a class="text-dark" wire:click.prevent="register">Register Here</a></div>
-                <a wire:click.prevent="logout">Logout</a>
             </form>
         </main>
     </div>

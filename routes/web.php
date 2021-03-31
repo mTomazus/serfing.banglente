@@ -49,6 +49,11 @@ Route::get('login', function () {
     return view('login');
 })->name('login');
 
+Route::get('logout', function(){
+    Auth::logout();
+    return Redirect::to('login');
+ })->name('logout');
+
 Route::get('table', function () {
         
     if (Gate::allows('admin-only', Auth::user())) {

@@ -29,7 +29,7 @@
                             <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
                             <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
                         </div>
-                        <div>
+                        <div class="mb-0">
                             <a href="#">
                                 <div>
                                     <img src="./img/dokumentai.jpg" alt="ataskaitos">
@@ -57,19 +57,12 @@
                         @livewire('contact-form')
                     </div>
                 </div>
-                <div>
+                <div class="mb-5">
                     <iframe width="100%" height="300" frameborder="2" scrolling="no" marginheight="4rem" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Vėtros%20g.%208%20Klaipėda+(Banglente)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 </div>
             </div>
             
             <div class="sm">
-                <div class="rekvizitai">
-                    <img class="elastic" src="/img/naujas-title.png" alt="banglente logo">
-                    <h2>VšĮ Banglentė</h2>
-                    <h2>Vėtros g. 8, Klaipėda</h2>
-                    <h2>Įmonės kodas - 304105037</h2>
-                    <h2>Bankas - LT227300010144594068</h2>
-                </div>
                 <div class="menu">
                     <ul>
                         <a href="#">karjera</a>
@@ -77,9 +70,17 @@
                         <a href="#">ataskaitos</a>
                     </ul>
                 </div>
-                <div>
-                    <h3 class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa rerum distinctio, non voluptatum qui enim veritatis?
-                    At autem deserunt exercitationem consequatur.</h3>
+                <div class="rekvizitai mb-4 mt-3">
+                    <img class="elastic" src="/img/naujas-title.png" alt="banglente logo">
+                    <h2 class="text-white">VšĮ Banglentė</h2>
+                    <h2 class="text-white">Vėtros g. 8, Klaipėda</h2>
+                    <h2 class="text-white">Įmonės kodas - 304105037</h2>
+                    <h2 class="text-white">Bankas - LT227300010144594068</h2>
+                </div>
+
+                <div class="col-11 mb-3 mx-auto">
+                    <h2 class="text-white">SUSISIEKITE</h2>
+                    @livewire('contact-form')
                 </div>
             </div>
 

@@ -146,7 +146,7 @@
         font-weight: 900;
         justify-content: space-around;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: 100%;
         background-color: rgb(74, 82, 82);
         text-align: center;
@@ -176,11 +176,9 @@
                 color: white;
                 box-sizing: border-box;
                 text-shadow: none;
-                border: 3px solid;
-                padding: .375rem .75rem;
-                font-size: 1.3rem;
-                margin-right: -.4rem;
-                border-radius: .25rem;
+                border: 2px solid;
+                padding: 0.1rem 0.3rem;
+                font-size: 1.1rem;
                 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
             }
             a:hover {

@@ -25,13 +25,13 @@
                     <img src="./img/hidro-sm.jpg" alt="hidrokostiumai wetsuits">
                     <h3>HIDROKOSTIUMAS</h3>
                     <h4>5€ - dvi valandos</h4>
-                    <h4>Idealiai tinka pradedantiesiems ar tiems, kurie nori prisiminti pagrindus ir techniką. Pamoka kartu su mumis reiškia, kad mokotės iš geriausių, kad galėtumėte tapti geriausiais.</h4>
+                    <h4>Įvairių dydžių, šilti 5/4 mm. vyriški, moteriški ir vaikiški hidrokostiumų nuoma. Vandens temparatūrai pasiekus bent 13 laipsnių su 5mm. hidrokostiumu, batais ir kapišonu visiškai nešalta</h4>
                 </div>
                 <div>
                     <img src="./img/skate-sm.jpg" alt="riedlentes skateboards">
                     <h3>RIEDLENTĖ</h3>
                     <h4>10€ - dvi valandos</h4>
-                    <h4>Geriausiai tinka 2 asmenims - draugams ar draugėms, poroms ar artimiesiems. Čia mes pristatysime Jums saugumo ir serfingo pagrindus, irklavimo techniką bei atsistojimo būdus.</h4>
+                    <h4>Surf skeitai - puiki pramoga ir labai gera banglenčių treniruočių priemonė. Turime visų populiariausių brandų surf riedlentes - Carver, SmoothStar ir Miller. Būtinai išmėginkite!</h4>
                 </div>
                 <div>
                     <img src="./img/skim-sm.jpg" alt="skimboards">

@@ -1,4 +1,4 @@
-<div class="bg-white mx-auto">    
+<div class="mx-auto">    
 
         <div>
             @if (session()->has('message'))

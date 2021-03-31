@@ -42,7 +42,9 @@
               <a href="/table">Lentelė</a>
             </li>
           @endcan
-
+          <li>
+            <a href="/logout">Logout</a>
+          </li>
         @endif
 
       </ul>
