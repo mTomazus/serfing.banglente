@@ -50,5 +50,15 @@ Route::get('login', function () {
 })->name('login');
 
 Route::get('table', function () {
-    return view('table');
-})->middleware('auth');
+        
+    if (Gate::allows('admin-only', Auth::user())) {
+    
+        return view('table');
+    
+    }else{
+
+        return view('home');
+
+    }
+    
+});

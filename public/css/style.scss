@@ -59,11 +59,11 @@ h1, p, h2 {
   }
   .blink{
       text-decoration: blink;
-      -webkit-animation-name: blink;
-      -webkit-animation-duration: 0.6s;
-      -webkit-animation-iteration-count:infinite;
-      -webkit-animation-timing-function:ease-in-out;
-      -webkit-animation-direction: alternate;
+      animation-name: blink;
+      animation-duration: 0.6s;
+      animation-iteration-count:infinite;
+      animation-timing-function:ease-in-out;
+      animation-direction: alternate;
   }
 
 //----- gradient background ------

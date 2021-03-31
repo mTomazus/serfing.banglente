@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="content bg-grad">
+    <div class="section content bg-grad">
 
         <livewire:data-table />
         

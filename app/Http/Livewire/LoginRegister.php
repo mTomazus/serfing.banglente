@@ -10,7 +10,6 @@ class LoginRegister extends Component
 {
     public $users, $email, $password, $name;
     public $registerForm = false;
-    public $loginForm = false;
 
     public function render()
     {
@@ -29,8 +28,7 @@ class LoginRegister extends Component
         ]);
         
         if(\Auth::attempt(array('email' => $this->email, 'password' => $this->password))){
-                session()->flash('message', "You are Login successful.");
-                $this->loginForm = !$this->loginForm;
+            session()->flash('message', "You are Login successful.");
         }else{
             session()->flash('error', 'email and password are wrong.');
         }
@@ -41,7 +39,18 @@ class LoginRegister extends Component
         $this->registerForm = !$this->registerForm;
     }
 
-    public function registerStore()
+    public function logout(Request $request)
+    {
+        Auth::logout();
+    
+        $request->session()->invalidate();
+    
+        $request->session()->regenerateToken();
+    
+        return redirect('/');
+    }
+
+    public function registerUser()
     {
         $validatedDate = $this->validate([
             'name' => 'required',
