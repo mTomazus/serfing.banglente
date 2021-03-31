@@ -1,6 +1,6 @@
 <header>
 
-    <nav>v>
+    <nav>
 
       <div class="logo">
         <h6>ADMIN PANEL</h6>
