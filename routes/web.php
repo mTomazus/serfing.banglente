@@ -58,7 +58,7 @@ Route::get('table', function () {
         
     if (Gate::allows('admin-only', Auth::user())) {
     
-        return view('table');
+        return view('kontaktai-table');
     
     }else{
 

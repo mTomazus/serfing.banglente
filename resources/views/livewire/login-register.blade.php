@@ -1,4 +1,5 @@
 <div>
+
     <div class="row">
         <div class="col-md-12">
             @if (session()->has('message'))
@@ -37,7 +38,7 @@
 
                 <button class="w-100 btn mt-5 btn-lg btn-success" wire:click.prevent="registerUser" type="submit">Register</button>
 
-                <div class="col-md-12 mt-3"><a class="text-dark" wire:click.prevent="login">Login</a></div>
+                <div class="col-md-12 mt-3"><a class="text-dark" wire:click.prevent="register">Login</a></div>
 
             </form>
         </main>

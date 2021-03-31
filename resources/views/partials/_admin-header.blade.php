@@ -1,13 +1,9 @@
 <header>
 
-    <nav>
-
-      <div class="logo-pic">
-        <a href="/"><img src="img/logo-7.png" title="banglente.com - ismok plaukti banlente." alt="banglente ir banglentes"></a>
-      </div>
+    <nav>v>
 
       <div class="logo">
-        <h6>Banglentė</h6>
+        <h6>ADMIN PANEL</h6>
       </div>
 
       <div class="knopkes">
@@ -34,17 +30,14 @@
       </div>
 
       <ul class="nav-links">
-        <li><a href="/pamokos">Pamokos</a></li>
-        <li><a href="/nuoma">Nuoma</a></li>
-        <li><a href="/stovykla">Stovykla</a></li>
-        <li><a href="#">Būrelis</a></li>
-        <li><a href="/varzybos">Varžybos</a></li>
-        <li><a href="/contacts">Kontaktai</a></li>
+        <li><a href="/pamokos-table">Pamokos</a></li>
+        <li><a href="/stovykla-table">Stovykla</a></li>
+        <li><a href="/kontaktai-table">Kontaktai</a></li>
 
         @if (Auth::check())
           @can('admin-only', Auth::user())
             <li>
-              <a href="/table">Lentelė</a>
+              <a href=#>Lentelė</a>
             </li>
           @endcan
           <li>

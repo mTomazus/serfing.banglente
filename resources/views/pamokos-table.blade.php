@@ -1,10 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 
     <div class="section content bg-grad">
 
-        <livewire:data-table />
+        <livewire:stovykla-table />
         
     </div>
     
