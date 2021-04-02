@@ -17,23 +17,23 @@
                 <th class="px-4 py-2">Sukurta</th>
             </tr>
     
-            @foreach ($lines3 as $line3)
+            @foreach ($lines as $line)
                 <tr>
-                    <td class="border px-4 py-2">{{ $line3->pamaina }}</td>
-                    <td class="border px-4 py-2">{{ $line3->name }}</td>
-                    <td class="border px-4 py-2">{{ $line3->surname }}</td>
-                    <td class="border px-4 py-2">{{ $line3->age }}</td>
-                    <td class="border px-4 py-2">{{ $line3->address }}</td>
-                    <td class="border px-4 py-2">{{ $line3->phone }}</td>
-                    <td class="border px-4 py-2">{{ $line3->email }}</td>
-                    <td class="border px-4 py-2">{{ $line3->created_at }}</td>
+                    <td class="border px-4 py-2">{{ $line->pamaina }}</td>
+                    <td class="border px-4 py-2">{{ $line->name }}</td>
+                    <td class="border px-4 py-2">{{ $line->surname }}</td>
+                    <td class="border px-4 py-2">{{ $line->age }}</td>
+                    <td class="border px-4 py-2">{{ $line->address }}</td>
+                    <td class="border px-4 py-2">{{ $line->phone }}</td>
+                    <td class="border px-4 py-2">{{ $line->email }}</td>
+                    <td class="border px-4 py-2">{{ $line->created_at }}</td>
                     
                 </tr>
             @endforeach
         
         </table>
 
-        {!! $lines2->links() !!}
+        {!! $lines->links() !!}
 
     </div>
     

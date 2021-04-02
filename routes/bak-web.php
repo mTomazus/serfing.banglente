@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controller;
-use Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +28,7 @@ Route::get('pamokos', function () {
 
 Route::get('stovykla', function () {
     return view('stovykla');
-})->name('stovykla');
+});
 
 Route::get('nuoma', function () {
     return view('nuoma');
@@ -52,33 +50,64 @@ Route::get('login', function () {
 })->name('login');
 
 
-
-Route::get('logout', function() {
+Route::get('logout', function(){
     Auth::logout();
-    return Redirect::to('login');
+    return Redirect::to('home');
  })->name('logout');
 
 
-Route::middleware('auth')->group(function () {
+Route::get('contacts-table', function () {
+    return view('contacts-table');
+})->name('admin-home')->middleware('admin');
 
-     Route::get('user', 'App\Http\Controllers\User\HomeController@index')->name('user-home');
 
+
+Route::get('stovykla-table', function () {
+        
+    if (Gate::allows('admin-only', Auth::user())) {
+    
+        return view('stovykla-table');
+    
+    }else{
+
+        return view('home');
+
+    }
+    
+});
+
+Route::get('pamokos-table', function () {
+        
+    if (Gate::allows('admin-only', Auth::user())) {
+    
+        return view('pamokos-table');
+    
+    }else{
+
+        return view('home');
+
+    }
+    
 });
 
 
-Route::middleware(['auth', 'admin'])->group(function () {
 
-    Route::get('admin', 'App\Http\Controllers\Admin\HomeController@index')->name('admin-home');
 
-    Route::get('stovykla-table', function () { return view('admin.stovykla-table'); });
+Route::group([
+    'prefix' => 'admin',
+    'as' => 'admin.',
+    'namespace' => 'Admin',
+    'middleware' => ['auth', 'IsAdmin']
+ ], function () {
+     Route::get('/', HomeController::class, 'index')->name('home');
+ });
 
-    Route::get('pamokos-table', function () {
-        return view('admin.pamokos-table');
-    });
-
-    Route::get('contacts-table', function () {
-        return view('admin.contacts-table');
-    });
-
-});
+ Route::group([
+    'prefix' => 'user',
+    'as' => 'user.',
+    'namespace' => 'User',
+    'middleware' => ['auth']
+ ], function () {
+     Route::get('/', HomeController::class, 'index')->name('home');
+ });
 

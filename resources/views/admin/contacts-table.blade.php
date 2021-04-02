@@ -4,7 +4,7 @@
 
     <div class="section content bg-grad">
 
-        <livewire:kontaktai-table />
+        <livewire:contacts-table />
         
     </div>
     

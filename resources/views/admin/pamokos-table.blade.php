@@ -4,7 +4,7 @@
 
     <div class="section content bg-grad">
 
-        <livewire:stovykla-table />
+        <livewire:pamokos-table />
         
     </div>
     

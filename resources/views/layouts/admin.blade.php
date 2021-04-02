@@ -5,11 +5,11 @@
 
     <body>
 
-        @include('partials._header')
+        @include('partials.admin._header')
 
         @yield('content')
 
-        @include('partials._scripts')
+        @include('partials.admin._scripts')
     
         @livewireScripts
         

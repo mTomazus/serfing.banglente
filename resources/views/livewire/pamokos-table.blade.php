@@ -33,7 +33,7 @@
         
         </table>
 
-        {!! $lines2->links() !!}
+        {!! $lines->links() !!}
         
     </div>
     
