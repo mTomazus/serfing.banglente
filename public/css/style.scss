@@ -32,7 +32,9 @@ body{
 h1, p, h2 {
     @include main-text;
 }
-
+a {
+    text-decoration: none;
+}
 .fp-right {
     right: 0;
 }
@@ -194,4 +196,4 @@ ul span {
 @import 'accordion';
 @import 'media-1200';
 @import 'media-576';
-@import 'media-420';
+@import 'media-480';
