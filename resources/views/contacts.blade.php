@@ -6,8 +6,8 @@
     <!-------- Sekcija KONTAKTAI -------->
     <!----------------------------------->
 
-    <div class="content section contacts-page">
-        <div class="contacts__content bg-grad">
+    <div class="bg-grad section contacts-page">
+        <div class="contacts__content content">
             <h1>KONTAKTAM</h1>
             <div class="lg">
                 <div class="lg__info">

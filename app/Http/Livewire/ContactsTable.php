@@ -15,7 +15,7 @@ class ContactsTable extends Component
     public function render()
     {
         return view('livewire.contacts-table',[
-            'lines'=>Contact::simplePaginate(5),
+            'lines'=>Contact::simplePaginate(12),
         ]);
     }
 }

@@ -2,30 +2,23 @@
 
     <div class="col-10 mx-auto mt-4">
 
-        <h2>KONTAKTAI</h2>
-
-        <table>
-        
-            <tr>
-                <th class="px-4 py-2">ID</th>
-                <th class="px-4 py-2">Vardas</th>
-                <th class="px-4 py-2">El.paštas</th>
-                <th class="px-4 py-2">Žinutė</th>
-                <th class="px-4 py-2">Sukurta</th>
-            </tr>
-    
+        <h2 class="col-12">KONTAKTAI</h2>
+        <div class="d-flex flex-wrap justify-content-between my-3">
             @foreach ($lines as $line)
-                <tr>
-                    <td class="border px-4 py-2">{{ $line->id }}</td>
-                    <td class="border px-4 py-2">{{ $line->name }}</td>
-                    <td class="border px-4 py-2">{{ $line->email }}</td>
-                    <td class="border px-4 py-2">{{ $line->message }}</td>
-                    <td class="border px-4 py-2">{{ $line->created_at }}</td>
-                    
-                </tr>
+                <div class='col-lg-3 mx-1 mb-3 container bg-white border border-dark'>
+                    <div class="row p-2">
+                        <div class="col-3 d-flex"><h2>{{ $line->id }}</h2></div>
+                        <div class="col-9">
+                            <div>{{ $line->name }}</div>
+                            <div>{{ $line->email }}</div>
+                            <div>{{ $line->created_at }}</div>
+                        </div>
+                    </div>
+                    <div class="h5 p-2">{{ $line->message }}</div>
+                </div>
             @endforeach
-    
-        </table>
+        </div>
+        
         {!! $lines->links() !!}
     </div>
     

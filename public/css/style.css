@@ -652,7 +652,7 @@ button:hover {
   h1 {
     line-height: 11vh;
     font-size: 13vh;
-    margin: 5vh auto;
+    margin: 1rem auto;
   }
 
   .link {
