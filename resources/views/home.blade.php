@@ -12,6 +12,7 @@
             <div class="content landing__first">
                 <div class="heading">
                     <h1>LAIKAS IŠMOKTI SERFINTI</h1>
+                    <h2 class="mb-3">Viskas tam paruošta mūsų mokykloje!</h2>
                 </div>
                 <a href="/pamokos">
                     <button>REGISTUOKIS</button>
@@ -34,17 +35,15 @@
         <div class="s2 section">
             <div class="landing__second content">
                 <div class="heading">
-                    <h1>PAMOKOS</h1>
-                    <h1>NUOMA</h1>
-                    <h2>ČIA TIK VISKO PRADŽIA</h2>
+                    <h1>SURF INVENTORIAUS NUOMA</h1>
+                    <h2 class="mb-3">DIDŽIAUSIAS PASIRINKIMAS PABALTYJE</h2>
                 </div>
                 <a href="/nuoma">
-                    <button>REGISTUOKIS</button>
+                    <button>SPŪSTELK ČIA</button>
                 </a>
-                <div class="s3-apacia">
-                    <h2>DIDELIS LENTŲ PASIRINKIMAS</h3>
-                    <h2>BANGLENTĖS - RIEDLENTĖS</h2>
-                    <h2>IRKLENTĖS - HIDROKOSTIUMAI</h2>
+                <div class="mt-3 s3-apacia">
+                    <h2>BANGLENTĖS - RIEDLENTĖS - IRKLENTĖS</h2>
+                    <h2>VYRIŠKI, MOTERIŠKI ir VAIKIŠKI HIDROKOSTIUMAI</h2>
                 </div>
             </div>
         </div>    <!--- end Sekcija 2  --->
@@ -55,7 +54,7 @@
 
         <div class="s3 section">
             <div class="landing__third content">
-                <div class="heading">
+                <div class="heading mb-3">
                     <h1>VASAROS DIENOS STOVYKLA</h1>
                     <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
                     <h2>GRYNAS ORAS IR JŪRA</h2>
@@ -63,7 +62,7 @@
                 <a href="/stovykla">
                     <button>REGISRUOKIS</button>                      
                 </a>
-                <div class="s3-apacia">
+                <div class="s3-apacia mt-3">
                     <h2>RUDENIOP</h2>
                     <h1>BANGLENČIŲ</h1>
                     <h2>SPORTO BŪRELIS</h2>

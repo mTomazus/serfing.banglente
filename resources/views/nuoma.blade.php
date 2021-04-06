@@ -37,13 +37,13 @@
                     <img src="./img/skim-sm.jpg" alt="skimboards">
                     <h3>SKIM BOARDAS</h3>
                     <h4>10€ - dvi valandos</h4>
-                    <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
+                    <h4>Mažesnė nei banglentė, neturi pelekų ir skirta čiuožti negiliu vandeniu. Viskas prasideda paplūdimyje, metant lntą ant vandens :)</h4>
                 </div>
                 <div>
                     <img src="./img/body-sm.jpg" alt="puslentės bodyboard">
                     <h3>PUSLENTĖ</h3>
                     <h4>10€ - dvi valandos</h4>
-                    <h4>Ši serfingo pamoka tinka tiek naujokams tiek pažengusiems ir su orientuocija į pastioviai daromas esmines klaidas ir kilstelėtų Jūsų techniką į naują lygį. Jei ieškote vertos pamokos - Jūs ją radote.</h4>
+                    <h4>Puiki priemone suprasti bangų gaudymo mechaniką ir čiuožimo nuo bangos dinamiką.</h4>
                 </div>
             </div>
             <div class="content-side">

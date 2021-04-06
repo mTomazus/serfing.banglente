@@ -115,15 +115,41 @@
             margin: 5rem auto 0;
         }
     }
+    .landing__first {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        max-height: 40%;
+        min-height: auto!important;
+        margin: 2rem;
+        h1 {
+            line-height: 1rem;
+        }
+    }
     .landing__second {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-height: 40%;
+        min-height: auto!important;
+        margin: 2rem;
+        h1 {
+            line-height: 1rem;
+        }
         img {
             text-align: center;
             filter: invert(1);
         }
     }
-    .landing__third, .s3-apacia {
-        h2:nth-child(1) {
-            margin: 4rem auto 0;
+    .landing__third {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        max-height: 40%;
+        min-height: auto!important;
+        margin: 2rem;
+        h1 {
+            line-height: 1rem;
         }
     }
 

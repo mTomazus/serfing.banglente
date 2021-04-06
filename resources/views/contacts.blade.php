@@ -6,9 +6,10 @@
     <!-------- Sekcija KONTAKTAI -------->
     <!----------------------------------->
 
-    <div class="bg-grad section contacts-page">
-        <div class="contacts__content content">
+    <div class="bg-grad section content contacts-page">
+        <div class="contacts__content">
             <h1>KONTAKTAM</h1>
+
             <div class="lg">
                 <div class="lg__info">
                     <div class="content-box">
@@ -63,14 +64,14 @@
             </div>
             
             <div class="sm">
-                <div class="menu">
+                <div class="menu my-4 py-2">
                     <ul>
                         <a href="#">karjera</a>
                         <a href="#">parama</a>
                         <a href="#">ataskaitos</a>
                     </ul>
                 </div>
-                <div class="rekvizitai mb-4 mt-3">
+                <div class="rekvizitai my-4 py-3">
                     <img class="elastic" src="/img/naujas-title.png" alt="banglente logo">
                     <h2 class="text-white">VšĮ Banglentė</h2>
                     <h2 class="text-white">Vėtros g. 8, Klaipėda</h2>
@@ -78,7 +79,7 @@
                     <h2 class="text-white">Bankas - LT227300010144594068</h2>
                 </div>
 
-                <div class="col-11 mb-3 mx-auto">
+                <div class="col-11 my-4 py-3 mx-auto">
                     <h2 class="text-white">SUSISIEKITE</h2>
                     @livewire('contact-form')
                 </div>

@@ -35,6 +35,10 @@ a {
   min-height: 92vh;
 }
 
+.w-90 {
+  width: 90% !important;
+}
+
 .bg-def {
   background-image: linear-gradient(to right, #2f78a8, #114161);
 }
@@ -139,7 +143,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 90%;
   color: black;
   padding: 0;
   margin: auto;
@@ -514,20 +518,16 @@ nav {
   }
 }
 button {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Alegreya", serif;
   font-size: 3vh;
-  padding: 2vh 6vh;
+  padding: 1vh 7vh;
   font-weight: 900;
-  border: 3px solid white;
   color: black;
   margin: 0 auto;
-  box-shadow: 1px 1px 3px #23a3ec;
   background: white;
   display: block;
   width: auto;
-  border-radius: 10px;
   transition: all 0.6s ease-in-out;
-  -webkit-transition-duration: 0.4s;
   transition-duration: 0.6s;
   cursor: pointer;
 }
@@ -776,13 +776,44 @@ button:hover {
     margin: 5rem auto 0;
   }
 
+  .landing__first {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 40%;
+    min-height: auto !important;
+    margin: 2rem;
+  }
+  .landing__first h1 {
+    line-height: 1rem;
+  }
+
+  .landing__second {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 40%;
+    min-height: auto !important;
+    margin: 2rem;
+  }
+  .landing__second h1 {
+    line-height: 1rem;
+  }
   .landing__second img {
     text-align: center;
     filter: invert(1);
   }
 
-  .landing__third h2:nth-child(1), .s3-apacia h2:nth-child(1) {
-    margin: 4rem auto 0;
+  .landing__third {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 40%;
+    min-height: auto !important;
+    margin: 2rem;
+  }
+  .landing__third h1 {
+    line-height: 1rem;
   }
 
   .stars svg {
@@ -1211,7 +1242,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: #4a5252;
     text-align: center;
     text-shadow: 0 0.2rem 0.5rem #00000075;
     color: white;
