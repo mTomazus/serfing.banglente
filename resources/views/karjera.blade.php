@@ -44,3 +44,19 @@
     </main>
 
 @endsection
+
+@section('meta')
+
+    <title>Banglenčių mokykla - karjera ir savanorystė</title>
+    <link rel="canonical" href="https://www.serfingas.lt/karjera/">
+    <meta name="description" content="Darbas ir savanorystė banglenčių sporto mokykloje">
+    <meta name="keywords" content="savanoryste, darbas, banglentės, banglente, surf, job, vasaros darbas">
+
+@endsection
+
+@section('scripts')
+
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+@endsection

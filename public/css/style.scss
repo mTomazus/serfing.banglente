@@ -28,6 +28,7 @@ $hover-color :#23a3ec;
 body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro';
+    cursor: default
 }
 h1, p, h2 {
     @include main-text;

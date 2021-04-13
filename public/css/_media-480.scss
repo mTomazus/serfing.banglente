@@ -6,7 +6,7 @@
     h1, h6 {
         margin-top: 1rem;
         font-size: 3.5rem;
-        line-height: 2.5rem;
+        line-height: 3.2rem;
     }
     h2 {
         margin: auto;
@@ -22,6 +22,9 @@
         font-size: 1.3rem;
         line-height: 2rem;
         color: $text-color;
+    }
+    .w-90 {
+        width: 90vw;
     }
     header {
         bottom: 0;
@@ -78,21 +81,6 @@
             font-size: 1rem;
         }
     } 
-    .nuoma {
-        color: $text-color;
-        h3 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        letter-spacing: 4px;
-        }
-        img {
-            width: 90%;
-            margin: 5%;
-        }
-    }
-    .rent img {
-        width: 60%;
-    }
     .camp {
         color: white;
         h2 {
@@ -106,7 +94,6 @@
     .content {
         overflow: hidden;
         padding-bottom: 8vh;
-        height: 92vh;
         flex-direction: column;
         display: flex;
         justify-content: space-around;
@@ -254,13 +241,9 @@
     }
     .content {
         overflow: scroll;
-        padding-bottom: 0%;
     }
     .content::-webkit-scrollbar {
         display: none;
-    }
-    .content--scroll {
-        height: 100%;
     }
 
 //----------- nuoma page specific --------------
@@ -276,10 +259,27 @@
         text-decoration-color: $alt-text-color;
         color: $alt-text-color;
     }
+    .nuoma {
+        color: $text-color;
+        height: 100vh;
+        h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 4px;
+        }
+        img {
+            width: 90%;
+            margin: 5%;
+        }
+    }
+    .rent img {
+        width: 60%;
+    }
 
 //---------- varzybos page specific -------------
 
     .varzybos {
+        height:100vh;
         h4 {
             text-align: center;
         }
@@ -302,23 +302,19 @@
             justify-content: space-evenly;
             flex-wrap: wrap;
             align-items: center;
-            width: 90vw;
             img:nth-child(1) {
-                height: 120px;
+                height: 40px;
                 filter: brightness(0) invert(0);
             }
             img:nth-child(2) {
-                height: 94px;
+                height: 25px;
                 filter: brightness(0) invert(0);
             }
             img:nth-child(3) {
-                height: 153px;
+                height: 55px;
             }
             img:nth-child(4) {
-                height: 90px;
-            }
-            img {
-                zoom: 0.4;
+                height: 30px;
             }
         }
 

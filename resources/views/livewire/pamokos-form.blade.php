@@ -11,10 +11,10 @@
             @endif
         </div>
 
-        <div class="row align-items-center wi-80">
+        <div class="row my-3 align-items-center wi-80">
             <div>
                 <select class="form-select" name="pamoka" wire:model="paslauga">
-                    <option value="-1">pasirinkite jūs dominančią paslaugą...</option>
+                    <option value="-1">pasirinkite paslaugą...</option>
                     <option value="pamokų paketas">Pamokų paketas</option>
                     <option value="privati pamoka">Privati pamoka</option>
                     <option value="grupinė pamoka">Grupinė pamoka</option>
@@ -23,24 +23,24 @@
                 </select>                          
             </div>
         </div>
-        <div class="input-group wi-80">
-            <span class="input-group-text" id="basic-date">pageidaujama data nuo...</span>
+        <div class="input-group my-3 wi-80">
+            <span class="input-group-text" id="basic-date">data nuo...</span>
             <input type="date" class="form-control" id="basic-date" aria-describedby="basic-date" placeholder="2021-06-22" wire:model="date">
         </div>
         @error('date') <span class="text-danger small error">{{ $message }}</span> @enderror
-        <div class="row col-7">
+        <div class="row my-3 col-9">
             <div class="col">
             <input type="text" name="name" class="form-control" placeholder="Vardas Pavardė" aria-label="Full Name" wire:model="name">
             @error('name') <span class="text-danger small">{{ $message }}</span> @enderror
             </div>
         </div>
-        <div class="row">
+        <div class="row my-3">
             <div class="col">
                 <input type="text" name="address" class="form-control" id="zip" placeholder="Adresas" wire:model="address">
                 @error('address') <span class="text-danger small">{{ $message }}</span> @enderror
             </div>
         </div>   
-        <div class="row">
+        <div class="row my-3">
             <div class="col-5">
                 <input type="tel" name="phone" class="form-control" id="floatingInput" placeholder="Telefono numeris" wire:model="phone">
                 @error('phone') <span class="text-danger small">{{ $message }}</span> @enderror
@@ -50,7 +50,7 @@
                 @error('email') <span class="text-danger small">{{ $message }}</span> @enderror
             </div>
         </div>
-        <div class="col-auto mb-3">
+        <div class="my-3 col-auto text-center mb-3">
             <button type="submit" class="btn btn-primary ">REGISTRUOTI</button>
         </div>
     </form>

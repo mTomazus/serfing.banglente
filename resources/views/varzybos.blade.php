@@ -21,10 +21,10 @@
             <div class="content-side">
                 <h2>REMĖJAI</h2>
                 <div class="bg-white mb-4">
-                    <img src="./img/ateik.png" alt="">
-                    <img src="./img/klaiped.png" alt="">
-                    <img src="./img/oneill.svg" alt="">                
-                    <img src="./img/kl.jpeg" alt="">
+                    <img src="/img/ateik.png" alt="">
+                    <img src="/img/klaiped.png" alt="">
+                    <img src="/img/oneill.svg" alt="">                
+                    <img src="/img/kl.jpeg" alt="">
                 </div>
                 <h2>VIETA</h2>
                     <div class="bg-white mb-4 p-2">
@@ -49,13 +49,30 @@
         <div class="remejai">
             <h2>REMĖJAI</h2>
             <section>
-                <img src="./img/ateik.png" alt="">
-                <img src="./img/oneill.png" alt="">
-                <img src="./img/klaiped.png" alt="">
-                <img src="./img/kl.jpeg" alt="">
+                <img src="/img/ateik.png" alt="">
+                <img src="/img/oneill.png" alt="">
+                <img src="/img/klaiped.png" alt="">
+                <img src="/img/kl.jpeg" alt="">
             </section>
         </div>
     </div>
 </div>
 
+@endsection
+
+@section('meta')
+
+    <title>Banglentė - mokomes serfinti Lietuvoje</title>
+    <link rel="canonical" href="https://www.serfingas.lt/varzybos/">
+    <meta name="description" content="Banglenčių sporto varžybos jau nuo 2016, kiekvienais metai organizuojame tradicinį Klaipėdos renginį">
+    <meta name="keywords" content="banglentes, SUP, bodyboardai, banglenčių nuoma, mokykla, nuoma, varžybos, lietuva, hidrokostiumai, riedlentės, melnrage, klaipeda, molas, surf, spotas">
+
+@endsection
+
+@section('scripts')
+
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/carousel.js"></script>
+    
 @endsection

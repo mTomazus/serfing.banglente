@@ -18,14 +18,14 @@
                     <div class="content-box">
                         <p>Mes jau penktus metus veikianti banglenčių mokykla Melnragėje.</p>
                         <article>
-                            <img src="./img/camp2-300.jpg" class="float-start me-3" alt="vaikų stovykla">
+                            <img src="/img/camp2-300.jpg" class="float-start me-3" alt="vaikų stovykla">
                             <p>Penktus metus organizuojame stovyklas vaikams.</p>
                             <p>Stovykla organizuojama nuo Birželio vidurio iki Rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje. Grupės sudaromos iš 8-10 mokančių plaukti vaikų nuo 10 iki 18 metų.</p>
                             <p>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30), bet galimi ir vienos ar keletos dienų variantai.</p>
                         </article>
                         <p>Stovyklautojam suteikiame visas reikalingas sporto priemones:</p>
                         <article>
-                            <img src="./img/camp-300.jpg" class="float-end ms-3" alt="vaikų stovykla">
+                            <img src="/img/camp-300.jpg" class="float-end ms-3" alt="vaikų stovykla">
                             <ul class="my-4">
                                 <li>įvairaus dydžio minkštas banglentes;</li>
                                 <li>šiltus hidrokostiumus ir esant reikalui batus;</li>
@@ -50,7 +50,7 @@
                         <!--------- Galerija StovyklaCarousel --------->
                         <div class="carousel">
                             <button class="b-left is-hidden">
-                                <img src="./img/left-solid.svg">
+                                <img src="/img/left-solid.svg">
                             </button>
                             <div class="track-container">
                                 <ul class="carousel-track">
@@ -114,7 +114,7 @@
                                 </ul>
                             </div>
                             <button class="b-right">
-                                <img src="./img/right-solid.svg">
+                                <img src="/img/right-solid.svg">
                             </button>
                         </div>
                         
@@ -157,4 +157,21 @@
     </div>
 </div>
 
+@endsection
+
+@section('meta')
+
+    <title>Banglentė - Vasaros dienos stovykla!</title>
+    <link rel="canonical" href="https://www.serfingas.lt/stovykla/">
+    <meta name="description" content="Banglenčių dienos stovykla Klaipėdoje, išmok pagauti savo pirmą bangą.">
+    <meta name="keywords" content="stovykla vaikams, vasaros stovykla, dienos stovykla klaipėdoje, dienos stovykla, vaikų stovyklos, vaikų stovykla, stovykla prie jūros, banglenčių stovykla, surf camp">
+
+@endsection
+
+@section('scripts')
+
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/carousel.js"></script>
+    
 @endsection

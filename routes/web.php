@@ -19,30 +19,30 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('contacts', function () {
+Route::get('contacts/', function () {
     return view('contacts');
 });
 
-Route::get('pamokos', function () {
+Route::get('pamokos/', function () {
     return view('pamokos');
 });
 
-Route::get('stovykla', function () {
+Route::get('stovykla/', function () {
     return view('stovykla');
 })->name('stovykla');
 
-Route::get('nuoma', function () {
+Route::get('nuoma/', function () {
     return view('nuoma');
 });
 
-Route::get('varzybos', function () {
+Route::get('varzybos/', function () {
     return view('varzybos');
 });
 
-Route::get('welcome', function () {
+Route::get('welcome/', function () {
     return view('welcome');
 });
-Route::get('karjera', function () {
+Route::get('karjera/', function () {
     return view('karjera');
 });
 

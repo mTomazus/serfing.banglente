@@ -9,10 +9,8 @@
 <div class="stovykla bg-grad section">
     <div class="content pamokos">
         <div class="content--scroll">
-            <div>
-                <h1>PAMOKOS</h1>
-            </div>
             <div class="lg">
+                <h1>PAMOKOS</h1>
                 <div class="lg__info">
                     <div class="content-box">
                         <div>
@@ -69,19 +67,19 @@
             <div class="sm">
                 <section class="akordionas mt-3">
                     <div class='accordion__container'>
-                        <h3 class="accordion__button accordion__button--active">PAKETAS</h3>
+                        <h3 class="accordion__button accordion__button--active">PAMOKŲ PAKETAS</h3>
                         <div class="accordion__content">
                             <h4>Pakete dvi 1h trukmės pamokos, pirmoje pamokoje ramiame vandenyje išmokstam irklavimo, atsistojimo techniką, balanso ir . Antroje pozicionavimą bangose ir technikos tolimesnis įsisavinimas.</h4>
                         </div>
                     </div>
                     <div class="accordion__container">
-                        <h3 class="accordion__button">PRIVATI</h3>
+                        <h3 class="accordion__button">PRIVATI PAMOKA</h3>
                         <div class="accordion__content">
                             <h4>Per šią pusantros valandos privačią serfingo pamoką pristatysime Jums etiketo, saugumo, serfingo pagrindus, irklavimo techniką, pozicionavimą bangose bei atsistojimo būdus.</h4>
                         </div>
                     </div>
                     <div class="accordion__container">
-                        <h3 class="accordion__button">GRUPINĖ</h3>
+                        <h3 class="accordion__button">GRUPINĖ PAMOKA</h3>
                         <div class="accordion__content">
                             <h4>Idealiai tinka pradedantiesiems ar tiems, kurie nori prisiminti pagrindus ir techniką. Pamoka kartu su mumis reiškia, kad mokotės iš geriausių, kad galėtumėte tapti geriausiais.</h4>
                         </div>
@@ -89,7 +87,7 @@
                 </section>
                 <section class="akordionas sm">
                     <div class="accordion__container">
-                        <h3 class="accordion__button">DVIEMS</h3>
+                        <h3 class="accordion__button">PAMOKA DVIEMS</h3>
                         <div class="accordion__content">
                             <h4>Geriausiai tinka 2 asmenims - draugams ar draugėms, poroms ar artimiesiems. Čia mes pristatysime Jums saugumo ir serfingo pagrindus, irklavimo techniką bei atsistojimo būdus.</h4>
                         </div>
@@ -101,7 +99,7 @@
                         </div>
                         </div>
                     <div class="accordion__container">
-                        <h3 class="accordion__button">EXTRA</h3>
+                        <h3 class="accordion__button">EXTRA PAMOKA</h3>
                         <div class="accordion__content">
                             <h4>Ši serfingo pamoka tinka tiek naujokams tiek pažengusiems ir su orientuocija į pastioviai daromas esmines klaidas ir kilstelėtų Jūsų techniką į naują lygį. Jei ieškote vertos pamokos - Jūs ją radote.</h4>
                         </div>
@@ -109,7 +107,7 @@
                 </section>
                 <div class="w-90 my-4 m-auto">
                     <div class="text-center w-100 py-2 m-auto bg-def">
-                        <h4>Registruokis</h4>
+                        <h4>REGISTRUOKIS</h4>
                     </div>
                     @livewire('pamokos-form')
                 </div>
@@ -118,4 +116,23 @@
     </div>
 </div>    <!--- end SECTION 2  --->
 
+@endsection
+
+@section('meta')
+
+    <title>Banglentė - banglenčių pamokos, geriausia vieta išmokti čiuožti banglente</title>
+    <link rel="canonical" href="https://www.serfingas.lt/pamokos/">
+    <meta name="description" content="Banglenčių pamokos Klaipėdoje, griausia vieta mokytti plaukti banglente, geriausi instruktoriai ir geriausias inventorius.">
+    <meta name="keywords" content="Banglenčių pamokos, surf lessons, surf, serfingas, atsistoti ant lentos, banglente, surfboard, pamokos, mokykla">
+
+@endsection
+
+@section('scripts')
+
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/accordion.js"></script>
+    <script type="text/javascript" src="/js/carousel.js"></script>
+    
 @endsection

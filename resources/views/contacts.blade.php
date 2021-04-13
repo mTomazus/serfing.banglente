@@ -8,15 +8,14 @@
 
     <div class="bg-grad section content contacts-page">
         <div class="contacts__content">
-            <h1>KONTAKTAM</h1>
-
             <div class="lg">
+                <h1>KONTAKTAM</h1>
                 <div class="lg__info">
                     <div class="content-box">
                         <div>
-                            <a href="/karjera">
+                            <a href="/karjera/">
                                 <div>
-                                    <img src="./img/savanoris.jpg" alt="savanorystė">
+                                    <img src="/img/savanoris.jpg" alt="savanorystė">
                                     <h3>KARJERA</h3>
                                     <h4>Svajonių darbas laukia taves!</h4>
                                     <h4>Mus sieja - meilė banglenčių sportui, jūrai ir paplūdimiui. Visada ieškome žmonių su kuriais galėtume dalintis šia aistra, mokytis ir tobulėti kartu.</h4>
@@ -25,7 +24,7 @@
                             </a>
                         </div>
                         <div>
-                            <img src="./img/parama.jpg" alt="skimboards">
+                            <img src="/img/parama.jpg" alt="skimboards">
                             <h3>PARAMA</h3>
                             <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
                             <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
@@ -33,7 +32,7 @@
                         <div class="mb-0">
                             <a href="#">
                                 <div>
-                                    <img src="./img/dokumentai.jpg" alt="ataskaitos">
+                                    <img src="/img/dokumentai.jpg" alt="ataskaitos">
                                     <h3>ATASKAITOS</h3>
                                     <h4>Praėjusių metų finansiniai dokumentai.</h4>
                                     <h4>Atlikti darbai</h4>
@@ -87,5 +86,21 @@
 
         </div>
     </div>
+
+@endsection
+
+@section('meta')
+
+    <title>Banglentė - mokomes serfinti Lietuvoje</title>
+    <link rel="canonical" href="https://www.serfingas.lt/contacts/">
+    <meta name="description" content="Griebiam banglentes ir į bangas, išsinuomuok banglente , SUPą Klaipėdoje ir Melnragėje, banglenčių mokykla.">
+    <meta name="keywords" content="banglentes, SUP, bodyboardai, banglenčių nuoma, mokykla, nuoma, varžybos, lietuva, hidrokostiumai, riedlentės, melnrage, klaipeda, molas, surf, spotas">
+
+@endsection
+
+@section('scripts')
+
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 @endsection

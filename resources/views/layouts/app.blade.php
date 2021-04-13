@@ -8,10 +8,10 @@
         @include('partials._header')
 
         @yield('content')
-
-        @include('partials._scripts')
-    
+  
         @livewireScripts
+
+        @yield('scripts')
         
     </body>
     

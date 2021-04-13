@@ -14,7 +14,7 @@
                     <h1>LAIKAS IŠMOKTI SERFINTI</h1>
                     <h2 class="mb-3">Viskas tam paruošta mūsų mokykloje!</h2>
                 </div>
-                <a href="/pamokos">
+                <a href="/pamokos/">
                     <button>REGISTUOKIS</button>
                 </a>
                 <div class="stars">
@@ -38,7 +38,7 @@
                     <h1>SURF INVENTORIAUS NUOMA</h1>
                     <h2 class="mb-3">DIDŽIAUSIAS PASIRINKIMAS PABALTYJE</h2>
                 </div>
-                <a href="/nuoma">
+                <a href="/nuoma/">
                     <button>SPŪSTELK ČIA</button>
                 </a>
                 <div class="mt-3 s3-apacia">
@@ -59,7 +59,7 @@
                     <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
                     <h2>GRYNAS ORAS IR JŪRA</h2>
                 </div>
-                <a href="/stovykla">
+                <a href="/stovykla/">
                     <button>REGISRUOKIS</button>                      
                 </a>
                 <div class="s3-apacia mt-3">
@@ -71,5 +71,31 @@
         </div>    <!--- end Sekcija 3  --->
         
     </div>    <!--- end FULLPAGE --->
+
+@endsection
+
+@section('meta')
+
+    <title>Banglentė - mokomes serfinti Lietuvoje</title>
+    <link rel="canonical" href="https://www.serfingas.lt/">
+    <meta name="description" content="Griebiam banglentes ir į bangas, išsinuomuok banglente , SUPą Klaipėdoje ir Melnragėje, banglenčių mokykla.">
+    <meta name="keywords" content="banglentes, SUP, bodyboardai, banglenčių nuoma, mokykla, nuoma, varžybos, lietuva, hidrokostiumai, riedlentės, melnrage, klaipeda, molas, surf, spotas">
+
+@endsection
+
+@section('scripts')
+    
+    <script type="text/javascript" src="/js/fullpage.js"></script>
+    <script type="text/javascript" src="/js/topnav.js"></script>
+    <script>
+        fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+            controlArrows: false,
+            scrollBar: true,
+            slidesNavigation: true,
+
+        })
+    </script>
 
 @endsection
