@@ -27,23 +27,33 @@
         line-height: 8vh;
     }
     .logo h6 {
-        font-size: 4.5vh;
-        letter-spacing: .5vw;
+        font-size: 3vh;
+        letter-spacing: 0.8vw;
+    }
+    .logo-pic {
+        margin: auto 1rem auto 2rem;
+        padding: .5rem;
+        img {
+            max-height: 3vh;
+        }
     }
     .knopkes {
         display: none;
     }
     header {
         top: 0;
+        min-height: 5vh;
+        max-height: 5vh;
     }
     .nav-links {
         margin: 0 2rem;
         a {
-            font-size: 2.5vh;
+            font-size: 1rem;
             letter-spacing: .5vh;
+            color: lightskyblue;
             transition: color 0.5s ease;
             &:hover {
-            color: $hover-color;
+            color: white;
             }
         }
     }
@@ -73,8 +83,8 @@
         }
     }
     .content {
-        margin-top: 8vh;
-        min-height: 92vh;
+        min-height: 95vh;
+        margin-top: 5vh;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -123,7 +133,7 @@
         min-height: auto!important;
         margin: 2rem;
         h1 {
-            line-height: 1rem;
+            line-height: 2rem;
         }
     }
     .landing__second {

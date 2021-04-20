@@ -679,8 +679,16 @@ button:hover {
   }
 
   .logo h6 {
-    font-size: 4.5vh;
-    letter-spacing: 0.5vw;
+    font-size: 3vh;
+    letter-spacing: 0.8vw;
+  }
+
+  .logo-pic {
+    margin: auto 1rem auto 2rem;
+    padding: 0.5rem;
+  }
+  .logo-pic img {
+    max-height: 3vh;
   }
 
   .knopkes {
@@ -689,18 +697,21 @@ button:hover {
 
   header {
     top: 0;
+    min-height: 5vh;
+    max-height: 5vh;
   }
 
   .nav-links {
     margin: 0 2rem;
   }
   .nav-links a {
-    font-size: 2.5vh;
+    font-size: 1rem;
     letter-spacing: 0.5vh;
+    color: lightskyblue;
     transition: color 0.5s ease;
   }
   .nav-links a:hover {
-    color: #23a3ec;
+    color: white;
   }
 
   .career-list__item {
@@ -729,8 +740,8 @@ button:hover {
   }
 
   .content {
-    margin-top: 8vh;
-    min-height: 92vh;
+    min-height: 95vh;
+    margin-top: 5vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -786,7 +797,7 @@ button:hover {
     margin: 2rem;
   }
   .landing__first h1 {
-    line-height: 1rem;
+    line-height: 2rem;
   }
 
   .landing__second {
@@ -1077,12 +1088,6 @@ button:hover {
 
   header {
     top: 0;
-  }
-
-  .content {
-    min-height: 92vh;
-    margin-top: 8vh;
-    padding: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
