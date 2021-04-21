@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="content section bg-grad"">
-    <h1>ADMIN PANEL</h1>
+    <h1>ADMIN DASHBOARD</h1>
     <div class="lg">
         <div class="lg__info">
             <div class="content-box">

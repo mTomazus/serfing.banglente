@@ -66,7 +66,7 @@ class LoginRegister extends Component
     
         $request->session()->regenerateToken();
     
-        return redirect('/');
+        return redirect('./');
     }
 
     public function registerUser()

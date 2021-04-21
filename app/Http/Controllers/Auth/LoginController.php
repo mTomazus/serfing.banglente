@@ -10,10 +10,10 @@ class LoginController extends Controller
     public function redirectPath() {
 
         if (auth()->user()-IsAdmin) {
-            return route('admin.home');
+            return route('admin.dashboard');
         }
 
-        return route('user.home');
+        return route('user.dashboard');
 
     }
 }

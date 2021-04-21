@@ -39,17 +39,16 @@
         <li><a href="/stovykla/">Stovykla</a></li>
         <li><a href="#">Būrelis</a></li>
         <li><a href="/varzybos/">Varžybos</a></li>
+        <li><a href="/skelbimai/">Skelbimai</a></li>
         <li><a href="/contacts/">Kontaktai</a></li>
-
         @if (Auth::check())
           @can('admin-only', Auth::user())
-            <li>
-              <a href="/table">Lentelė</a>
-            </li>
+            <li><a href="/table">Lentelė</a></li>
           @endcan
-          <li>
-            <a href="/logout">Logout</a>
-          </li>
+          <li><a href="/user">Dashboard</a></li>
+          <li><a href="/logout">Logout</a></li>
+          @else
+            <li><a href="/login/">Login</a></li>
         @endif
 
       </ul>

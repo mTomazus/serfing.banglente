@@ -173,6 +173,10 @@ section h4 {
   font-size: 1.2rem;
 }
 
+.pagination {
+  justify-content: center;
+}
+
 .knopkes svg {
   filter: drop-shadow(0 0.2rem 0.2rem #00000075);
 }
@@ -325,7 +329,10 @@ header nav {
     animation: navLinkFade 1s ease 0.78s forwards;
   }
   .nav-active li:nth-child(8) {
-    animation: navLinkFade 1s ease 0.78s forwards;
+    animation: navLinkFade 1s ease 0.82s forwards;
+  }
+  .nav-active li:nth-child(9) {
+    animation: navLinkFade 1s ease 0.86s forwards;
   }
 }
 .toggle .line1 {

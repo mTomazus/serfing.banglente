@@ -39,10 +39,10 @@ class PostsController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required',
+            'title' => 'required|min:10|max:55',
+            'body' => 'required|min:10|max:200',
             'category' => 'required',
-            'price' => 'required'
+            'price' => 'required|numeric'
         ]);
 
         $post = new Adds;
@@ -53,7 +53,7 @@ class PostsController extends Controller
         $post->user_id = auth()->user()->id;
         $post->save();
 
-        return redirect('/posts')->with('success', 'Skelbimas sukurtas...');
+        return redirect('/user')->with('success', 'Skelbimas sukurtas...');
 
     }
 
@@ -104,7 +104,7 @@ class PostsController extends Controller
         $post->price = $request->input('price');
         $post->save();
 
-        return redirect('/posts')->with('success', 'Skelbimas paredaguotas...');
+        return redirect('/user')->with('success', 'Skelbimas paredaguotas...');
     }
 
     /**
@@ -117,6 +117,6 @@ class PostsController extends Controller
     {
         $post = Adds::find($id);
         $post->delete();
-        return redirect('/posts')->with('success', 'Skelbimas ištrintas...');
+        return redirect('/user')->with('success', 'Skelbimas ištrintas...');
     }
 }

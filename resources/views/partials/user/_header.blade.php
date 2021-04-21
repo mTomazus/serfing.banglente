@@ -14,12 +14,15 @@
 
       <ul class="nav-links">
         <li>
-          <a href="/posts/">SKELBIMAI</a>
+          <a href="/">MAIN</a>
+        </li>
+        <li>
+          <a href="/user/">DASHBOARD</a>
         </li>
         <li>
           <a href="/logout">Logout</a>
         </li>
-        <li>
+        <li class="text-white">
           {{ Auth::user()->name }} <span class="caret"></span>
         </li>
       </ul>

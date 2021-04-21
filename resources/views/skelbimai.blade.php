@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.app')
 
 @section('content')
 
@@ -7,10 +7,6 @@
         <h1>Skelbimai</h1>
         
         <div class="col-lg-6 col-md-8 mx-auto">
-            <p>
-                <a href="{{ URL::to('/posts/create') }}" class="btn btn-sm btn-primary my-2">Naujas skelbimas</a>
-                <a href="#" class="btn btn-sm btn-secondary my-2">Secondary action</a>
-            </p>
             <div class="mx-auto">
                 {{ $posts->links() }}
             </div>
@@ -33,8 +29,7 @@
                                         <h5 class="h6 card-text">{{ $post->body }}</h5>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="btn-group">
-                                                <a href="/posts/{{ $post->id }}/edit"><button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
-                                                <a href="/posts/{{ $post->id }}"><button type="button" class="btn btn-sm btn-outline-primary">View</button></a>
+                                                <a href="/skelbimai/{{ $post->id }}"><button type="button" class="btn btn-sm btn-outline-primary">View</button></a>
                                             </div>
                                             <small class="text-muted">Sukurta {{ $post->created_at }}</small>
                                         </div>
@@ -67,7 +62,7 @@
 
 @section('scripts')
 
-    <script type="text/javascript" src="js/topnav.js"></script>
+    <script type="text/javascript" src="/js/topnav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 @endsection

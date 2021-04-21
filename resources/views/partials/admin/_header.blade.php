@@ -12,9 +12,11 @@
 
       <ul class="nav-links">
 
+        <li><a href="/">Main</a></li>
         <li><a href="/pamokos-table">Pamokos</a></li>
         <li><a href="/stovykla-table">Stovykla</a></li>
         <li><a href="/contacts-table">Kontaktai</a></li>
+        <li><a href="/posts">Skelbimai</a></li>
         <li><a href="/logout">Logout</a></li>
 
         <div class="knopkes d-sm-flex d-lg-none fixed-top justify-content-around">

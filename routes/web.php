@@ -46,6 +46,8 @@ Route::get('karjera/', function () {
     return view('karjera');
 });
 
+Route::resource('skelbimai', 'App\Http\Controllers\DefaultController');
+
 Route::get('login/', function () {
     return view('login');
 })->name('login');
@@ -54,8 +56,8 @@ Route::get('login/', function () {
 
 Route::get('logout/', function() {
     Auth::logout();
-    return Redirect::to('login');
- })->name('logout');
+    return Redirect::to('/');
+ });
 
 
 Route::middleware('auth')->group(function () {
@@ -70,7 +72,9 @@ Route::middleware(['auth', 'admin'])->group(function () {
 
     Route::get('admin', 'App\Http\Controllers\Admin\HomeController@index')->name('admin-home');
 
-    Route::get('stovykla-table', function () { return view('admin.stovykla-table'); });
+    Route::get('stovykla-table', function () {
+        return view('admin.stovykla-table');
+    });
 
     Route::get('pamokos-table', function () {
         return view('admin.pamokos-table');
