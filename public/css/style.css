@@ -48,6 +48,11 @@ a {
   display: none;
 }
 
+#fullpage ul span {
+  background: white !important;
+  box-shadow: 0px 0px 3px white;
+}
+
 @keyframes blink {
   from {
     opacity: 1;
@@ -175,11 +180,6 @@ section h4 {
   fill: white;
 }
 
-ul span {
-  background: white !important;
-  box-shadow: 0px 0px 3px white;
-}
-
 /* --------------------------------------- */
 /* ---------------NAVIGATION-------------- */
 /* --------------------------------------- */
@@ -192,8 +192,7 @@ header {
   font-family: "Anton", sans-serif;
   z-index: 100;
 }
-
-nav {
+header nav {
   display: flex;
   align-items: center;
   width: 100vw;
@@ -754,23 +753,6 @@ button:hover {
 
   .rekvizitai {
     margin-bottom: 2rem;
-  }
-
-  .pagination {
-    padding-left: 0;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .pagination .page-link {
-    background: none !important;
-    color: white !important;
-    font-weight: 400;
-    font-size: 1rem;
-    width: 100px;
-    padding: 0.2rem 0.5rem;
-    box-shadow: none;
-    margin-top: 1rem;
-    border-radius: 10px;
   }
 
   .content nav {

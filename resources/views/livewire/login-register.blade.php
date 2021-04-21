@@ -20,7 +20,7 @@
     <div class="text-center">
         <main class="form-signin">
             <form>
-                <img class="mb-2 mt-3" style="filter:drop-shadow(1px 1px 3px black);" src="img/logo-7.png" alt="" width="72" height="57">
+                <img class="mb-2 mt-3" style="filter:drop-shadow(1px 1px 3px black);" src="/img/logo-7.png" alt="" width="72" height="57">
                 <h1 class="h3 mb-3 mt-3 text-white fw-bold">Please register</h1>
             
                 <div class="form-floating mt-5 mb-3">
@@ -49,7 +49,7 @@
     <div class="text-center">
         <main class="form-signin">
             <form>
-                <img class="mb-2 mt-3" style="filter:drop-shadow(1px 1px 3px black);" src="img/logo-7.png" alt="" width="72" height="57">
+                <img class="mb-2 mt-3" style="filter:drop-shadow(1px 1px 3px black);" src="/img/logo-7.png" alt="" width="72" height="57">
                 <h1 class="h3 mb-3 mt-3 text-white fw-bold">Please Sign in</h1>
             
                 <div class="form-floating mt-5 mb-3">

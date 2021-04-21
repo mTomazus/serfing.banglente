@@ -57,7 +57,13 @@ a {
 .lg {
     display: none;
 }
-
+#fullpage {
+        //---------- Side fullpage nav dots ------------
+    ul span {
+        background: $fills !important;
+        box-shadow: 0px 0px 3px white;
+    }
+}
 //------blinking----------------
 @keyframes blink {
     from {opacity: 1.0;}
@@ -185,12 +191,6 @@ section {
             fill:$fills;
         }
     }
-}
-
-//---------- Side fullpage nav dots ------------
-ul span {
-    background: $fills !important;
-    box-shadow: 0px 0px 3px white;
 }
 
 @import 'header';

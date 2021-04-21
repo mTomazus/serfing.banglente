@@ -46,13 +46,13 @@ Route::get('karjera/', function () {
     return view('karjera');
 });
 
-Route::get('login', function () {
+Route::get('login/', function () {
     return view('login');
 })->name('login');
 
 
 
-Route::get('logout', function() {
+Route::get('logout/', function() {
     Auth::logout();
     return Redirect::to('login');
  })->name('logout');
@@ -60,7 +60,8 @@ Route::get('logout', function() {
 
 Route::middleware('auth')->group(function () {
 
-     Route::get('user', 'App\Http\Controllers\User\HomeController@index')->name('user-home');
+    Route::get('user', 'App\Http\Controllers\User\HomeController@index')->name('user-home');
+    Route::resource('posts', 'App\Http\Controllers\User\PostsController');
 
 });
 
