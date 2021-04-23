@@ -5,7 +5,7 @@
 
     <body>
 
-        @include('partials.user._header')
+        @include('partials._header')
 
         @yield('content')
 

@@ -14,12 +14,16 @@
                 
                 <div class="d-block btn-group m-2 p-2">
                     <a href="/posts/" class="btn btn-outline-secondary btn-sm">Back</a>
-                    <a href="/posts/{{ $post->id }}/edit" class="btn btn-outline-primary btn-sm">Edit</a>
                     
-                    {!! Form::open(['action' => ['App\Http\Controllers\User\PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline']) !!}
-                        {{ Form::hidden('_method', 'DELETE') }}
-                        {{ Form::submit('Delete', ['class' => 'btn btn-sm btn-outline-danger']) }}
-                    {!! Form::close() !!}
+                    @if (Auth::user() && Auth::user()->type == 'admin')
+                        <a href="/posts/{{ $post->id }}/edit" class="btn btn-outline-primary btn-sm">Edit</a>
+                        
+                        {!! Form::open(['action' => ['App\Http\Controllers\User\PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline']) !!}
+                            {{ Form::hidden('_method', 'DELETE') }}
+                            {{ Form::submit('Delete', ['class' => 'btn btn-sm btn-outline-danger']) }}
+                        {!! Form::close() !!}
+                    @endif
+
                 </div>    
                 <small class="m-2 d-block">Sukurta {{ $post->created_at }}</small>
                 

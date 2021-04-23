@@ -36,6 +36,10 @@ a {
   min-height: 92vh;
 }
 
+.h-200 {
+  height: 200px !important;
+}
+
 .w-90 {
   width: 90% !important;
 }

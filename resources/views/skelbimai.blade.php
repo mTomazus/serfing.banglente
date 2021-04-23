@@ -5,6 +5,16 @@
 <div class="section bg-grad">
     <div class="content d-block">
         <h1>Skelbimai</h1>
+
+        @auth
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <div class="text-center">
+                    <a href="{{ URL::to('/posts/create') }}" class="btn btn-sm btn-primary my-2">Naujas skelbimas</a>
+                    <a href="#" class="btn btn-sm btn-secondary my-2">Secondary action</a>
+                </div>
+            </div> 
+        @endauth
+
         
         <div class="col-lg-6 col-md-8 mx-auto">
             <div class="mx-auto">
@@ -12,34 +22,52 @@
             </div>
         </div>
   
-        <div class="album py-2">
+        <div class="section">
             <div class="container">
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="">
 
                     @if(count($posts) > 0)
 
                         @foreach ($posts as $post)
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <h5 class="fw-bold mt-3 ms-3 h5 card-text">{{ $post->title }}</h5>
-                                    <h6 class="h6 ms-3 my-0 card-text">Kaina {{ $post->price }} Eur</h6>
-                                    <div class="card-body">
-                                        <h5 class="h6 card-text">{{ $post->body }}</h5>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <a href="/skelbimai/{{ $post->id }}"><button type="button" class="btn btn-sm btn-outline-primary">View</button></a>
-                                            </div>
-                                            <small class="text-muted">Sukurta {{ $post->created_at }}</small>
-                                        </div>
+                            
+                        <div class="bg-white col-12 my-3 d-flex col-6 justify-content-between flex-lg-row flex-column rounded overflow-hidden flex-column-reverse shadow-sm h-200">
+                            <div class="col p-2 d-flex flex-column position-static">
+                                <strong class="d-inline-block px-5 mb-2 text-start text-info">{{ $post->category }}</strong>
+                                <h3 class="mb-0 text-start ms-3 fw-bold">{{ $post->title }}</h3>
+                                <div class="mb-1 ms-3 text-start text-muted"><small>{{ $post->created_at }}</small></div>
+                                <h4 class="h6 ms-5 text-start mt-3 mb-auto">{{ $post->body }}</h4>
+                                <div class="ms-2 d-flex justify-content-between align-items-center">
+                                    <div class="btn-group mt-3">
+                                        <a href="/skelbimai/{{ $post->id }}"><button type="button" class="btn btn-sm btn-outline-primary">View</button></a>
+                                        @if (Auth::user() && Auth::user()->id == $post->user_id)
+                                            <a href="/posts/{{ $post->id }}/edit"><button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
+                                            {!! Form::open(['action' => ['App\Http\Controllers\User\PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline']) !!}
+                                                {{ Form::hidden('_method', 'DELETE') }}
+                                                {{ Form::submit('Delete', ['class' => 'btn btn-sm btn-outline-danger']) }}
+                                            {!! Form::close() !!}
+                                        @elseif (Auth::user() && Auth::user()->type == 'admin')
+                                            <a href="/posts/{{ $post->id }}/edit"><button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
+                                            {!! Form::open(['action' => ['App\Http\Controllers\User\PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline']) !!}
+                                                {{ Form::hidden('_method', 'DELETE') }}
+                                                {{ Form::submit('Delete', ['class' => 'btn btn-sm btn-outline-danger']) }}
+                                            {!! Form::close() !!}
+                                        @endif
                                     </div>
-                                </div>
+                                </div>    
                             </div>
+
+                            <div class="p-0 m-1 col-auto d-flex justify-content-around">
+                                <img src="{{ asset('user_images/' . $post->image_1) }}" class="img-thumbnail" height="200px" width="150px">
+                                <img src="{{ asset('user_images/' . $post->image_1) }}" class="img-thumbnail" height="200px" width="150px">
+                            </div>
+
+                        </div>
+    
                         @endforeach
 
                     @else
-                        <p> no postst found </p>
+                        <p> no posts found </p>
                     @endif
                 </div>
             </div>

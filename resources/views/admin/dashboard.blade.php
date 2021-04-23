@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="content section bg-grad"">
+<div class="content section vh-92 bg-grad"">
     <h1>ADMIN DASHBOARD</h1>
     <div class="lg">
         <div class="lg__info">

@@ -16,7 +16,7 @@
                         @endforeach
                     </ul>
                 @endif
-                {!! Form::open(['action' => 'App\Http\Controllers\User\PostsController@store', 'method' => 'POST' ]) !!}
+                {!! Form::open(['action' => 'App\Http\Controllers\User\PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data' ]) !!}
                     <div class="px-3 p-1">
                         {{ Form::label('title', 'Antraštė', ['class' => 'form-label']) }}
                         {{ Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Pora žodžių...']) }}
@@ -32,6 +32,10 @@
                     <div class="px-3 mb-3 p-1">
                         {{ Form::label('category', 'Įrangos kategorija', ['class' => 'form-label']) }}
                         {{ Form::select('category', ['Surf' => 'Surfboards', 'Kite' => 'Kite', 'Wetsuit' => 'Wetsuits', 'Skate' => 'Skateboards', 'Wind' => 'Wind', 'Kita' => 'Kita'], 'Pasirenkam..', ['class' => 'form-select']) }}
+                    </div>
+                    <div class="form-group">
+                          <label for="image_1">Nuotrauka</label>  
+                          {{ Form::file('image_1', ['class' => 'form-control-file']) }}
                     </div>
                     <div class="px-3 mb-3 p-1">
                         {{ Form::submit('Submit', ['class' => 'mb-2 btn btn-primary']) }}

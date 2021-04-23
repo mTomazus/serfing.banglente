@@ -13,18 +13,14 @@
 
 
       <ul class="nav-links">
-        <li>
-          <a href="/">MAIN</a>
-        </li>
-        <li>
-          <a href="/user/">DASHBOARD</a>
-        </li>
-        <li>
-          <a href="/logout">Logout</a>
-        </li>
-        <li class="text-white">
-          {{ Auth::user()->name }} <span class="caret"></span>
-        </li>
+        <li><a href="/user/">Dashboard</a></li>
+        <li><a href="/pamokos/">Pamokos</a></li>
+        <li><a href="/nuoma/">Nuoma</a></li>
+        <li><a href="/stovykla/">Stovykla</a></li>
+        <li><a href="/varzybos/">Varžybos</a></li>
+        <li><a href="/skelbimai/">Skelbimai</a></li>
+        <li><a href="/contacts/">Kontaktai</a></li>
+        <li><a href="/logout">Logout</a></li>
       </ul>
 
         <div class="knopkes d-sm-flex d-lg-none fixed-top justify-content-around">
