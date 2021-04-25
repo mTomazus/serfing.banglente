@@ -27,9 +27,7 @@ Route::get('pamokos/', function () {
     return view('pamokos');
 });
 
-Route::get('stovykla/', function () {
-    return view('stovykla');
-})->name('stovykla');
+Route::get('stovykla/', 'App\Http\Controllers\DefaultController@stovykla')->name('stovykla');
 
 Route::get('nuoma/', function () {
     return view('nuoma');

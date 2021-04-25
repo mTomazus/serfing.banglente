@@ -5,8 +5,8 @@
 <div class="section bg-grad">
     <div class="content vh-100 d-block">
         <div class="container mt-3">
-            <div class="border mt-lg-5 col-lg-8 mx-auto">
-                <h1 class="">Naujas skelbimas</h1>
+            <div class="mt-lg-5 col-mg-8 mx-auto">
+                <h1 class="h1 fw-bold">Naujas skelbimas</h1>
                 @if ($errors->any())
                     <ul class="col-lg-10 m-auto">
                         @foreach ($errors->all() as $error)
@@ -16,7 +16,7 @@
                         @endforeach
                     </ul>
                 @endif
-                {!! Form::open(['action' => 'App\Http\Controllers\User\PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data' ]) !!}
+                {!! Form::open(['action' => 'App\Http\Controllers\User\PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data', 'class' => 'row col-md-6']) !!}
                     <div class="px-3 p-1">
                         {{ Form::label('title', 'Antraštė', ['class' => 'form-label']) }}
                         {{ Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Pora žodžių...']) }}
@@ -25,19 +25,33 @@
                         {{ Form::label('body', 'Trumpa info', ['class' => 'form-label']) }}
                         {{ Form::textarea('body', '', ['class' => 'form-control', 'placeholder' => 'Apie 20 žodžių...', 'rows' => "3"]) }}
                     </div>
-                    <div class="px-3 p-1">
-                        {{ Form::label('price', 'Kaina', ['class' => 'form-label']) }}
-                        {{ Form::text('price', '', ['class' => 'form-control', 'placeholder' => '150 eur...']) }}
+                    <div class="px-3 p-1 col-6 ">
+                        {{ Form::label('price', 'Kaina Eur', ['class' => 'form-label']) }}
+                        {{ Form::text('price', '', ['class' => 'form-control', 'placeholder' => '150...']) }}
+                    </div>
+                    <div class="px-3 p-1 col-6">
+                        {{ Form::label('phone', 'Telefono numeris', ['class' => 'form-label']) }}
+                        {{ Form::text('phone', '', ['class' => 'form-control', 'placeholder' => '+370 6xx xxxxx']) }}
                     </div>
                     <div class="px-3 mb-3 p-1">
                         {{ Form::label('category', 'Įrangos kategorija', ['class' => 'form-label']) }}
                         {{ Form::select('category', ['Surf' => 'Surfboards', 'Kite' => 'Kite', 'Wetsuit' => 'Wetsuits', 'Skate' => 'Skateboards', 'Wind' => 'Wind', 'Kita' => 'Kita'], 'Pasirenkam..', ['class' => 'form-select']) }}
                     </div>
-                    <div class="form-group">
-                          <label for="image_1">Nuotrauka</label>  
-                          {{ Form::file('image_1', ['class' => 'form-control-file']) }}
+                    <div class="col-10 mb-3 mx-auto">
+                        <div class="input-group p-1">
+                            <label class="input-group-text" for="image_1">Pic1</label>
+                            {{ Form::file('image_1', ['class' => 'form-control']) }}
+                        </div>
+                        <div class="input-group p-1">
+                            <label class="input-group-text" for="image_2">Pic2</label>
+                            {{ Form::file('image_2', ['class' => 'form-control']) }}
+                        </div>
+                        <div class="input-group p-1">
+                            <label class="input-group-text" for="image_3">Pic3</label>
+                            {{ Form::file('image_3', ['class' => 'form-control']) }}
+                        </div>
                     </div>
-                    <div class="px-3 mb-3 p-1">
+                    <div class="px-3 text-center mb-1 p-1">
                         {{ Form::submit('Submit', ['class' => 'mb-2 btn btn-primary']) }}
                     </div>
                 {!! Form::close() !!}
@@ -58,7 +72,7 @@
 
 @section('scripts')
 
-    <script type="text/javascript" src="js/topnav.js"></script>
+    <script type="text/javascript" src="/js/topnav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 @endsection

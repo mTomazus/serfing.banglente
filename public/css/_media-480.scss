@@ -26,6 +26,13 @@
     .w-90 {
         width: 90vw;
     }
+    .clip {
+        height: 35px;
+        overflow: clip;
+    }
+    .h-120p {
+        height: 120px!important;
+    }
     header {
         bottom: 0;
     }
@@ -317,6 +324,10 @@
                 height: 30px;
             }
         }
-
+    }
+    // skelbimai specific
+    .skelbimai h4 {
+        font-size: 1rem;
+        font-family:Alegreya;
     }
 }

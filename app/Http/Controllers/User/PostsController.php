@@ -43,7 +43,10 @@ class PostsController extends Controller
             'body' => 'required|min:10|max:200',
             'category' => 'required',
             'price' => 'required|numeric',
-            'image_1' => 'image|max:1999|required'
+            'phone' => 'required',
+            'image_1' => 'image|max:1999|required',
+            'image_2' => 'image|max:1999',
+            'image_3' => 'image|max:1999'
         ]);
 
         //Fandle file upload
@@ -60,7 +63,37 @@ class PostsController extends Controller
             $request->image_1->move(public_path('user_images'), $fileNameToStore);
         } else {
             // Get just extension
-            $fileNameToStore = 'noimage.jpg';
+            $fileNameToStore = 'noimage1.jpg';
+        }
+        if($request->hasFile('image_2')){
+            // Get filename with the extension
+            $filenameWithExt2 = $request->file('image_2')->getClientOriginalName();
+            // Get just filename
+            $filename2 = pathinfo($filenameWithExt2, PATHINFO_FILENAME);
+            // Get just extension
+            $extension2 = $request->file('image_2')->getClientOriginalExtension();
+            // Filename to store
+            $fileNameToStore2 = $filename2.'_'.time().'.'.$extension2;
+            // Upload Image
+            $request->image_2->move(public_path('user_images'), $fileNameToStore2);
+        } else {
+            // Get just extension
+            $fileNameToStore2 = 'noimage2.jpg';
+        }
+        if($request->hasFile('image_3')){
+            // Get filename with the extension
+            $filenameWithExt3 = $request->file('image_3')->getClientOriginalName();
+            // Get just filename
+            $filename3 = pathinfo($filenameWithExt3, PATHINFO_FILENAME);
+            // Get just extension
+            $extension3 = $request->file('image_3')->getClientOriginalExtension();
+            // Filename to store
+            $fileNameToStore3 = $filename3.'_'.time().'.'.$extension3;
+            // Upload Image
+            $request->image_3->move(public_path('user_images'), $fileNameToStore3);
+        } else {
+            // Get just extension
+            $fileNameToStore3 = 'noimage3.jpg';
         }
 
         // Create Adds
@@ -69,8 +102,11 @@ class PostsController extends Controller
         $post->body = $request->input('body');
         $post->category = $request->input('category');
         $post->price = $request->input('price');
+        $post->phone = $request->input('phone');
         $post->user_id = auth()->user()->id;
         $post->image_1 = $fileNameToStore;
+        $post->image_2 = $fileNameToStore2;
+        $post->image_3 = $fileNameToStore3;
         $post->save();
 
         return redirect('/user')->with('success', 'Skelbimas sukurtas...');
@@ -120,7 +156,8 @@ class PostsController extends Controller
             'title' => 'required',
             'body' => 'required',
             'category' => 'required',
-            'price' => 'required'
+            'price' => 'required',
+            'phone' => 'required'
         ]);
 
         $post = Adds::find($id);

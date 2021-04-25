@@ -29,6 +29,10 @@
                         {{ Form::label('price', 'Kaina', ['class' => 'form-label']) }}
                         {{ Form::text('price', $post->price, ['class' => 'form-control', 'placeholder' => '150 eur...']) }}
                     </div>
+                    <div class="px-3 p-1 col-6">
+                        {{ Form::label('phone', 'Telefono numeris', ['class' => 'form-label']) }}
+                        {{ Form::text('phone', $post->phone, ['class' => 'form-control', 'placeholder' => '+370 6xx xxxxx']) }}
+                    </div>
                     <div class="px-3 mb-3 p-1">
                         {{ Form::label('category', 'Įrangos kategorija', ['class' => 'form-label']) }}
                         {{ Form::select('category', ['Surf' => 'Surfboards', 'Kite' => 'Kite', 'Wetsuit' => 'Wetsuits', 'Skate' => 'Skateboards', 'Wind' => 'Wind', 'Kita' => 'Kita'], 'Pasirenkam..', ['class' => 'form-select']) }}

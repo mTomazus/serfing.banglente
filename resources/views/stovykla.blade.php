@@ -33,7 +33,7 @@
                                 <li>taip pat išbandysime ir irklentes.</li>
                             </ul>
                             <p class="my-4">Ši savaitinė programa apima tiek teorines, tiek praktines žinias apie jūrą, bangas ir banglentes. Stovykla tinka tiek pirmą kartą atvykstančiam į stovyklą, tiek ir trečią ar ketvirtą. Visi instruktoriai patyrę Klaipėdos gelbėtojai ir ilgametę patirtį turintys banglenčių instruktoriai, bet, svarbiausia, jie žino, kaip padaryti stovyklą nepamirštamu vasaros nuotykiu kiekvienam stovyklos dalyviui.</p>        
-                            <p class="pt-4 text-center"><a class="color-white" href="http://www.banglente.com/incoming/programa.pdf" target="_blank">Preliminari programa*</a></p>
+                            <p class="pt-4 text-center"><a class="color-white" href="/incoming/programa.pdf" target="_blank">Preliminari programa*</a></p>
                         </article>
                         <article>
                             <p>Pamainos kaina 170€.</p>
@@ -54,63 +54,11 @@
                             </button>
                             <div class="track-container">
                                 <ul class="carousel-track">
-                                    <li class="carousel-slide current-slide">
-                                        <img src="http://www.banglente.com/images/camp/1.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/2.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/3.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/4.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/5.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/6.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/7.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/vaikas2.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide current-slide">
-                                        <img src="http://www.banglente.com/images/camp/8.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/9.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/10.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/11.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/12.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/13.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/14.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/15.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/16.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/17.jpg" alt="">
-                                    </li>
-                                    <li class="carousel-slide">
-                                        <img src="http://www.banglente.com/images/camp/18.jpg" alt="">
-                                    </li>
+                                    @foreach ($images as $image)
+                                        <li class="carousel-slide current-slide">
+                                            <img src="{{ asset($image) }}" alt="">
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </div>
                             <button class="b-right">
@@ -140,11 +88,11 @@
             </div>
 
             <div class="sm">
-                <img src="http://www.banglente.com/images/vaikas2.jpg">
+                <img src="/img/vaikas2.jpg">
                 <h3>Stovykla organizuojama nuo Birželio vidurio iki Rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje. Grupės sudaromos iš 6-8 mokančių plaukti vaikų nuo 10 iki 18 metų.</h3>
                 <h3>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30), bet galimi ir vienos ar keletos dienų variantai.</h3>
-                <h3><a href="http://www.banglente.com/incoming/programa.pdf" target="_blank" style="display: initial">Stovyklos preliminari programa čia</a></h3>
-                <img src="http://www.banglente.com/images/vaikai.jpg">
+                <h3><a href="/incoming/programa.pdf" target="_blank" style="display: initial">Stovyklos preliminari programa čia</a></h3>
+                <img src="/img/vaikai.jpg">
                 <h2>Pamainos kaina 170 Eurų.</h2>
                 <h3>Vienos dienos kaina 45 Eurai.</h3>
                 <h3>Maitinimas įskaičiuotas</h3>
