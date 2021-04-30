@@ -45,10 +45,26 @@
                         </div>
                     </div>
                     <div class="content-side">
+                        
                         <h2>GALERIJA</h2>
-                        <div>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9qf0R2BWUFsOK0iRbC804I4PE_hDu49riVg&usqp=CAU" alt="">
+                        <div class="carousel">
+                            <button class="b-left is-hidden">
+                                <img src="/img/left-solid.svg">
+                            </button>
+                            <div class="track-container">
+                                <ul class="carousel-track">
+                                    @foreach ($images as $image)
+                                        <li class="carousel-slide current-slide">
+                                            <img src="{{ asset($image) }}" alt="">
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            <button class="b-right">
+                                <img src="/img/right-solid.svg">
+                            </button>
                         </div>
+
                         <h2>DOVANŲ KUPONAS</h2>
                         <div class="kuponas">    
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="opacity: 1; transform: translate(0px, 0px);float: right;"><path d="M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z"></path></svg>

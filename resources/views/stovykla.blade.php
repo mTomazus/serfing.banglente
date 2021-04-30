@@ -9,7 +9,7 @@
     <div class="content">    
         <div class="content--scroll">
             <div>
-                <h1>Vasaros stovykla 2021</h1>
+                <h1>VASAROS STOVYKLA 2021</h1>
                 <h2>Penktus metus Lietuvoje!</h2>
             </div>
             <div class="lg">

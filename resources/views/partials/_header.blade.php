@@ -1,4 +1,4 @@
-<header>
+<header class="slidd">
 
     <nav>
 
@@ -56,6 +56,16 @@
       </div>
 
       <ul class="nav-links">
+
+        <li class="mb-5">
+          <div class="d-flex d-md-none">
+            <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
+            <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
+            <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
+            <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
+          </div>
+        </li>
+
         @if (Auth::check())
           <li><a href="/{{ Auth::user()->type }}">Dashboard</a></li>
         @endif

@@ -36,12 +36,24 @@ a {
   min-height: 92vh;
 }
 
+.shadow-box {
+  box-shadow: 0 0.2rem 0.5rem #00000075;
+}
+
 .h-200 {
   height: 200px !important;
 }
 
+.h-160 {
+  height: 160px !important;
+}
+
 .w-90 {
   width: 90% !important;
+}
+
+.clip {
+  overflow-x: hidden;
 }
 
 .bg-def {
@@ -188,6 +200,13 @@ section h4 {
   fill: white;
 }
 
+.parama h3 {
+  color: white;
+  font-size: 1.2rem;
+  font-family: alegreya;
+  font-weight: bold;
+}
+
 /* --------------------------------------- */
 /* ---------------NAVIGATION-------------- */
 /* --------------------------------------- */
@@ -196,6 +215,7 @@ header {
   position: fixed;
   min-height: 8vh;
   max-height: 8vh;
+  box-shadow: black 0px 1px 10px;
   background-image: linear-gradient(to right, #2f78a8, #114161);
   font-family: "Anton", sans-serif;
   z-index: 100;
@@ -215,7 +235,7 @@ header nav {
 }
 
 .logo-pic {
-  margin: auto 1rem auto 2rem;
+  margin: auto;
 }
 .logo-pic img {
   max-height: 5vh;
@@ -245,6 +265,7 @@ header nav {
 }
 .nav-links li {
   list-style: none;
+  align-self: center;
 }
 .nav-links a {
   text-decoration: none;
@@ -259,10 +280,10 @@ header nav {
   cursor: pointer;
 }
 .burger div {
-  width: 25px;
-  height: 2px;
+  width: 30px;
+  height: 3px;
   background-color: white;
-  margin: 4px;
+  margin: 7px;
   border-radius: 15px;
   transition: all 0.3s ease;
 }
@@ -340,7 +361,7 @@ header nav {
   }
 }
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-2px, 3px);
+  transform: rotate(-45deg) translate(-7px, 7px);
 }
 
 .toggle .line2 {
@@ -348,7 +369,7 @@ header nav {
 }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-7px, -7px);
 }
 
 @keyframes navLinkFade {
@@ -750,16 +771,12 @@ button:hover {
   }
 
   .content {
-    min-height: 95vh;
-    margin-top: 5vh;
+    min-height: 100vh;
+    padding-top: 5vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-
-  .remejai img {
-    zoom: 0.9;
   }
 
   .rekvizitai {

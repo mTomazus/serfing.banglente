@@ -13,6 +13,13 @@
                 <img class="w-100" src="{{ asset('user_images/' . $post->image_3) }}" alt="{{ $post->title }} trecias">
             </figure>
             <h3 class="text-white fw-bold">Kaina {{ $post->price }} Eur</h3>
+            
+            <article class="p-2 mb-2 bg-white">
+                <div>
+                    {{ $post->body }}
+                </div>
+            </article>
+
             <h3 class="text-white fw-bold">Ph.: {{ $post->phone }}</h3>
             
             <div class="d-block text-center btn-group m-2 p-2">
@@ -27,13 +34,6 @@
                 @endif
             </div>  
             
-            <article class="p-2 mb-2 bg-white">
-                
-                <div>
-                    {{ $post->body }}
-                </div>
-
-            </article>
         </div>
     </div>
 </div>

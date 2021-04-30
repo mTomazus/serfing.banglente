@@ -40,7 +40,7 @@ class PostsController extends Controller
     {
         $this->validate($request, [
             'title' => 'required|min:10|max:55',
-            'body' => 'required|min:10|max:200',
+            'body' => 'required|min:10|max:250',
             'category' => 'required',
             'price' => 'required|numeric',
             'phone' => 'required',
@@ -63,7 +63,7 @@ class PostsController extends Controller
             $request->image_1->move(public_path('user_images'), $fileNameToStore);
         } else {
             // Get just extension
-            $fileNameToStore = 'noimage1.jpg';
+            $fileNameToStore = 'noimage.jpg';
         }
         if($request->hasFile('image_2')){
             // Get filename with the extension
@@ -78,7 +78,7 @@ class PostsController extends Controller
             $request->image_2->move(public_path('user_images'), $fileNameToStore2);
         } else {
             // Get just extension
-            $fileNameToStore2 = 'noimage2.jpg';
+            $fileNameToStore2 = 'noimage.jpg';
         }
         if($request->hasFile('image_3')){
             // Get filename with the extension
@@ -93,7 +93,7 @@ class PostsController extends Controller
             $request->image_3->move(public_path('user_images'), $fileNameToStore3);
         } else {
             // Get just extension
-            $fileNameToStore3 = 'noimage3.jpg';
+            $fileNameToStore3 = 'noimage.jpg';
         }
 
         // Create Adds

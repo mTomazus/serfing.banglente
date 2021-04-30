@@ -23,18 +23,16 @@ Route::get('contacts/', function () {
     return view('contacts');
 });
 
-Route::get('pamokos/', function () {
-    return view('pamokos');
-});
-
 Route::get('stovykla/', 'App\Http\Controllers\DefaultController@stovykla')->name('stovykla');
+
+Route::get('pamokos/', 'App\Http\Controllers\DefaultController@pamokos')->name('pamokos');
+
+Route::get('varzybos/', 'App\Http\Controllers\DefaultController@varzybos')->name('varzybos');
+
+Route::get('parama/', 'App\Http\Controllers\DefaultController@parama')->name('parama');
 
 Route::get('nuoma/', function () {
     return view('nuoma');
-});
-
-Route::get('varzybos/', function () {
-    return view('varzybos');
 });
 
 Route::get('welcome/', function () {

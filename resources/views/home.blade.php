@@ -4,6 +4,48 @@
 
     <div id="fullpage"> <!--- FULLPAGE START --->
 
+        <!------------------------------------->
+        <!------ Sekcija nr3 LANDING III ------>
+        <!------------------------------------->
+
+        <div class="s3 section">
+            <div class="landing__third content">
+                <div class="heading mb-3">
+                    <h1>VASAROS DIENOS STOVYKLA</h1>
+                    <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
+                    <h2>GRYNAS ORAS IR JŪRA</h2>
+                </div>
+                <a href="/stovykla/">
+                    <button>REGISRUOKIS</button>                      
+                </a>
+                <div class="s3-apacia mt-3">
+                    <h2>RUDENIOP</h2>
+                    <h1>BANGLENČIŲ</h1>
+                    <h2>SPORTO BŪRELIS</h2>
+                </div>
+            </div>     
+        </div>    <!--- end Sekcija 3  --->
+
+        <!------------------------------------>
+        <!------ Sekcija nr2 LANDING II ------>
+        <!------------------------------------>
+
+        <div class="s2 section">
+            <div class="landing__second content">
+                <div class="heading">
+                    <h1>SURF INVENTORIAUS NUOMA</h1>
+                    <h2 class="mb-3">DIDŽIAUSIAS PASIRINKIMAS PABALTYJE</h2>
+                </div>
+                <a href="/nuoma/">
+                    <button>SPŪSTELK ČIA</button>
+                </a>
+                <div class="mt-3 s3-apacia">
+                    <h2>BANGLENTĖS - RIEDLENTĖS - IRKLENTĖS</h2>
+                    <h2>VYRIŠKI, MOTERIŠKI ir VAIKIŠKI HIDROKOSTIUMAI</h2>
+                </div>
+            </div>
+        </div>    <!--- end Sekcija 2  --->
+        
         <!--------------------------------->
         <!----- Sekcija nr1 LANDING I ----->
         <!--------------------------------->  
@@ -28,48 +70,6 @@
             </div>
         </div>   <!--- end SECTION 1  --->
 
-        <!------------------------------------>
-        <!------ Sekcija nr2 LANDING II ------>
-        <!------------------------------------>
-
-        <div class="s2 section">
-            <div class="landing__second content">
-                <div class="heading">
-                    <h1>SURF INVENTORIAUS NUOMA</h1>
-                    <h2 class="mb-3">DIDŽIAUSIAS PASIRINKIMAS PABALTYJE</h2>
-                </div>
-                <a href="/nuoma/">
-                    <button>SPŪSTELK ČIA</button>
-                </a>
-                <div class="mt-3 s3-apacia">
-                    <h2>BANGLENTĖS - RIEDLENTĖS - IRKLENTĖS</h2>
-                    <h2>VYRIŠKI, MOTERIŠKI ir VAIKIŠKI HIDROKOSTIUMAI</h2>
-                </div>
-            </div>
-        </div>    <!--- end Sekcija 2  --->
-        
-        <!------------------------------------->
-        <!------ Sekcija nr3 LANDING III ------>
-        <!------------------------------------->
-
-        <div class="s3 section">
-            <div class="landing__third content">
-                <div class="heading mb-3">
-                    <h1>VASAROS DIENOS STOVYKLA</h1>
-                    <h2>PENKIOS DIENOS TRENIRUOČIŲ</h2>
-                    <h2>GRYNAS ORAS IR JŪRA</h2>
-                </div>
-                <a href="/stovykla/">
-                    <button>REGISRUOKIS</button>                      
-                </a>
-                <div class="s3-apacia mt-3">
-                    <h2>RUDENIOP</h2>
-                    <h1>BANGLENČIŲ</h1>
-                    <h2>SPORTO BŪRELIS</h2>
-                </div>
-            </div>     
-        </div>    <!--- end Sekcija 3  --->
-        
     </div>    <!--- end FULLPAGE --->
 
 @endsection

@@ -38,7 +38,7 @@
 
                 <button class="w-100 btn mt-5 btn-lg btn-success" wire:click.prevent="registerUser" type="submit">Register</button>
 
-                <div class="col-md-12 mt-3"><a class="text-dark" wire:click.prevent="register">Login</a></div>
+                <div class="col-md-12 mt-3"><a class="text-dark" style="text-decoration: underline" wire:click.prevent="register">Login</a></div>
 
             </form>
         </main>
@@ -61,7 +61,7 @@
                     <label for="floatingPassword">Password</label>
                 </div>
                 <button class="w-100 mb-3 mt-5 btn btn-lg btn-primary" wire:click.prevent="login" type="submit">Sign in</button>
-                <div class="col-md-12 mt-1">Don't have account? <a class="text-dark" wire:click.prevent="register">Register Here</a></div>
+                <div class="col-md-12 mt-1">Don't have account? <a class="text-dark" style="text-decoration: underline" wire:click.prevent="register">Register Here</a></div>
             </form>
         </main>
     </div>

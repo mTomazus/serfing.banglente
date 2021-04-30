@@ -32,8 +32,28 @@ class DefaultController extends Controller
         $filewithpath = Storage::files('public/camp');
         $images = preg_replace('/public/', 'storage', $filewithpath);
 
-        //echo asset($images[1]);
-        // dd($images);
         return view('stovykla')->with('images', $images);
+    }
+
+    public function pamokos()
+    {
+        // karuseles failai
+        $filewithpath = Storage::files('public/pamokos');
+        $images = preg_replace('/public/', 'storage', $filewithpath);
+
+        return view('pamokos')->with('images', $images);
+    }
+
+    public function varzybos()
+    {
+        // karuseles failai
+        $filewithpath = Storage::files('public/varzybos');
+        $images = preg_replace('/public/', 'storage', $filewithpath);
+
+        return view('varzybos')->with('images', $images);
+    }
+    public function parama()
+    {
+        return view('parama');
     }
 }

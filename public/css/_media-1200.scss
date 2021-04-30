@@ -83,15 +83,12 @@
         }
     }
     .content {
-        min-height: 95vh;
-        margin-top: 5vh;
+        min-height: 100vh;
+        padding-top: 5vh;
         overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-    .remejai img {
-        zoom: 0.9;
     }
     .rekvizitai {
         margin-bottom: 2rem;

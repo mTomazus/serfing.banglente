@@ -6,6 +6,7 @@ header {
     position: fixed;
     min-height: 8vh;
     max-height: 8vh;
+    box-shadow: black 0px 1px 10px;
     background-image: linear-gradient(to right, #2f78a8, #114161);
     font-family: "Anton", sans-serif;
     z-index: 100;
@@ -27,7 +28,7 @@ header {
 }
 
 .logo-pic{
-    margin: auto 1rem auto 2rem;
+    margin: auto;
     img{
         max-height: 5vh;
         filter: drop-shadow($shadow-deep);
@@ -56,6 +57,7 @@ header {
     padding: 0;
     li{
         list-style: none;
+        align-self: center;
     }
     a{
         text-decoration: none;
@@ -70,10 +72,10 @@ header {
     margin: auto;
     cursor: pointer;
     div{
-        width: 25px;
-        height: 2px;
+        width: 30px;
+        height: 3px;
         background-color: white;
-        margin: 4px;
+        margin: 7px;
         border-radius: 15px;
         transition: all 0.3s ease;
     }
@@ -154,13 +156,13 @@ header {
 //------ Burger x closes --------
 
 .toggle .line1{
-    transform: rotate(-45deg) translate(-2px, 3px);
+    transform: rotate(-45deg) translate(-7px, 7px);
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-7px, -7px);
 }
 
 @keyframes navLinkFade{

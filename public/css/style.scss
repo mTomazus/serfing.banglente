@@ -47,11 +47,20 @@ a {
 .vh-92 {
     min-height:92vh;
 }
+.shadow-box {
+    box-shadow: $shadow
+}
 .h-200 {
     height: 200px!important;
 }
+.h-160 {
+    height: 160px!important;
+}
 .w-90 {
     width: 90%!important;
+}
+.clip {
+    overflow-x: hidden;
 }
 .bg-def {
     background-image: $gradient;
@@ -195,6 +204,16 @@ section {
         path{
             fill:$fills;
         }
+    }
+}
+
+//-----------------parama specific---------------
+.parama {
+    h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: alegreya;
+    font-weight: bold;
     }
 }
 

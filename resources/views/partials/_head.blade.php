@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="/css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 
     @livewireStyles
 

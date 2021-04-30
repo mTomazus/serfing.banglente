@@ -24,10 +24,14 @@
                             </a>
                         </div>
                         <div>
-                            <img src="/img/parama.jpg" alt="skimboards">
-                            <h3>PARAMA</h3>
-                            <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
-                            <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
+                            <a href="/parama/">
+                                <div>
+                                    <img src="/img/parama.jpg" alt="skimboards">
+                                    <h3>PARAMA</h3>
+                                    <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
+                                    <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
+                                </div>
+                            </a> 
                         </div>
                         <div class="mb-0">
                             <a href="#">
@@ -65,8 +69,8 @@
             <div class="sm">
                 <div class="menu my-4 py-2">
                     <ul>
-                        <a href="#">karjera</a>
-                        <a href="#">parama</a>
+                        <a href="/karjera/">karjera</a>
+                        <a href="/parama/">parama</a>
                         <a href="#">ataskaitos</a>
                     </ul>
                 </div>
