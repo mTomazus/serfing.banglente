@@ -23,10 +23,11 @@
                 <option value="4. Liepos 5d.">4. Liepos 5d. - Liepos 9d.</option>
                 <option value="5. Liepos 12d.">5. Liepos 12d. - Liepos 16d.</option>
                 <option value="6. Liepos 19d.">6. Liepos 19d. - Liepos 23d.</option>
-                <option value="7. Rugpjūčio 2d.">7. Rugpjūčio 2d. -	Rugpjūčio 6d.</option>
-                <option value="8. Rugpjūčio 9d.">8. Rugpjūčio 9d. -	Rugpjūčio 13d.</option>
-                <option value="9. Rugpjūčio 16d.">9. Rugpjūčio 16d. -	Rugpjūčio 20d.</option>
-                <option value="10.	Rugpjūčio 23d.">10.	Rugpjūčio 23d. - Rugpjūčio 27d.</option>
+                <option value="7. Liepos 26d.">7. Liepos 26d. - Liepos 30d.</option>
+                <option value="8. Rugpjūčio 2d.">8. Rugpjūčio 2d. -	Rugpjūčio 6d.</option>
+                <option value="9. Rugpjūčio 9d.">9. Rugpjūčio 9d. -	Rugpjūčio 13d.</option>
+                <option value="10. Rugpjūčio 16d.">10. Rugpjūčio 16d. -	Rugpjūčio 20d.</option>
+                <option value="11.	Rugpjūčio 23d.">11.	Rugpjūčio 23d. - Rugpjūčio 27d.</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>

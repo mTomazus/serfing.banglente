@@ -18,14 +18,17 @@ button:hover {
     color: $hover-color;
 }
 .data-table {
-    button {
-        width: 100px;
-        padding: .2rem .5rem;
+    button, span {
+        width: 120px;
+        padding: .375rem .75rem;
         border: 1px solid white;
         color: white;
         margin: 0.5rem auto;
         background: none;
         display: block;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: initial;
         border-radius: 5px;
         transition: all 0.6s ease-in-out;
         -webkit-transition-duration: 0.4s;

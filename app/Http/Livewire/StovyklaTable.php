@@ -15,7 +15,7 @@ class StovyklaTable extends Component
     public function render()
     {
         return view('livewire.stovykla-table',[
-            'lines'=>Stovyklos::simplePaginate(5),
+            'lines'=>Stovyklos::simplePaginate(12),
         ]);
     }
 }

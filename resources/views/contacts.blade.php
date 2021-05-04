@@ -47,8 +47,15 @@
                         
                     </div>
                     <div class="content-side">
-                        <h2>APIE MUS</h2>
-                        <img class="elastic" width="50%" src="/img/naujas-title.png" alt="banglente logo">
+                        <h2>SOCIAL</h2>
+                            <div class="social d-flex justify-content-around">
+                                <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
+                                <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
+                                <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
+                                <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
+                            </div>
+                        <h2>REKVIZITAI</h2>
+                        <!--- <img class="elastic" width="50%" src="/img/naujas-title.png" alt="banglente logo"> --->
                         <div class="rekvizitai text-white">
                             <h3>VšĮ Banglentė</h3>
                             <h3>Vėtros g. 8, Klaipėda</h3>

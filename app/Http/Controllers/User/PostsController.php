@@ -8,6 +8,21 @@ use App\Models\Adds;
 
 class PostsController extends Controller
 {
+    /*
+    public $images =[];
+
+    public function uploadImages()
+    {
+        foreach($this->images as $key=>$image){
+            $this->images[$key] = $image->store('images', 'public');
+        }
+        $this->images = json_encode($this->images);
+        Image::create(['filename'=>$this->images]);
+        session()->flash('message', 'Images successfully uploaded');
+        $this->emit('imagesUploaded');
+    }
+     */
+
     /**
      * Display a listing of the resource.
      *
@@ -60,6 +75,7 @@ class PostsController extends Controller
             // Filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             // Upload Image
+            //$fileNameToStore = $request->file('image_1')->store('user_images'));
             $request->image_1->move(public_path('user_images'), $fileNameToStore);
         } else {
             // Get just extension
@@ -109,7 +125,7 @@ class PostsController extends Controller
         $post->image_3 = $fileNameToStore3;
         $post->save();
 
-        return redirect('/user')->with('success', 'Skelbimas sukurtas...');
+        return redirect('/skelbimai')->with('success', 'Skelbimas sukurtas...');
 
     }
 
@@ -170,9 +186,10 @@ class PostsController extends Controller
         $post->body = $request->input('body');
         $post->category = $request->input('category');
         $post->price = $request->input('price');
+        $post->price = $request->input('phone');
         $post->save();
 
-        return redirect('/user')->with('success', 'Skelbimas paredaguotas...');
+        return redirect('/skelbimai')->with('success', 'Skelbimas paredaguotas...');
     }
 
     /**
@@ -191,6 +208,6 @@ class PostsController extends Controller
         }
 
         $post->delete();
-        return redirect('/user')->with('success', 'Skelbimas ištrintas...');
+        return redirect('/skelbimai')->with('success', 'Skelbimas ištrintas...');
     }
 }

@@ -44,7 +44,7 @@
                         </div>
                         <div class="input-group p-1">
                             <label class="input-group-text" for="image_2">Pic2</label>
-                            {{ Form::file('image_2', ['class' => 'form-control']) }}
+                            <input class="form-control" type="file" name="image_2[]" multiple>
                         </div>
                         <div class="input-group p-1">
                             <label class="input-group-text" for="image_3">Pic3</label>
