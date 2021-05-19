@@ -53,7 +53,7 @@ a {
 }
 
 .clip {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .bg-def {

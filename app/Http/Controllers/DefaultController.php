@@ -56,4 +56,9 @@ class DefaultController extends Controller
     {
         return view('parama');
     }
+
+    public function images()
+    {
+        return view('images');
+    }
 }

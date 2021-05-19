@@ -3,20 +3,25 @@
 @section('content')
 
 <div class="content section vh-92 bg-grad"">
-    <h1>ADMIN DASHBOARD</h1>
-    <div class="lg">
-        <div class="lg__info">
-            <div class="content-box">
-                <p>you are logged in ADMIN!</p>
+    <div class="mt-0">
+        @if (session()->has('message'))
+            <div class="alert h4 alert-success">
+                {{ session('message') }}
             </div>
-            <div class="content-side">
-                
+        @endif
+    </div>
+
+    <div class="w-100">
+        <div class="content-side w-100 d-flex">
+            <div class="col-4">
+                <livewire:contacts-table />
+            </div>
+            <div class="col-4">
+                <livewire:coupon-form />
             </div>
         </div>
     </div>
-    <div class="sm">
 
-    </div>
 @endsection
 
 @section('meta')

@@ -26,7 +26,7 @@
                         </div>
                     @endif
                 @endforeach
-                </div>
+            </div>
         </form>
         
     </div>

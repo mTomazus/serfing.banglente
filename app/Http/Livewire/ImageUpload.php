@@ -4,19 +4,24 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use App\Models\Gallery;
 
 class ImageUpload extends Component
 {
 
     use WithFileUploads;
 
-    public $image;
+    public $images = [];
 
-    public function upload(){
+    public function uploadImages(){
+
         $this->validate([
-            'image' => 'image|max:1024',
+            'images.*' => 'image|max:1024',
         ]);
-        $this->image->store('uploaded_images');
+        foreach ($this->images as $image){
+            $image->store('public/uploaded_images');
+        }
+        
     }
 
     public function render()
