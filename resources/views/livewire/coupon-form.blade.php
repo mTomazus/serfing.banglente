@@ -1,8 +1,21 @@
 <div>
 
-    <div class="container">
+    <div class="container bg-def shadow py-2">
 
-        <h2 class="shadow">NAUJAS</h2>
+        <h2 class="">KUPONAI</h2>
+
+        <div class="mb-4">
+            @foreach ($coups as $coup)
+                <div class="btn-group w-100 flex-column mb-1 flex-sm-row">
+                    <span class="fw-bold btn btn-info">{{ $coup->number }}</span>
+                    <span class="btn btn-light" style='word-wrap:anywhere'>{{ $coup->name }}</span>
+                    <span class="fw-bold btn btn-success">{{ $coup->price }}€</span>
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+            @endforeach
+        </div> 
 
         <form wire:submit.prevent="submitCoupon" class="coupon-form"> 
 
@@ -47,21 +60,6 @@
             </div>
 
         </form>
-
-        <h2 class="shadow">KUPONAI</h2>
-
-        @foreach ($coups as $coup)
-
-            <div class='btn-group w-100 mb-1'>
-                <span class="fw-bold btn btn-info">{{ $coup->number }}</span>
-                <span class="btn btn-light w-100" style='word-wrap:anywhere'>{{ $coup->name }}</span>
-                <span class="fw-bold btn btn-success">{{ $coup->price }}€</span>
-                <div class="input-group-text">
-                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                </div>
-            </div>
-
-        @endforeach
 
     </div>
 

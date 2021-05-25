@@ -12,12 +12,16 @@
     </div>
 
     <div class="w-100">
-        <div class="content-side w-100 d-flex">
-            <div class="col-4">
-                <livewire:contacts-table />
+        <div class="content-side w-90 flex-column d-flex mx-auto">
+            <div class="row">
+                <div class="col my-5">
+                    <livewire:reserv-form />
+                </div>
             </div>
-            <div class="col-4">
-                <livewire:coupon-form />
+            <div class="row">
+                <div class="col">
+                    <livewire:coupon-form />
+                </div>
             </div>
         </div>
     </div>

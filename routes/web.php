@@ -44,8 +44,6 @@ Route::get('karjera/', function () {
 
 Route::resource('skelbimai', 'App\Http\Controllers\DefaultController');
 
-Route::get('images', 'App\Http\Controllers\GalleryController@index');
-
 Route::get('login/', function () {
     return view('login');
 })->name('login');
@@ -81,6 +79,8 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('contacts-table', function () {
         return view('admin.contacts-table');
     });
+
+    Route::get('images', 'App\Http\Controllers\GalleryController@index');
 
 });
 

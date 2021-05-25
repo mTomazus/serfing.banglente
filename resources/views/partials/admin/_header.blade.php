@@ -12,7 +12,6 @@
 
       <ul class="nav-links">
 
-        <li><a href="/">Main</a></li>
         <li><a href="/admin">Dashboard</a></li>
         <li><a href="/pamokos-table">Pamokos</a></li>
         <li><a href="/stovykla-table">Stovykla</a></li>
