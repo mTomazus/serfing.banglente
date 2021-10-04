@@ -10,7 +10,7 @@
         <div class="content--scroll">
             <div>
                 <h1>VASAROS STOVYKLA 2021</h1>
-                <h2>Penktus metus Lietuvoje!</h2>
+                <h2>Programa iš dalies finansuojama Savivaldybės Lėšomis!</h2>
             </div>
             <div class="lg">
                 <div class="lg__info">
@@ -40,15 +40,22 @@
                             <p>Vienos dienos kaina 45€.</p>
                             <p>Maitinimas įskaičiuotas</p>
                         </article>
-                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 30 Eur pavedimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed).</p>
+                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 30 Eur pavedimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
                         <p>Visada mielai atsakysime į visus jums kylančius klausimus telefonu. </p>
                     </div>
 
                     <div class="content-side">
+                        <h2>REMĖJAI</h2>
+                        <section class="d-flex flex-row bg-white w-100 mb-4">
+                            <img style="width:25%;margin:auto;box-shadow:none" src="/img/oneill.png" alt="">
+                            <img style="width:25%;margin:auto;box-shadow:none" src="/img/klaiped.png" alt="">
+                            <img style="width:25%;margin:auto;box-shadow:none" src="/img/kl.jpeg" alt="">
+                        </section>
+
                         <h2>GALERIJA</h2>
 
                         <!--------- Galerija StovyklaCarousel --------->
-                        <div class="carousel">
+                        <div class="carousel mb-4">
                             <button class="b-left is-hidden">
                                 <img src="/img/left-solid.svg">
                             </button>
@@ -77,7 +84,7 @@
                                 <li>Susipažinimas su inventoriumi ir priemonėmis;</li>
                                 <li>Banglenčių treniruotės krante ir vandenyje;</li>
                                 <li>Maitinimas du kartus: pietūs ir užkandžiai;</li>
-                                <li>Daug puikių įspudžių atvirame ore;</li>
+                                <li>Daug puikių įspūdžių atvirame ore;</li>
                                 <li>Teorija apie jūrą, banglentes ir bangas;</li>
                                 <li>Užsiėmimai su riedlentėmis;</li>
                                 <li>Išvykimas 17:00-17:30 val.</li>

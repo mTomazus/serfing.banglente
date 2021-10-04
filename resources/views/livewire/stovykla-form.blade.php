@@ -18,16 +18,16 @@
             <select class="custom-select" name="pamaina" id="pamaina" wire:model="pamaina">
                 <option value="-1">Pasirinktite</option>
                 <option value="1. Birželio 14d." disabled>1. Pretęsti mokslo metai</option>
-                <option value="2. Birželio 21d." disabled>2. Birželio 21d. - Birželio 25d.</option>
+                <option value="2. Birželio 21d." disabled>2. Pretęsti mokslo metai</option>
                 <option value="3. Birželio 28d." disabled>3. Pamaina pilna</option>
-                <option value="4. Liepos 5d.">4. Liepos 5d. - Liepos 9d.</option>
+                <option value="4. Liepos 5d." disabled>4. Pamaina pilna</option>
                 <option value="5. Liepos 12d." disabled>5. Pamaina pilna</option>
                 <option value="6. Liepos 19d." disabled>6. Pamaina pilna</option>
-                <option value="7. Liepos 26d.">7. Liepos 26d. - Liepos 30d.</option>
-                <option value="8. Rugpjūčio 2d.">8. Rugpjūčio 2d. -	Rugpjūčio 6d.</option>
-                <option value="9. Rugpjūčio 9d.">9. Rugpjūčio 9d. -	Rugpjūčio 13d.</option>
-                <option value="10. Rugpjūčio 16d.">10. Rugpjūčio 16d. -	Rugpjūčio 20d.</option>
-                <option value="11.	Rugpjūčio 23d.">11.	Rugpjūčio 23d. - Rugpjūčio 27d.</option>
+                <option value="7. Liepos 26d." disabled>7. Pamaina pilna.</option>
+                <option value="8. Rugpjūčio 2d." disabled>8. Pamaina pilna</option>
+                <option value="9. Rugpjūčio 9d." disabled>9. Pamaina pilna</option>
+                <option value="10. Rugpjūčio 16d." disabled>10. Pamaina pilna</option>
+                <option value="11.	Rugpjūčio 23d." disabled>11. Pamaina pilna</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
