@@ -26,6 +26,9 @@
         font-size: 8vh;
         line-height: 8vh;
     }
+    .logo {
+        display: block!important;
+    }
     .logo h6 {
         font-size: 3vh;
         letter-spacing: 0.8vw;
@@ -38,7 +41,7 @@
         }
     }
     .knopkes {
-        display: none;
+        display: none!important;
     }
     header {
         top: 0;

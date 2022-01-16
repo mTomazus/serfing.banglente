@@ -2,6 +2,7 @@ const navSlide  = () => {
 
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
+    const meganav = document.querySelector('.meganav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
     const blurPage  = document.querySelector('.section');
     const logo = document.querySelector('.logo');
@@ -11,14 +12,15 @@ const navSlide  = () => {
     //--- Toggle burger Nav -----
     burger.addEventListener('click', ()=> {
         nav.classList.toggle('nav-active');
+        meganav.classList.toggle('mega-active');
 
         //--- Burger button animation ---
         burger.classList.toggle("toggle");
 
         //--- Bluring the  page -----
-
         blurPage.classList.toggle("blur");
 
+        //--- Toggling Logo or Knopkes---
         if (logo.style.display === "none") {
             logo.style.display = "block";
             knopkes.style.display = 'none';
@@ -28,11 +30,13 @@ const navSlide  = () => {
           }
 
     });
+    //--- Closing navigation on outside click
     blurPage.addEventListener('click', ()=> {
         nav.classList.remove('nav-active');
+        meganav.classList.remove('mega-active');
         blurPage.classList.remove("blur");
         burger.classList.remove("toggle");
-    })
+    });
 
     //--- Nav links animamtion ---
     navLinks.forEach((link, index) => {

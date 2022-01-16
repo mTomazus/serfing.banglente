@@ -280,8 +280,23 @@ header nav {
   text-shadow: 0 0.2rem 0.5rem #00000075;
 }
 
+.meganav-links {
+  position: absolute;
+  transform: translateX(100%);
+  transition: transform ease-in-out 1s;
+  width: 100%;
+  top: 5vh;
+  background: #296c99bf;
+  height: 95vh;
+  padding: 2rem;
+}
+
+.mega-active {
+  transform: translateX(0%);
+  display: flex;
+}
+
 .burger {
-  display: none;
   margin: auto;
   cursor: pointer;
 }
@@ -718,6 +733,10 @@ button:hover {
     line-height: 8vh;
   }
 
+  .logo {
+    display: block !important;
+  }
+
   .logo h6 {
     font-size: 3vh;
     letter-spacing: 0.8vw;
@@ -732,7 +751,7 @@ button:hover {
   }
 
   .knopkes {
-    display: none;
+    display: none !important;
   }
 
   header {
@@ -1161,6 +1180,10 @@ button:hover {
   }
   .knopkes a {
     text-decoration: none;
+  }
+
+  .meganav-links {
+    display: none !important;
   }
 
   .section {

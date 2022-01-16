@@ -67,8 +67,24 @@ header {
     }
 }
 
+.meganav-links{
+    position: absolute;
+    transform: translateX(100%);
+    transition: transform ease-in-out 1s;
+    width: 100%;
+    top: 5vh;
+    background: #296c99bf;
+    height: 95vh;
+    padding: 2rem;
+}
+
+.mega-active{
+    transform: translateX(0%);
+    display: flex;
+}
+
 .burger{
-    display: none;
+    // display: none;
     margin: auto;
     cursor: pointer;
     div{
@@ -121,7 +137,6 @@ header {
         transform: translateX(0%);
         background-image: $gradient;
     }
-    
     .nav-active{
         li:nth-child(1){
             animation: navLinkFade 1s ease 0.54s forwards;
