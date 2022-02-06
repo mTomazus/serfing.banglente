@@ -73,7 +73,7 @@
         <li><a href="/pamokos/">Pamokos</a></li>
         <li><a href="/nuoma/">Nuoma</a></li>
         <li><a href="/stovykla/">Stovykla</a></li>
-        <li><a href="#">Būrelis</a></li>
+        <li><a href="/keliones/">Kelionės</a></li>
         <li><a href="/varzybos/">Varžybos</a></li>
         <li><a href="/skelbimai/">Skelbimai</a></li>
         <li><a href="/contacts/">Kontaktai</a></li>
@@ -89,24 +89,7 @@
 
       </ul>
 
-      <div class="meganav-links justify-content-around">
-        <div class="col-8">
-          <div class="col m-5">
-            <h2 class="col-12 mb-3">SOCIAL MEDIA</h2>
-            <div class="d-flex justify-content-around">
-              <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
-              <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
-              <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
-              <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
-            </div>
-          </div>
-          <div class="row">
-            <li class="col"><a href="#">prognozes</a></li>
-            <li class="col"><a href="#">stripsniai</a></li>
-            <li class="col"><a href="#">webkamai</a></li>
-          </div>
-        </div>
-      </div>
+      @include('partials._meganav')
 
       <div class="burger">
         <div class="line1"></div>

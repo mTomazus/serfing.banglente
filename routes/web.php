@@ -29,6 +29,10 @@ Route::get('pamokos/', 'App\Http\Controllers\DefaultController@pamokos')->name('
 
 Route::get('varzybos/', 'App\Http\Controllers\DefaultController@varzybos')->name('varzybos');
 
+Route::get('keliones/', 'App\Http\Controllers\DefaultController@keliones')->name('keliones');
+
+Route::get('webcamai/', 'App\Http\Controllers\DefaultController@webcamai')->name('webcamai');
+
 Route::get('parama/', 'App\Http\Controllers\DefaultController@parama')->name('parama');
 
 Route::get('nuoma/', function () {

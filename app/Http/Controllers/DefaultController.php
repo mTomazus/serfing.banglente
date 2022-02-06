@@ -52,6 +52,14 @@ class DefaultController extends Controller
 
         return view('varzybos')->with('images', $images);
     }
+    public function keliones()
+    {
+        // kelioniu karuseles failai
+        $filewithpath = Storage::files('public/keliones');
+        $images = preg_replace('/public/', 'storage', $filewithpath);
+
+        return view('keliones')->with('images', $images);
+    }
     public function parama()
     {
         return view('parama');
@@ -60,5 +68,10 @@ class DefaultController extends Controller
     public function images()
     {
         return view('images');
+    }
+
+    public function webcamai()
+    {
+        return view('webcamai');
     }
 }

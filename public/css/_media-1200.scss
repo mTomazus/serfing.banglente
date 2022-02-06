@@ -60,6 +60,19 @@
             }
         }
     }
+    .meganav-links {
+        a {
+            color: lightblue;
+            transition: color 0.5s ease;
+            letter-spacing: 0.1rem;
+            &:hover {
+            color: white;
+            }
+        }
+        li {
+            list-style: none;
+        }
+    }
     .career-list__item {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -216,7 +229,10 @@
             margin: auto;
         }
     }
-
+    .side-title {
+        background-image: $gradient;
+        padding: 0;
+    }
     .content-side {
         margin-left: 2vw;
         width: 40%;

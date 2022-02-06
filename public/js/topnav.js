@@ -47,7 +47,7 @@ const navSlide  = () => {
 navSlide();
 
 //   navigation disapear on scroll
-	
+/*	
 if ($( window ).width() > 769) {   
 var mywindow = $(window);
 var mypos = mywindow.scrollTop();
@@ -66,3 +66,4 @@ mywindow.scroll(function () {
     mypos = newscroll;
 });
 }
+*/
