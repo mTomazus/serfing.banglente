@@ -1,5 +1,5 @@
 <div class="meganav-links justify-content-around">
-    <div class="container" style="font-family: 'Alegreya';font-weight: 900;font-size: x-large;font-stretch: unset;color: white;">
+    <div class="container flex-column d-flex justify-content-evenly" style="font-family: 'Alegreya';font-weight: 900;font-size: x-large;font-stretch: unset;color: white;">
         <ul class="d-flex justify-content-around" style="border-bottom: 2px solid white;">
             <li class="col" style="border-right: 2px solid white;margin: 2rem;">
                 <span>Pagrindiniai</span>
@@ -59,7 +59,7 @@
                 </ul>
             </li>
         </ul>
-        <div class="container fixed-bottom mb-3 pt-3" style="border-top: 2px solid">
+        <div class="container mb-3 pt-3" style="border-top: 2px solid">
             <div class="d-flex justify-content-around">
                 <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
                 <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
