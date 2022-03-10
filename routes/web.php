@@ -39,6 +39,10 @@ Route::get('nuoma/', function () {
     return view('nuoma');
 });
 
+Route::get('form/', function () {
+    return view('onlyform');
+});
+
 Route::get('welcome/', function () {
     return view('welcome');
 });
