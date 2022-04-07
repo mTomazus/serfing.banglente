@@ -15,19 +15,18 @@
             <div class="input-group-append">
                 <label class="input-group-text" for="pamaina">Stovyklos pamaina</label>
             </div>
-            <select class="custom-select" name="pamaina" id="pamaina" wire:model="pamaina">
-                <option value="-1">Pasirinktite</option>
-                <option value="1. Birželio 14d." disabled>1. Pretęsti mokslo metai</option>
-                <option value="2. Birželio 21d." disabled>2. Pretęsti mokslo metai</option>
-                <option value="3. Birželio 28d." disabled>3. Pamaina pilna</option>
-                <option value="4. Liepos 5d." disabled>4. Pamaina pilna</option>
-                <option value="5. Liepos 12d." disabled>5. Pamaina pilna</option>
-                <option value="6. Liepos 19d." disabled>6. Pamaina pilna</option>
-                <option value="7. Liepos 26d." disabled>7. Pamaina pilna.</option>
-                <option value="8. Rugpjūčio 2d." disabled>8. Pamaina pilna</option>
-                <option value="9. Rugpjūčio 9d." disabled>9. Pamaina pilna</option>
-                <option value="10. Rugpjūčio 16d." disabled>10. Pamaina pilna</option>
-                <option value="11.	Rugpjūčio 23d." disabled>11. Pamaina pilna</option>
+            <select class="form-control" name="pamaina" id="pamaina" wire:model="pamaina">
+                <option value="-1">Pasirinktite pamainą</option>
+                <option value="1. Birželio 20d.">1. Birželio 20d. - 23d.</option>
+                <option value="2. Birželio 27d.">2. Birželio 27d. - Liepos 1d.</option>
+                <option value="3. Liepos 4d.">3. Liepos 4d. - 8d.</option>
+                <option value="4. Liepos 11d.">4. Liepos 11d. - 15d.</option>
+                <option value="5. Liepos 18d.">5. Liepos 18d. - 22d.</option>
+                <option value="6. Liepos 25d.">6. Liepos 25d. - 29d.</option>
+                <option value="7. Rugpjūčio 1d.">7. Rugpjūčio 1d. - 5d.</option>
+                <option value="8. Rugpjūčio 8d.">8. Rugpjūčio 8d. - 12d.</option>
+                <option value="9. Rugpjūčio 16d.">9. Rugpjūčio 16d. - 19d.</option>
+                <option value="10.	Rugpjūčio 22d.">10. Rugpjūčio 22d. - 26d.</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
@@ -51,7 +50,7 @@
                 <div class="input-group-append">
                     <label class="input-group-text" for="metai" aria-describedby="metai">Metai</label>
                 </div>
-                <select class="custom-select" name="metai" id="metai" wire:model="age">
+                <select class="form-control" name="metai" id="metai" wire:model="age">
                     <option value="10">10</option>
                     <option value="11">11</option>
                     <option value="12">12</option>
@@ -68,14 +67,11 @@
                 <div class="input-group-append">
                     <label class="input-group-text" for="plaukti" aria-describedby="plaukti">Plaukia:</label>
                 </div>
-                <select class="custom-select" name="plaukti" id="plaukti" wire:model="swim">
+                <select class="form-control" name="plaukti" id="plaukti" wire:model="swim">
                     <option value="gerai" selected>Gerai</option>
                     <option value="silpnai">Silpnai</option>
                 </select>
             </div>
-        </div>
-        <div class="col-9 mx-auto form-group mb-3">
-            <input class="form-control" type="text" name="alergija" aria-describedby="alergija" placeholder="Ar alergiškas ir kam ?" wire:model="alergy">
         </div>
         <div class="form-group col-7 mb-3 mx-auto">                    
             <input class="form-control" type="email" name="email" aria-describedby="emailHelp" placeholder="Elektroninis paštas" wire:model="email">

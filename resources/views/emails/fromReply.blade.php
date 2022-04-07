@@ -22,7 +22,7 @@
     <div style="margin:3rem">
         <h3>Laba diena,</h3>
         <h3>Gavome stovyklos registracijos formą į {{ $senderpamaina }} pamainą.</h3>
-        <h3>Kad užrezervuoti vietą pamainoje svarbu pervesti 30 Eur avansą į VšĮ Banglentė sąskaitą:</h3>
+        <h3>Kad užrezervuoti vietą pamainoje svarbu pervesti 70 Eur avansą į VšĮ Banglentė sąskaitą:</h3>
         <h3>LT227300010144594068</h3>
         <h3>Likusią dalį perveskite savaitę iki pamainos pradžios.</h3>
         <br>
@@ -41,7 +41,7 @@
         </pre>
 
         <h3>Pagarbiai,</h3>
-        <h3>Tomas Ūksas</h3>
+        <h3 style="margin-bottom:2rem">Tomas Ūksas</h3>
     </div>
 </body>
 </html>

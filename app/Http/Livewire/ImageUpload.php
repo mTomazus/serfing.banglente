@@ -21,11 +21,12 @@ class ImageUpload extends Component
         foreach ($this->images as $image){
             $image->store('public/uploaded_images');
         }
-        
+
     }
 
-    public function render()
-    {
+    public function render(){
+
         return view('livewire.image-upload');
+
     }
 }

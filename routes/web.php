@@ -35,12 +35,21 @@ Route::get('webcamai/', 'App\Http\Controllers\DefaultController@webcamai')->name
 
 Route::get('parama/', 'App\Http\Controllers\DefaultController@parama')->name('parama');
 
+Route::get('gallery/', 'App\Http\Controllers\DefaultController@gallery')->name('gallery');
+
 Route::get('nuoma/', function () {
     return view('nuoma');
 });
 
 Route::get('form/', function () {
     return view('onlyform');
+});
+
+Route::get('form2/', function () {
+    return view('onlyform2');
+});
+Route::get('form3/', function () {
+    return view('onlyform3');
 });
 
 Route::get('welcome/', function () {

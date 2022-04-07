@@ -9,19 +9,18 @@
     <div class="content">    
         <div class="content--scroll">
             <div>
-                <h1>VASAROS STOVYKLA 2021</h1>
+                <h1>VASAROS STOVYKLA 2022</h1>
                 <h2>Programa iš dalies finansuojama Savivaldybės Lėšomis!</h2>
             </div>
             <div class="lg">
                 <div class="lg__info">
 
                     <div class="content-box">
-                        <p>Mes jau penktus metus veikianti banglenčių mokykla Melnragėje.</p>
+                        <p>Mes jau šeštus metus veikianti banglenčių mokykla Melnragėje.</p>
                         <article>
                             <img src="/img/camp2-300.jpg" class="float-start me-3" alt="vaikų stovykla">
-                            <p>Penktus metus organizuojame stovyklas vaikams.</p>
                             <p>Stovykla organizuojama nuo Birželio vidurio iki Rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje. Grupės sudaromos iš 8-10 mokančių plaukti vaikų nuo 10 iki 18 metų.</p>
-                            <p>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30), bet galimi ir vienos ar keletos dienų variantai.</p>
+                            <p>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30).</p>
                         </article>
                         <p>Stovyklautojam suteikiame visas reikalingas sporto priemones:</p>
                         <article>
@@ -36,11 +35,10 @@
                             <p class="pt-4 text-center"><a class="color-white" href="/incoming/programa.pdf" target="_blank">Preliminari programa*</a></p>
                         </article>
                         <article>
-                            <p>Pamainos kaina 170€.</p>
-                            <p>Vienos dienos kaina 45€.</p>
+                            <p>Pamainos kaina 220€.</p>
                             <p>Maitinimas įskaičiuotas</p>
                         </article>
-                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 30 Eur pavedimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
+                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 70 Eur pavedimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
                         <p>Visada mielai atsakysime į visus jums kylančius klausimus telefonu. </p>
                     </div>
 
@@ -100,8 +98,7 @@
                 <h3>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30), bet galimi ir vienos ar keletos dienų variantai.</h3>
                 <h3><a href="/incoming/programa.pdf" target="_blank" style="display: initial">Stovyklos preliminari programa čia</a></h3>
                 <img src="/img/vaikai.jpg">
-                <h2>Pamainos kaina 170 Eurų.</h2>
-                <h3>Vienos dienos kaina 45 Eurai.</h3>
+                <h2>Pamainos kaina 220 Eurų.</h2>
                 <h3>Maitinimas įskaičiuotas</h3>
                 <h2 class="text-white">Norint registruotis užpildykite formą</h2>
                 <div class="col-11 mx-auto">

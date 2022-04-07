@@ -60,6 +60,14 @@ class DefaultController extends Controller
 
         return view('keliones')->with('images', $images);
     }
+    public function gallery()
+    {
+        // gallery failai
+        $filewithpath = Storage::files('public/uploaded_images');
+        $images = preg_replace('/public/', 'storage', $filewithpath);
+
+        return view('gallery')->with('images', $images);
+    }
     public function parama()
     {
         return view('parama');
