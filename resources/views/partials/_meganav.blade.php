@@ -18,7 +18,7 @@
                     <li><a href="/skelbimai/">Skelbimai</a></li>
                     <li><a href="#">Prognozės</a></li>
                     <li><a href="/webcamai/">Webcamai</a></li>
-                    <li><a href="#">Forumas</a></li>
+                    <li><a href="#">Straipsniai</a></li>
                     <li><a href="#">Nuorodos</a></li>
                 </ul>
             </li>
@@ -41,10 +41,10 @@
             <li class="col" style="margin: 2rem">
                 <span>Draugai</span>
                 <ul>
-                    <li><a href="http://www.surf.lt" target="_blank">www.surf.lt</a></li>
-                    <li><a href="https://www.boards.lt" target="_blank">www.boards.lt</a></li>
-                    <li><a href="https://www.ateikateik.lt" target="_blank">www.ateikateik.lt</a></li>
-                    <li><a href="https://klaipeda.diena.lt" target="_blank">klaipeda.diena.lt</a></li>
+                    <li><a href="http://www.surf.lt" target="_blank" rel="sponsored">www.surf.lt</a></li>
+                    <li><a href="https://www.boards.lt" target="_blank" rel="sponsored">www.boards.lt</a></li>
+                    <li><a href="https://www.ateikateik.lt" target="_blank" rel="sponsored">www.ateikateik.lt</a></li>
+                    <li><a href="https://klaipeda.diena.lt" target="_blank" rel="sponsored">klaipeda.diena.lt</a></li>
                 </ul>
             </li>
             <li class="col" style="margin: 2rem;">

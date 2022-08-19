@@ -56,7 +56,7 @@
     .landing__second {
         h2 {
             font-size: 3.5vh;
-            color: $alt-text-color;
+            color: $text-color;
         }
         img {
         margin: 0px 0 60px;
@@ -74,7 +74,7 @@
             margin-top: 2rem;
         }
         h2 {
-            color: $alt-text-color;
+            color: $text-color;
         }
         .s3-apacia {
             margin: 0 0 3rem;
@@ -108,6 +108,35 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .cont {
+        overflow: hidden;
+        padding-bottom: 8vh;
+        height: 92vh;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .articles {
+        h1 {
+            font-size: 1.5rem;
+        }
+        h2 {
+            color: white;
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            font-family: initial;
+            max-width: 100%;
+        }
+        div {
+            width: 100%!important;
+        }
+        img {
+            margin: 1rem 0;
+        }
     }
     .stars {
         margin: 0 auto 3rem;
@@ -216,6 +245,20 @@
     .pamoka-box {
         display: none;
     }
+    .description {
+        h2 {
+            font-size: 1.1rem!important;
+            max-width: 100%;
+        }
+        .col {
+            background: #1c567c;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            h2:last-of-type {
+                margin: 0;
+            }
+        }
+    }
 
 //----------- stovykla page specific --------------
  
@@ -223,10 +266,6 @@
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
         color:$text-color;
-        img {
-            width: 90%;
-            margin: 5%;
-        }
         h1 {
             font-size: 2.5rem;
             margin: 1rem auto 0;

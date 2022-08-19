@@ -27,6 +27,18 @@
         }
     }
 }
+.modal {
+    .carousel {
+        max-width: 1000px;
+        width: 100%!important;
+        margin-bottom: 0!important;
+        height: auto!important;
+
+    }
+    .modal-dialog {
+        max-width: fit-content;
+    }
+}
 .carousel {
     position: relative;
     height: 100%;

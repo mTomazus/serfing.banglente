@@ -11,6 +11,7 @@
                     <span class="btn btn-light" style='word-wrap:anywhere'>{{ $reserv->name }}</span>
                     <span class="fw-bold btn btn-success">{{ $reserv->service }}</span>
                     <span class="fw-bold btn btn-secondary">{{ $reserv->date }} {{ $reserv->time }}</span>
+                    <button class="fw-bold btn btn-danger w-auto" style="max-width:100px" wire:click="destroy({{$reserv->id}})">DELETE</button>
                 </div>
             @endforeach
         </div>

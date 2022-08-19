@@ -39,4 +39,12 @@ class CouponForm extends Component
             'coups' => Coupon::all()->sortByDesc('created_at'),
         ]);
     }
+    public function destroy($id)
+    {
+        // delete
+        $coupon = Coupon::find($id);
+        $coupon->delete();
+
+        session()->flash('message', 'Kuponas sėkmingai ištrintas!');
+    }
 }

@@ -8,10 +8,10 @@
     <meta name="google-site-verification" content="vI4-jaGremmKST9DX1EVLfkCVGlQsapPPlLqwrz7hJ4" />
     <meta name="author" content="VšĮ Banglentė">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload stylesheet prefetch" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" as="style">
+    <link rel="preload stylesheet prefetch" href="https://fonts.googleapis.com/css2?family=Anton&display=swap" as="style">
     <link rel="shortcut icon" href="/img/icon-b.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="/css/fullpage.css" />

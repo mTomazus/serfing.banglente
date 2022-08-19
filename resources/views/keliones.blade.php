@@ -118,7 +118,7 @@
 @section('meta')
 
     <title>Banglentė - Keliaukim į Kanarus!</title>
-    <link rel="canonical" href="https://www.serfingas.lt/keliones/">
+    <link rel="canonical" href="https://www.banglente.com/keliones/">
     <meta name="description" content="Surf kelionės į Kanarų salas">
     <meta name="keywords" content="surf keliones, surf travel, banglenčių stovykla, surf camp">
 

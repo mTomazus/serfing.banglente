@@ -101,3 +101,6 @@ Route::middleware(['auth', 'admin'])->group(function () {
 
 });
 
+Route::get('straipsniai/{page}', 'App\Http\Controllers\ArticleController')
+    ->name('page')
+    ->where('page', '[1, 2]');

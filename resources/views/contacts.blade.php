@@ -102,8 +102,8 @@
 
 @section('meta')
 
-    <title>Banglentė - mokomes serfinti Lietuvoje</title>
-    <link rel="canonical" href="https://www.serfingas.lt/contacts/">
+    <title>Banglentė - Banglenčių mokyklos kontaktai</title>
+    <link rel="canonical" href="https://www.banglente.com/contacts/">
     <meta name="description" content="Griebiam banglentes ir į bangas, išsinuomuok banglente , SUPą Klaipėdoje ir Melnragėje, banglenčių mokykla.">
     <meta name="keywords" content="banglentes, SUP, bodyboardai, banglenčių nuoma, mokykla, nuoma, varžybos, lietuva, hidrokostiumai, riedlentės, melnrage, klaipeda, molas, surf, spotas">
 

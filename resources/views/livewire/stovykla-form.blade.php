@@ -17,16 +17,16 @@
             </div>
             <select class="form-control" name="pamaina" id="pamaina" wire:model="pamaina">
                 <option value="-1">Pasirinktite pamainą</option>
-                <option value="1. Birželio 20d.">1. Birželio 20d. - 23d.</option>
-                <option value="2. Birželio 27d.">2. Birželio 27d. - Liepos 1d.</option>
-                <option value="3. Liepos 4d.">3. Liepos 4d. - 8d.</option>
-                <option value="4. Liepos 11d.">4. Liepos 11d. - 15d.</option>
-                <option value="5. Liepos 18d.">5. Liepos 18d. - 22d.</option>
-                <option value="6. Liepos 25d.">6. Liepos 25d. - 29d.</option>
-                <option value="7. Rugpjūčio 1d.">7. Rugpjūčio 1d. - 5d.</option>
-                <option value="8. Rugpjūčio 8d.">8. Rugpjūčio 8d. - 12d.</option>
-                <option value="9. Rugpjūčio 16d.">9. Rugpjūčio 16d. - 19d.</option>
-                <option value="10.	Rugpjūčio 22d.">10. Rugpjūčio 22d. - 26d.</option>
+                <option value="1. Birželio 20d." disabled>1. Ilgesni mokslo metai.</option>
+                <option value="2. Birželio 27d." disabled>2. Jau nebėra vietų.</option>
+                <option value="3. Liepos 4d." disabled>3. Jau nebėra vietų.</option>
+                <option value="4. Liepos 11d." disabled>4. Jau nebėra vietų.</option>
+                <option value="5. Liepos 18d." disabled>5. Jau nebėra vietų.</option>
+                <option value="6. Liepos 25d." disabled>6. Jau nebėra vietų.</option>
+                <option value="7. Rugpjūčio 1d." disabled>7. Jau nebėra vietų.</option>
+                <option value="8. Rugpjūčio 8d." disabled>8. Jau nebėra vietų.</option>
+                <option value="9. Rugpjūčio 16d." disabled>9. Rugpjūčio 15d. - 19d.</option>
+                <option value="10.	Rugpjūčio 22d.">10. Rugpjūčio 22d. - 26d. (liko 1 vieta)</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>

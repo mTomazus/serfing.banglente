@@ -15,7 +15,7 @@ class PamokosTable extends Component
     public function render()
     {
         return view('livewire.pamokos-table',[
-            'lines'=>Pamokos::simplePaginate(12),
+            'lines'=>Pamokos::orderBy('id', 'desc')->simplePaginate(12),
         ]);
     }
 }

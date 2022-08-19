@@ -29,10 +29,43 @@ class DefaultController extends Controller
     /* stovykla su carusele is directorijos */
     public function stovykla()
     {
+        $allyears = array('2017', '2018', '2019', '2020', '2021');
+
         $filewithpath = Storage::files('public/camp');
         $images = preg_replace('/public/', 'storage', $filewithpath);
+        $filewithpath17th = Storage::files('public/camp/2017/thumb');
+        $images17th = preg_replace('/public/', 'storage', $filewithpath17th);
+        $filewithpath17 = Storage::files('public/camp/2017');
+        $images17 = preg_replace('/public/', 'storage', $filewithpath17);
+        $filewithpath18th = Storage::files('public/camp/2018/thumb');
+        $images18th = preg_replace('/public/', 'storage', $filewithpath18th);
+        $filewithpath18 = Storage::files('public/camp/2018');
+        $images18 = preg_replace('/public/', 'storage', $filewithpath18);
+        $filewithpath19th = Storage::files('public/camp/2019/thumb');
+        $images19th = preg_replace('/public/', 'storage', $filewithpath19th);
+        $filewithpath19 = Storage::files('public/camp/2019');
+        $images19 = preg_replace('/public/', 'storage', $filewithpath19);
+        $filewithpath20th = Storage::files('public/camp/2020/thumb');
+        $images20th = preg_replace('/public/', 'storage', $filewithpath20th);
+        $filewithpath20 = Storage::files('public/camp/2020');
+        $images20 = preg_replace('/public/', 'storage', $filewithpath20);
+        $filewithpath21th = Storage::files('public/camp/2021/thumb');
+        $images21th = preg_replace('/public/', 'storage', $filewithpath21th);
+        $filewithpath21 = Storage::files('public/camp/2021');
+        $images21 = preg_replace('/public/', 'storage', $filewithpath21);
 
-        return view('stovykla')->with('images', $images);
+        return view('stovykla')
+                ->with('images', $images)
+                ->with('images17', $images17)
+                ->with('images17th', $images17th)
+                ->with('images18', $images18)
+                ->with('images18th', $images18th)
+                ->with('images19', $images19)
+                ->with('images19th', $images19th)
+                ->with('images20th', $images20th)
+                ->with('images20', $images20)
+                ->with('images21th', $images21th)
+                ->with('images21', $images21);
     }
 
     public function pamokos()

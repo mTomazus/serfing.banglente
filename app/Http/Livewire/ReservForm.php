@@ -39,4 +39,12 @@ class ReservForm extends Component
             'reservs' => Reserv::all()->sortByDesc('date'),
             ]);
     }
+    public function destroy($id)
+    {
+        // delete
+        $reserv = Reserv::find($id);
+        $reserv->delete();
+
+        session()->flash('message', 'Rezervacija sėkmingai ištrinta!');
+    }
 }

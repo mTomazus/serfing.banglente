@@ -10,9 +10,7 @@
                     <span class="fw-bold btn btn-info">{{ $coup->number }}</span>
                     <span class="btn btn-light" style='word-wrap:anywhere'>{{ $coup->name }}</span>
                     <span class="fw-bold btn btn-success">{{ $coup->price }}€</span>
-                    <div class="input-group-text">
-                        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                    </div>
+                    <button class="fw-bold btn btn-danger w-auto" style="max-width:100px" wire:click="destroy({{$coup->id}})">DELETE</button>
                 </div>
             @endforeach
         </div> 

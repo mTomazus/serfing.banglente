@@ -42,6 +42,11 @@ return [
             'visibility' => 'public',
         ],
 
+        'views' => [
+            'driver' => 'local',
+            'root' => base_path('resources/views'),
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

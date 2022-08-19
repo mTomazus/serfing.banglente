@@ -10,38 +10,47 @@
     <div class="content pamokos">
         <div class="content--scroll">
             <div class="lg">
-                <h1>PAMOKOS</h1>
+                <h1>SURF PAMOKOS</h1>
+                <div class="description">
+                    <h2 class="mb-3">Išbandykite banglentes (angl. surfing)!</h2>
+                    <h2 class="mb-3">Puikiai išmanantys banglenčių sportą instruktoriai per pusantros valandos trūkmės pamoką pamokys, kaip pasigauti savo pirmą bangą. Mūsų surf pamokos vedamos trejeis lygiais:</h2>
+                        <div class="row m-0">
+                            <div class="col mr-3"><h2 class="mb-2 lygis">pirmas lygis</h2><h3>pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h3></div>
+                            <div class="col mx-3"><h2 class="mb-2 lygis">antras lygis</h2><h3>sudėtingiau, išsiaiškinsime apie bangas ir kaip jos veikia. Mokysimes laiku pastebėti ir pagauti, bei pasukti banglentę frontsaidu ir backsaidu</h3></div>
+                            <div class="col ml-3"><h2 class="mb-2 lygis">trečias lygis</h2><h3>nori jaustis puikiai lainupe. Orentuotis pozicionavime. Sunki ir sekinanti, bet tuo pačiu ir daug adrenalino suteikianti bus ši treniruotė</h3></div>
+                        </div>
+                </div>
                 <div class="lg__info">
-                    <div class="content-box">
+                    <div class="content-box lesson">
                         <div>
                             <h3>PAMOKŲ PAKETAS</h3>
                             <h4>120€</h4>
-                            <h4>Pakete dvi 1h trukmės pamokos, pirmoje pamokoje ramiame vandenyje išmokstam irklavimo, atsistojimo techniką ir balanso ant lentos. Antroje pamokoje jau bangose - pozicionavimą ir technikos tolimesnis įsisavinimas praktikoje.</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Pakete dvi 1h trukmės pamokos, pirmoje pamokoje ramiame vandenyje išmokstam irklavimo, atsistojimo techniką ir balanso ant lentos. Antroje pamokoje jau bangose - pozicionavimą ir technikos tolimesnis įsisavinimas praktikoje.</p>
                         </div>
                         <div>
                             <h3>PRIVATI PAMOKA</h3>
                             <h4>70€</h4>
-                            <h4>Per šią pusantros valandos privačią serfingo pamoką pristatysime Jums etiketo, saugumo, serfingo pagrindus, irklavimo techniką, pozicionavimą bangose bei atsistojimo būdus.</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Per šią pusantros valandos privačią serfingo pamoką pristatysime Jums etiketo, saugumo, serfingo pagrindus, irklavimo techniką, pozicionavimą bangose bei atsistojimo būdus.</p>
                         </div>
                         <div>
                             <h3>GRUPINĖ</h3>
                             <h4>30€</h4>
-                            <h4>Idealiai tinka pradedantiesiems ar tiems, kurie nori prisiminti pagrindus ir techniką. Pamoka kartu su mumis reiškia, kad mokotės iš geriausių, kad galėtumėte tapti geriausiais.</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Idealiai tinka pradedantiesiems ar tiems, kurie nori prisiminti pagrindus ir techniką. Pamoka kartu su mumis reiškia, kad mokotės iš geriausių, kad galėtumėte tapti geriausiais.</p>
                         </div>
                         <div>
                             <h3>PAMOKA DVIEM</h3>
                             <h4>90€</h4>
-                            <h4>Geriausiai tinka 2 asmenims - draugams ar draugėms, poroms ar artimiesiems. Čia mes pristatysime Jums saugumo ir serfingo pagrindus, irklavimo techniką bei atsistojimo būdus.</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Geriausiai tinka 2 asmenims - draugams ar draugėms, poroms ar artimiesiems. Čia mes pristatysime Jums saugumo ir serfingo pagrindus, irklavimo techniką bei atsistojimo būdus.</p>
                         </div>
                         <div>
                             <h3>KOMANDOS FORMAVIMAS</h3>
                             <h4>nuo 200€</h4>
-                            <h4>Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Subūrėte didelę grupę nuo 6 iki 12 žmonių, kuri norėtų išbandyti save bangose? Pabūti kartu, patirti geras emocijas bei palaikyti vienas kitą? Tai tinkamiausias pasirinkimas jums!</p>
                         </div>
                         <div>
                             <h3>INDIVIDUALI PLUS</h3>
                             <h4>120€</h4>
-                            <h4>Ši serfingo pamoka tinka tiek naujokams tiek pažengusiems ir su orientuocija į pastioviai daromas esmines klaidas ir kilstelėtų Jūsų techniką į naują lygį. Jei ieškote vertos pamokos - Jūs ją radote.</h4>
+                            <p class="text-dark mt-3 mb-0 mx-2">Ši serfingo pamoka tinka tiek naujokams tiek pažengusiems ir su orientuocija į pastioviai daromas esmines klaidas ir kilstelėtų Jūsų techniką į naują lygį. Jei ieškote vertos pamokos - Jūs ją radote.</p>
                         </div>
                     </div>
                     <div class="content-side">
@@ -49,7 +58,7 @@
                         <h2>GALERIJA</h2>
                         <div class="carousel">
                             <button class="b-left is-hidden">
-                                <img src="/img/left-solid.svg">
+                                <img src="/img/left-solid.svg" alt="left arrow">
                             </button>
                             <div class="track-container">
                                 <ul class="carousel-track">
@@ -61,7 +70,7 @@
                                 </ul>
                             </div>
                             <button class="b-right">
-                                <img src="/img/right-solid.svg">
+                                <img src="/img/right-solid.svg" alt="right arrow">
                             </button>
                         </div>
 
@@ -71,7 +80,8 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="opacity: 1; transform: translate(0px, 0px);float: right;"><path d="M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z"></path></svg>
                             <h3>DOVANŲ KUPONAS</h3>
                             <h4>nuo 30€</h4>
-                            <h4>Galioja metus, puiki dovana draugui ar kolegai. Galimi įvairus variantai, nuo grupinės pamokos iki individualios ar net kelių pamokų paketų</h4>
+                            <h4>Galioja metus, puiki dovana draugui ar kolegai. Galimi įvairus variantai, nuo grupinės pamokos iki individualios ar net kelių pamokų paketų.</h4>
+                            <h4>Susisiekiate su mumis, aptariame sąlygas, padarote pavedimą į mūsų sąskaitą ir gaunate kuponą pdf arba atspauzdintą.</h4>
                         </div>
                         <h2>REGISTRACIJA</h2>
 
@@ -81,6 +91,16 @@
                 </div>
             </div>
             <div class="sm">
+                <h1>SURF PAMOKOS</h1>
+                <div class="description container mt-3">
+                    <h2>Išbandykite banglentes (angl. surfing)!</h2>
+                    <h2>Puikiai išmanantys banglenčių sportą instruktoriai per pusantros valandos trūkmės pamoką pamokys, kaip pasigauti savo pirmą bangą. Mūsų surf pamokos vedamos trejais lygiais:</h2>
+                        <div class="column">
+                            <div class="col"><h2 class="mb-2 lygis">pirmas lygis</h2><h2>pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h2></div>
+                            <div class="col"><h2 class="mb-2 lygis">antras lygis</h2><h2>sudėtingiau, išsiaiškinsime apie bangas ir kaip jos veikia. Mokysimes laiku pastebėti ir pagauti, bei pasukti banglentę frontsaidu ir backsaidu</h2></div>
+                            <div class="col"><h2 class="mb-2 lygis">trečias lygis</h2><h2>nori jaustis puikiai lainupe. Orentuotis pozicionavime. Sunki ir sekinanti, bet tuo pačiu ir daug adrenalino suteikianti bus ši treniruotė</h2></div>
+                        </div>
+                </div>
                 <section class="akordionas mt-3">
                     <div class='accordion__container'>
                         <h3 class="position-absolute">120€</h3>
@@ -129,7 +149,7 @@
                 </section>
                 <div class="w-90 my-4 m-auto">
                     <div class="text-center w-100 py-2 m-auto bg-def">
-                        <h4>REGISTRUOKIS</h4>
+                        <h4 class="mb-0 fw-bold">REGISTRUOKIS</h4>
                     </div>
                     @livewire('pamokos-form')
                 </div>
@@ -143,7 +163,7 @@
 @section('meta')
 
     <title>Banglentė - banglenčių pamokos, geriausia vieta išmokti čiuožti banglente</title>
-    <link rel="canonical" href="https://www.serfingas.lt/pamokos/">
+    <link rel="canonical" href="https://www.banglente.com/pamokos/">
     <meta name="description" content="Banglenčių pamokos Klaipėdoje, griausia vieta mokytti plaukti banglente, geriausi instruktoriai ir geriausias inventorius.">
     <meta name="keywords" content="Banglenčių pamokos, surf lessons, surf, serfingas, atsistoti ant lentos, banglente, surfboard, pamokos, mokykla">
 

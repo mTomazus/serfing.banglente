@@ -126,7 +126,6 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        max-height: 40%;
         min-height: auto!important;
         margin: 2rem;
         h1 {
@@ -137,7 +136,6 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        max-height: 40%;
         min-height: auto!important;
         margin: 2rem;
         h1 {
@@ -152,7 +150,6 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        max-height: 40%;
         min-height: auto!important;
         margin: 2rem;
         h1 {
@@ -259,6 +256,25 @@
     .pamokos-form > div {
         margin: 1rem auto;
     }
+    .description {
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+            font-family: "Alegreya", serif;
+            padding: 0 1rem;
+        }
+        .lygis {
+            text-transform: uppercase;
+            background-image: linear-gradient(to right, #2f78a8, #114161);
+        }
+        .col {
+            box-shadow: 0 0.2rem 0.5rem #00000075;
+            background-color: white;
+            padding: 0;
+        }
+    }
     .wi-80 {
         width: 80%;
     }
@@ -306,17 +322,17 @@
         }
         & > div {
             background: white;
+            position: relative;
             margin-bottom: 2vw;
             font-size: 2.5vh;
             width: 100%;
             padding: 1rem;
             box-shadow: 0 0.2rem 0.5rem #00000075;
             h4:nth-of-type(1) {
-                font-family:"Alegreya", serif;
-                margin-bottom: 1.5rem;
+                font-weight: 900;
             }
-            h3 {
-                margin: 0;
+            h4:nth-of-type(2) {
+                margin: 1.5rem 0;
             }
         }
         p {
@@ -352,6 +368,39 @@
             }
         }
     }
+    .lesson {
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        & > div {
+            background: white;
+            position: relative;
+            margin-bottom: 2vw;
+            font-size: 2.5vh;
+            width: 100%;
+            padding: 1rem;
+            box-shadow: 0 0.2rem 0.5rem #00000075;
+            h4:nth-of-type(1) {
+                position: absolute;
+                color: #266894;
+                right: 1rem;
+                top: 1rem;
+                font-weight: 900;
+                font-size: 1.5rem;
+            }
+            h4:nth-of-type(2) {
+                margin: 1.5rem 0;
+            }
+            h3 {
+                margin: 0;
+                background: linear-gradient(161deg, rgb(19 69 103) 0%, rgb(37 102 144) 20%, rgb(47 120 168 / 37%) 42%, rgb(0 212 255 / 0%) 65%, rgba(0,212,255,0) 100%);
+                color: white;
+                text-align: left;
+                padding-left: 1rem;
+            }
+        }
+    }
     .career-list__item {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -381,6 +430,8 @@
         width: 25%;
         margin: 1rem;
         box-shadow: none;
+    }
+    .hov {
         transition:all 0.5s ease-in-out ;
         &:hover{
             transform: scale(1.2);

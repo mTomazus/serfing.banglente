@@ -47,10 +47,10 @@
 
 @section('meta')
 
-    <title>Banglenčių mokykla - karjera ir savanorystė</title>
-    <link rel="canonical" href="https://www.serfingas.lt/karjera/">
-    <meta name="description" content="Darbas ir savanorystė banglenčių sporto mokykloje">
-    <meta name="keywords" content="savanoryste, darbas, banglentės, banglente, surf, job, vasaros darbas">
+    <title>Banglenčių mokykla - darbas, karjera ir savanorystė</title>
+    <link rel="canonical" href="https://www.banglente.com/karjera/">
+    <meta name="description" content="Darbas ir savanorystė banglenčių sporto mokykloje. IeŠkai darbo - susisiek, gal tu esi tas ar ta, ko mums trūko ">
+    <meta name="keywords" content="savanoryste, darbas, jobs, banglentės, banglente, surf, job, vasaros darbas">
 
 @endsection
 

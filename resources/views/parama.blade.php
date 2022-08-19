@@ -103,9 +103,9 @@
     <meta name="description" content="Prašome paremti VšĮ „Banglentė“ veiklą iki gegužės 1 d. skirdami mums 1,2% GPM paramą">
     <meta name="keywords" content="parama, darbas, banglentės, banglente, surf, job, vasaros darbas">
 
-    <meta property="og:url" content="https://www.serfingas.lt.com/parama/">
+    <meta property="og:url" content="https://www.banglente.com/parama/">
 	<meta property="og:type" content="article">
-	<meta property="og:image" content="https://www.serfingas.lt/img/parama.jpg">
+	<meta property="og:image" content="https://www.banglente.com/img/parama.jpg">
 	<meta property="og:description" content="1,2% parama banglenčių sporto mokyklai. Prašome paremti VšĮ „Banglentė“ veiklą iki gegužės 1 d. skirdami mums 1.2% GPM paramą">
 	<meta property="og:title" content="VšĮ Banglentė | 1.2% GPM parama Banglenčių sporto propagavimui.">
 
