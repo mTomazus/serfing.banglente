@@ -25,6 +25,8 @@ Route::get('contacts/', function () {
 
 Route::get('stovykla/', 'App\Http\Controllers\DefaultController@stovykla')->name('stovykla');
 
+Route::get('burelis/', 'App\Http\Controllers\DefaultController@burelis')->name('burelis');
+
 Route::get('pamokos/', 'App\Http\Controllers\DefaultController@pamokos')->name('pamokos');
 
 Route::get('varzybos/', 'App\Http\Controllers\DefaultController@varzybos')->name('varzybos');

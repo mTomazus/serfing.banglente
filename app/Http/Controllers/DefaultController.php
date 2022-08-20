@@ -115,4 +115,9 @@ class DefaultController extends Controller
     {
         return view('webcamai');
     }
+    
+    public function burelis()
+    {
+        return view('burelis');
+    }
 }
