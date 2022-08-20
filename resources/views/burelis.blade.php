@@ -16,29 +16,29 @@
                 <div class="lg__info">
                     <div class="content-box">
                         <p>Mes jau septintus metus veikianti banglenčių mokykla Melnragėje.</p>
+                        <div style="position: relative;background: no-repeat;box-shadow:none;display:flex;margin: auto;">
+                            <img class="col-lg-8 m-auto shadow" src="/img/wright.jpg" alt="wright bureliui">
+                            <img class="col-lg-8 m-auto d-none d-lg-block shadow-none" style="position:absolute;width:150px;left:75px;top:-30px;" src="/img/logo.svg" alt="surfclub logo">
+                        </div>
                         <article>
-                            <img src="/img/camp2-300.jpg" class="px-3 py-1 float-start me-3" alt="vaikų stovykla">
                             <p>Būrelis organizuojamas pasibaigus vasaros atostogoms, grupės yra riboto dydžio, todėl skambinkite arba registruokites jau dabar.</p>
-                            <p>Sekcija vyksta 2 kartus per savaitę, vieną darbo dieną ir savaitgalį</p>
-                            <p>Laikas ir diena kiekvieną savaitę nustatoma pagal oro prognozes </p>
+                            <p>Sekcija vyksta 2 kartus per savaitę, vieną darbo dieną ir savaitgalį.</p>
+                            <p>Laikas ir diena kiekvieną savaitę nustatoma pagal oro prognozes.</p>
                         </article>
-                        <p>Būrelio metu suteikiame visas reikalingas sporto priemones:</p>
                         <article>
-                            <img src="/img/camp-300.jpg" class="px-3 py-1 float-end ms-3" alt="vaikų stovykla">
+                            <p>Būrelio metu suteikiame visas reikalingas sporto priemones:</p>
                             <ul class="my-4">
                                 <li>įvairaus dydžio minkštas banglentes;</li>
                                 <li>šiltus hidrokostiumus ir esant reikalui batus;</li>
-                                <li>"carver", "smoothstar" ir "classic" tipo riedlentes;</li>
+                                <li>"surfskate" ir "classic" tipo riedlentes;</li>
                                 <li>pirštines ir prireikus kapišonus.</li>
                             </ul>
-                            <p class="my-4">Ši savaitinė programa apima tiek teorines, tiek praktines žinias apie jūrą, bangas ir banglentes. Stovykla tinka tiek pirmą kartą atvykstančiam į stovyklą, tiek ir trečią ar ketvirtą. Visi instruktoriai patyrę Klaipėdos gelbėtojai ir ilgametę patirtį turintys banglenčių instruktoriai, bet, svarbiausia, jie žino, kaip padaryti stovyklą nepamirštamu vasaros nuotykiu kiekvienam stovyklos dalyviui.</p>        
-                            <p class="pt-4 text-center"><a class="color-white" href="/incoming/programa.pdf" target="_blank">Preliminari programa*</a></p>
+                            <p class="my-4">Ši programa apima tiek teorinius, tiek praktinius užsiemimus jūroje.</p>        
                         </article>
                         <article>
-                            <p>Pamainos kaina 220€.</p>
-                            <p>Maitinimas įskaičiuotas</p>
+                            <p>Mėnesinis mokestis 100€.</p>
                         </article>
-                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 70 Eur pavedimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
+                        <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti apmokįjimą į<br>"VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed).</p>
                         <p>Visada mielai atsakysime į visus jums kylančius klausimus telefonu. </p>
                     </div>
 
@@ -57,18 +57,16 @@
                         <h2>REGISTRACIJA</h2>
                         @livewire('burelis-form')
 
-                        <h2>DIENOTVARKĖ</h2>
+                        <h2>TIKSLAI</h2>
                         <div class="">
                             <ul>
-                                <li>8:45–9:30 val. Atvykimas ir registracija;</li>
-                                <li>Supažindinimas su stovyklos saugumo taisyklėmis;</li>
-                                <li>Susipažinimas su inventoriumi ir priemonėmis;</li>
-                                <li>Banglenčių treniruotės krante ir vandenyje;</li>
-                                <li>Maitinimas du kartus: pietūs ir užkandžiai;</li>
-                                <li>Daug puikių įspūdžių atvirame ore;</li>
-                                <li>Teorija apie jūrą, banglentes ir bangas;</li>
-                                <li>Užsiėmimai su riedlentėmis;</li>
-                                <li>Išvykimas 17:00-17:30 val.</li>
+                                <li>Pažinti banglenčių sportą</li>
+                                <li>Palaikyti gerą fizinę formą</li>
+                                <li>Įtvirtinti bazinę techniką</li>
+                                <li>Ugdyti plaukimo įgūdžius</li>
+                                <li>Saugiai elgtis vandenyje</li>
+                                <li>Sužinoti teorija apie jūrą ir bangas</li>
+                                <li>Pratybos su riedlentėmis</li>
                             </ul>
                         </div>
                     </div>
