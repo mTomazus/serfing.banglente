@@ -150,10 +150,13 @@
         position: absolute;
         bottom: 0;
         right: 0;
+        left: 0;
         min-height: auto!important;
         margin: 2rem;
         h1 {
-            line-height: 1rem;
+            line-height: 12rem;
+            font-size: 15rem;
+            margin: 10rem 2rem;
         }
     }
 

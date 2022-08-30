@@ -9,7 +9,7 @@
                     <li><a href="/stovykla/">Stovykla</a></li>
                     <li><a href="/keliones/">Kelionės</a></li>
                     <li><a href="/varzybos/">Varžybos</a></li>
-                    <li><a href="#">Būrelis</a></li>
+                    <li><a href="/burelis/">Būrelis</a></li>
                 </ul>
             </li>
             <li class="col" style="border-right: 2px solid white;margin: 2rem;">

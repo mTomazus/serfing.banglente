@@ -444,6 +444,7 @@ header nav {
   .s3 {
     background: url("../img/camp-1200.jpg") center;
     background-size: cover;
+    height: 100vh;
   }
 
   .s13 {
@@ -882,11 +883,14 @@ button:hover {
     position: absolute;
     bottom: 0;
     right: 0;
+    left: 0;
     min-height: auto !important;
     margin: 2rem;
   }
   .landing__third h1 {
-    line-height: 1rem;
+    line-height: 12rem;
+    font-size: 15rem;
+    margin: 10rem 2rem;
   }
 
   .stars svg {
@@ -1475,6 +1479,34 @@ button:hover {
   }
   .description .col h2:last-of-type {
     margin: 0;
+  }
+
+  .burelis {
+    font-family: initial;
+  }
+  .burelis h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+  .burelis h2 {
+    color: white;
+    font-size: 1.25rem;
+    margin: 1rem;
+  }
+  .burelis p {
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    color: white;
+    max-width: unset;
+    margin: 1rem 0;
+  }
+  .burelis li {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0.2rem 0.5rem #00000075;
   }
 
   .stovykla {
