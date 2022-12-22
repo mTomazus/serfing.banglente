@@ -43,6 +43,14 @@ Route::get('nuoma/', function () {
     return view('nuoma');
 });
 
+Route::get('prognozes/', function () {
+    return view('prognozes');
+});
+
+Route::get('rulebook/', function () {
+    return view('rulebook');
+});
+
 Route::get('form/', function () {
     return view('onlyform');
 });

@@ -73,7 +73,7 @@
               
                     <div class="content-side d-none d-lg-block">
                                                 
-                        <h2>WEBCAMAI</h2>
+                        <h2>KAINOS</h2>
                         <div class="container column p-0" style="margin: 10px 0px;">
                             <iframe class="col-12" frameborder="0" width="560" height="315" scrolling="no" src="http://stream.maesbyte.com/live.php?i=cruze.stream&amp;img=http://enhd.es/img/22/22.jpg"></iframe>
                             <iframe class="col-12" frameborder="0" width="560" height="315" scrolling="no" src="https://g0.ipcamlive.com/player/player.php?alias=5bb1e2f9de73e"></iframe>
