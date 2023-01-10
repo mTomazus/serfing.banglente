@@ -28,27 +28,19 @@
     }
     .logo {
         display: block!important;
-    }
-    .logo h6 {
-        font-size: 3vh;
-        letter-spacing: 0.8vw;
-    }
-    .logo-pic {
-        margin: auto 1rem auto 2rem;
-        padding: .5rem;
-        img {
-            max-height: 3vh;
+        h6 {
+            font-size: 1.5rem;
+            letter-spacing: 0.8rem;
         }
+    }
+    .logo, .logo-pic, .burger{
+        position: relative!important;
     }
     .knopkes {
         display: none!important;
     }
-    header {
-        top: 0;
-        min-height: 5vh;
-        max-height: 5vh;
-    }
     .nav-links {
+        display: flex!important;
         margin: 0 2rem;
         a {
             font-size: 1rem;
@@ -58,19 +50,6 @@
             &:hover {
             color: white;
             }
-        }
-    }
-    .meganav-links {
-        a {
-            color: lightblue;
-            transition: color 0.5s ease;
-            letter-spacing: 0.1rem;
-            &:hover {
-            color: white;
-            }
-        }
-        li {
-            list-style: none;
         }
     }
     .career-list__item {
@@ -100,7 +79,7 @@
     }
     .content {
         min-height: 100vh;
-        padding-top: 5vh;
+        padding-top: max(5vh, 40px);
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -297,6 +276,7 @@
         }
         h3 {
             margin: 0;
+            color:darkslategray;    
         }
     }
     #pamaina {

@@ -4,8 +4,7 @@
 header {
     display: flex;
     position: fixed;
-    min-height: 8vh;
-    max-height: 8vh;
+    height: max(5vh, 40px);
     box-shadow: black 0px 1px 10px;
     background-image: linear-gradient(to right, #2f78a8, #114161);
     font-family: "Anton", sans-serif;
@@ -30,7 +29,7 @@ header {
 .logo-pic{
     margin: auto;
     img{
-        max-height: 5vh;
+        height: max(4vh, 30px);
         filter: drop-shadow($shadow-deep);
         vertical-align: auto;
     }
@@ -72,10 +71,10 @@ header {
     transform: translateX(100%);
     transition: transform ease-in-out 1s;
     width: 100%;
-    top: 5vh;
+    top: max(5vh, 40px);
     background: #296c99bf;
-    height: 95vh;
-    padding: 2rem;
+    height: max(95vh, calc(100vh - 40px));
+    padding: 1rem;
 }
 
 .mega-active{

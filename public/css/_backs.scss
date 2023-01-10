@@ -1,3 +1,7 @@
+.s1, .s2, .s3, .s4, .s5, .s6, .s11, .s12, .s13, .s14 {
+    min-height: 95vh;
+}
+
 //--------------------------
 //---- Media min 1200px ----
 //--------------------------
@@ -26,7 +30,6 @@
     .s3 {
         background: url('../img/camp-1200.jpg') center;
         background-size: cover;
-        height: 100vh;
     }
     .s13 {
         background: url('../img/41.jpg') center;
@@ -84,10 +87,10 @@
 }
 
 //--------------------------
-//---- Media max 576px ----
+//---- Media max 768px ----
 //--------------------------
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .s1 {
         background: url("../img/home-600.jpg") center center;
         background-size: cover;

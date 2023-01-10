@@ -2,21 +2,19 @@
 
 @section('content')
 
-    <div>
+    <main>
         <div class="s3 section">
-            <div class="landing__third cont">
-                <div style="background: #000000a8;padding: 1rem 2rem;">
-                    <h2>NAUJIENA</h2>
-                </div>
-                <div class="heading mb-3">
-                    <h1>BANGLENČIŲ SPORTO SEKCIJA</h1>
-                </div>
-                <a href="/burelis/">
-                    <button>REGISRUOKIS</button>                      
-                </a>
-            </div>     
+            <div style="background: #000000a8;padding: 1rem 2rem;">
+                <h2>NAUJIENA</h2>
+            </div>
+            <div class="heading mb-3">
+                <h1>BANGLENČIŲ SPORTO SEKCIJA</h1>
+            </div>
+            <a href="/burelis/">
+                <button>REGISRUOKIS</button>                      
+            </a>  
         </div>
-    </div>
+    </main>
 
 @endsection
 

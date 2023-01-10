@@ -12,9 +12,44 @@
         @endif
       </div>
 
+
       <div class="logo">
         <h6>Banglentė</h6>
       </div>
+
+      <ul class="nav-links">
+
+        <li class="mb-5">
+          <div class="d-flex d-md-none">
+            <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
+            <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
+            <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
+            <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
+          </div>
+        </li>
+
+        @if (Auth::check())
+          <li><a href="/{{ Auth::user()->type }}">Dashboard</a></li>
+        @endif
+
+        <li><a href="/pamokos/">Pamokos</a></li>
+        <li><a href="/nuoma/">Nuoma</a></li>
+        <li><a href="/stovykla/">Stovykla</a></li>
+        <li><a href="/keliones/">Kelionės</a></li>
+        <li><a href="/varzybos/">Varžybos</a></li>
+        <li><a href="/burelis/">Būrelis</a></li>
+        <li><a href="/contacts/">Kontaktai</a></li>
+
+        @if (Auth::check())
+          @can('admin-only', Auth::user())
+            <li><a href=""></a></li>
+          @endcan
+          <li><a href=""></a></li>
+          @else
+          <li><a href=""></a></li>
+        @endif
+
+      </ul>
 
       <div class="knopkes">
         <a href="tel:+370-686-02356">
@@ -54,40 +89,6 @@
         @endif
 
       </div>
-
-      <ul class="nav-links">
-
-        <li class="mb-5">
-          <div class="d-flex d-md-none">
-            <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
-            <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
-            <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
-            <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
-          </div>
-        </li>
-
-        @if (Auth::check())
-          <li><a href="/{{ Auth::user()->type }}">Dashboard</a></li>
-        @endif
-
-        <li><a href="/pamokos/">Pamokos</a></li>
-        <li><a href="/nuoma/">Nuoma</a></li>
-        <li><a href="/stovykla/">Stovykla</a></li>
-        <li><a href="/keliones/">Kelionės</a></li>
-        <li><a href="/varzybos/">Varžybos</a></li>
-        <li><a href="/burelis/">Būrelis</a></li>
-        <li><a href="/contacts/">Kontaktai</a></li>
-
-        @if (Auth::check())
-          @can('admin-only', Auth::user())
-            <li><a href=""></a></li>
-          @endcan
-          <li><a href=""></a></li>
-          @else
-          <li><a href=""></a></li>
-        @endif
-
-      </ul>
 
       @include('partials._meganav')
 

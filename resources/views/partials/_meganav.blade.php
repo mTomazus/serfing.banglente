@@ -1,5 +1,5 @@
 <div class="meganav-links justify-content-around">
-    <div class="container flex-column d-flex justify-content-evenly" style="font-family: 'Alegreya';font-weight: 900;font-size: x-large;font-stretch: unset;color: white;">
+    <div class="container flex-column d-flex justify-content-evenly" style="font-family: 'Alegreya';font-weight: 900;font-size: large; color: white;">
         <ul class="d-flex justify-content-around" style="border-bottom: 2px solid white;">
             <li class="col" style="border-right: 2px solid white;margin: 2rem;">
                 <span>Pagrindiniai</span>
@@ -16,9 +16,9 @@
                 <span>Kiti</span>
                 <ul>
                     <li><a href="/skelbimai/">Skelbimai</a></li>
-                    <li><a href="#">Prognozės</a></li>
+                    <li><a href="/prognozes/">Prognozės</a></li>
                     <li><a href="/webcamai/">Webcamai</a></li>
-                    <li><a href="#">Straipsniai</a></li>
+                    <li><a href="/straipsniai/">Straipsniai</a></li>
                     <li><a href="#">Nuorodos</a></li>
                 </ul>
             </li>
@@ -33,12 +33,10 @@
             </li>
         </ul>
         <ul class="d-flex justify-content-around" style="">
-            <li class="col" style="margin: 2rem;">
-                <a href="#">
-                    <span>Naujienos</span>
-                </a>
+            <li class="col">            
+                <span>Naujienos</span>
             </li>
-            <li class="col" style="margin: 2rem">
+            <li class="col">
                 <span>Draugai</span>
                 <ul>
                     <li><a href="http://www.surf.lt" target="_blank" rel="sponsored">www.surf.lt</a></li>
@@ -47,11 +45,9 @@
                     <li><a href="https://klaipeda.diena.lt" target="_blank" rel="sponsored">klaipeda.diena.lt</a></li>
                 </ul>
             </li>
-            <li class="col" style="margin: 2rem;">
+            <li class="col">
                 <span>Remėjai</span>
                 <ul>
-                    <li><a href="#">prognozes</a></li>
-                    <li><a href="#">prognozes</a></li>
                     <li><a href="#">prognozes</a></li>
                     <li><a href="#">prognozes</a></li>
                     <li><a href="#">prognozes</a></li>

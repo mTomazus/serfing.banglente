@@ -10,7 +10,7 @@ body {
   cursor: default;
 }
 
-h1, p, h2 {
+h1, p, h2, h3, h4, h5 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-weight: 900;
@@ -58,6 +58,39 @@ a {
 
 .bg-def {
   background-image: linear-gradient(to right, #2f78a8, #114161);
+}
+
+nav .logo-pic {
+  position: absolute;
+  left: 1rem;
+}
+nav .burger {
+  position: absolute;
+  right: 1rem;
+}
+nav .logo {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+nav .knopkes {
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  right: 0px;
+}
+
+main {
+  min-height: 100vh;
+  padding-top: max(5vh, 40px);
+  overflow: hidden;
+}
+
+.krta {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
 }
 
 .lg {
@@ -213,14 +246,33 @@ section h4 {
   font-weight: bold;
 }
 
+.content-box-full p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  font-family: alegreya;
+  text-shadow: none;
+  margin-bottom: 1rem;
+}
+.content-box-full p::first-letter {
+  font-size: 150%;
+}
+
+.dark-text h2, .dark-text h3, .dark-text h4, .dark-text h5, .dark-text span, .dark-text h6 {
+  color: #454545;
+}
+
+.straipsniai h3 {
+  background-image: linear-gradient(to right, #2f78a8, #114161);
+}
+
 /* --------------------------------------- */
 /* ---------------NAVIGATION-------------- */
 /* --------------------------------------- */
 header {
   display: flex;
   position: fixed;
-  min-height: 8vh;
-  max-height: 8vh;
+  height: max(5vh, 40px);
   box-shadow: black 0px 1px 10px;
   background-image: linear-gradient(to right, #2f78a8, #114161);
   font-family: "Anton", sans-serif;
@@ -244,7 +296,7 @@ header nav {
   margin: auto;
 }
 .logo-pic img {
-  max-height: 5vh;
+  height: max(4vh, 30px);
   filter: drop-shadow(0 0.2rem 0.2rem #00000075);
   vertical-align: auto;
 }
@@ -285,10 +337,10 @@ header nav {
   transform: translateX(100%);
   transition: transform ease-in-out 1s;
   width: 100%;
-  top: 5vh;
+  top: max(5vh, 40px);
   background: #296c99bf;
-  height: 95vh;
-  padding: 2rem;
+  height: max(95vh, calc(100vh - 40px));
+  padding: 1rem;
 }
 
 .mega-active {
@@ -415,6 +467,10 @@ header nav {
   transition: filter 0.5s 0.2s linear;
 }
 
+.s1, .s2, .s3, .s4, .s5, .s6, .s11, .s12, .s13, .s14 {
+  min-height: 95vh;
+}
+
 @media screen and (min-width: 1200px) {
   .s1 {
     background: url("../img/11.jpg") center center;
@@ -444,7 +500,6 @@ header nav {
   .s3 {
     background: url("../img/camp-1200.jpg") center;
     background-size: cover;
-    height: 100vh;
   }
 
   .s13 {
@@ -498,7 +553,7 @@ header nav {
     background-image: linear-gradient(to right, #2f78a8, #114161);
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .s1 {
     background: url("../img/home-600.jpg") center center;
     background-size: cover;
@@ -751,31 +806,21 @@ button:hover {
   .logo {
     display: block !important;
   }
-
   .logo h6 {
-    font-size: 3vh;
-    letter-spacing: 0.8vw;
+    font-size: 1.5rem;
+    letter-spacing: 0.8rem;
   }
 
-  .logo-pic {
-    margin: auto 1rem auto 2rem;
-    padding: 0.5rem;
-  }
-  .logo-pic img {
-    max-height: 3vh;
+  .logo, .logo-pic, .burger {
+    position: relative !important;
   }
 
   .knopkes {
     display: none !important;
   }
 
-  header {
-    top: 0;
-    min-height: 5vh;
-    max-height: 5vh;
-  }
-
   .nav-links {
+    display: flex !important;
     margin: 0 2rem;
   }
   .nav-links a {
@@ -786,18 +831,6 @@ button:hover {
   }
   .nav-links a:hover {
     color: white;
-  }
-
-  .meganav-links a {
-    color: lightblue;
-    transition: color 0.5s ease;
-    letter-spacing: 0.1rem;
-  }
-  .meganav-links a:hover {
-    color: white;
-  }
-  .meganav-links li {
-    list-style: none;
   }
 
   .career-list__item {
@@ -827,7 +860,7 @@ button:hover {
 
   .content {
     min-height: 100vh;
-    padding-top: 5vh;
+    padding-top: max(5vh, 40px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -1033,6 +1066,7 @@ button:hover {
   }
   .kuponas h3 {
     margin: 0;
+    color: darkslategray;
   }
 
   #pamaina {
@@ -1177,7 +1211,7 @@ button:hover {
     transform: scale(1.2);
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 481px) {
   h1, h6 {
     font-size: 4rem;
   }
@@ -1209,8 +1243,21 @@ button:hover {
     text-decoration: none;
   }
 
-  header {
-    top: 0;
+  .nav-links {
+    display: none;
+  }
+
+  .meganav-links a {
+    color: lightblue;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    letter-spacing: 0.1rem;
+  }
+  .meganav-links a:hover {
+    color: white;
+  }
+  .meganav-links li {
+    list-style: none;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1253,6 +1300,10 @@ button:hover {
 
   header {
     bottom: 0;
+  }
+
+  main {
+    padding-top: 0;
   }
 
   .knopkes {

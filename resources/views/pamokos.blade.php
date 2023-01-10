@@ -9,15 +9,15 @@
 <div class="stovykla bg-grad section">
     <div class="content pamokos">
         <div class="content--scroll">
-            <div class="lg">
+            <div class="lg container-md">
                 <h1>SURF PAMOKOS</h1>
                 <div class="description">
                     <h2 class="mb-3">Išbandykite banglentes (angl. surfing)!</h2>
                     <h2 class="mb-3">Puikiai išmanantys banglenčių sportą instruktoriai per pusantros valandos trūkmės pamoką pamokys, kaip pasigauti savo pirmą bangą. Mūsų surf pamokos vedamos trejeis lygiais:</h2>
                         <div class="row m-0">
-                            <div class="col mr-3"><h2 class="mb-2 lygis">pirmas lygis</h2><h3>pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h3></div>
-                            <div class="col mx-3"><h2 class="mb-2 lygis">antras lygis</h2><h3>sudėtingiau, išsiaiškinsime apie bangas ir kaip jos veikia. Mokysimes laiku pastebėti ir pagauti, bei pasukti banglentę frontsaidu ir backsaidu</h3></div>
-                            <div class="col ml-3"><h2 class="mb-2 lygis">trečias lygis</h2><h3>nori jaustis puikiai lainupe. Orentuotis pozicionavime. Sunki ir sekinanti, bet tuo pačiu ir daug adrenalino suteikianti bus ši treniruotė</h3></div>
+                            <div class="col mr-3"><h2 class="mb-2 lygis">pirmas lygis</h2><h3 class="mb-2 text-dark">pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h3></div>
+                            <div class="col mx-3"><h2 class="mb-2 lygis">antras lygis</h2><h3 class="mb-2 text-dark">sudėtingiau, išsiaiškinsime apie bangas ir kaip jos veikia. Mokysimes laiku pastebėti ir pagauti, bei pasukti banglentę frontsaidu ir backsaidu</h3></div>
+                            <div class="col ml-3"><h2 class="mb-2 lygis">trečias lygis</h2><h3 class="mb-2 text-dark">nori jaustis puikiai lainupe. Orentuotis pozicionavime. Sunki ir sekinanti, bet tuo pačiu ir daug adrenalino suteikianti bus ši treniruotė</h3></div>
                         </div>
                 </div>
                 <div class="lg__info">
@@ -75,13 +75,13 @@
                         </div>
 
                         <h2>DOVANŲ KUPONAS</h2>
-                        <div class="kuponas">    
+                        <div class="kuponas description">    
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="opacity: 1; transform: translate(0px, 0px);float: right;"><path d="M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z"></path></svg>
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="opacity: 1; transform: translate(0px, 0px);float: right;"><path d="M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z"></path></svg>
                             <h3>DOVANŲ KUPONAS</h3>
-                            <h4>nuo 30€</h4>
-                            <h4>Galioja metus, puiki dovana draugui ar kolegai. Galimi įvairus variantai, nuo grupinės pamokos iki individualios ar net kelių pamokų paketų.</h4>
-                            <h4>Susisiekiate su mumis, aptariame sąlygas, padarote pavedimą į mūsų sąskaitą ir gaunate kuponą pdf arba atspauzdintą.</h4>
+                            <h3>nuo 30€</h3>
+                            <h3>Galioja metus, puiki dovana draugui ar kolegai. Galimi įvairus variantai, nuo grupinės pamokos iki individualios ar net kelių pamokų paketų.</h3>
+                            <h3>Susisiekiate su mumis, aptariame sąlygas, padarote pavedimą į mūsų sąskaitą ir gaunate kuponą pdf arba atspauzdintą.</h3>
                         </div>
                         <h2>REGISTRACIJA</h2>
 

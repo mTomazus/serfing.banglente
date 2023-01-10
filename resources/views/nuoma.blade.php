@@ -3,12 +3,13 @@
 @section('content')
 
 <div class="section content nuoma bg-grad">
-    <h1>NUOMA</h1>         
-    <h2>Didžiausias pasirinkimas!</h2>
-
+    <div class="title">
+        <h1>NUOMA</h1>         
+        <h2>Didžiausias pasirinkimas!</h2>
+    </div>
     <div class="lg">
         <div class="lg__info">
-            <div class="content-box">
+            <div class="content-box dark-text">
                 <div class="d-flex">
                     <div>
                         <h3>BANGLENTĖ</h3>

@@ -8,7 +8,7 @@
 <div class="bg-grad">
     <div class="content burelis section">    
         <div>
-            <h1>BANGLEČIŲ SPORTO SEKCIJA 2022</h1>
+            <h1>BANGLEČIŲ SPORTO SEKCIJA 2023</h1>
             <h2>Būrelis atsirado kaip banglenčių stovyklos sudedamoji dalis.</h2>
         </div>
         <div class="container-md">

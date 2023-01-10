@@ -2,7 +2,7 @@
 //---- Media min 576px ----
 //--------------------------
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 481px) {
     h1, h6 {
         font-size: 4rem;
     }
@@ -30,7 +30,22 @@
             text-decoration: none;
         }
     }
-    header {
-        top: 0;
+    .nav-links {
+        display: none;
     }
+    .meganav-links {
+        a {
+            color: lightblue;
+            text-decoration: none;
+            transition: color 0.5s ease;
+            letter-spacing: 0.1rem;
+            &:hover {
+            color: white;
+            }
+        }
+        li {
+            list-style: none;
+        }
+    }
+
 }

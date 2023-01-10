@@ -30,7 +30,7 @@ body{
     font-family: 'Source Sans Pro';
     cursor: default
 }
-h1, p, h2 {
+h1, p, h2, h3, h4, h5 {
     @include main-text;
 }
 a {
@@ -65,6 +65,43 @@ a {
 .bg-def {
     background-image: $gradient;
 }
+//------------------HEADERIS--------------------
+
+nav {
+    .logo-pic {
+        position: absolute;
+        left:1rem;
+    }
+    .burger {
+        position: absolute;
+        right: 1rem;
+    }
+    .logo{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+    }
+    .knopkes{
+        position: absolute;
+        left: 0px;
+        text-align: center;
+        right: 0px;
+    }
+}
+
+//----------------straipsniai----------------
+main {
+    min-height: 100vh;
+    padding-top: max(5vh, 40px);
+    overflow: hidden;
+}
+.krta {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
 //----- only for large display -----
 .lg {
     display: none;
@@ -219,6 +256,30 @@ section {
     font-size: 1.2rem;
     font-family: alegreya;
     font-weight: bold;
+    }
+}
+//----------------straipsniai---------------------
+.content-box-full {
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        font-family: alegreya;
+        text-shadow: none;
+        margin-bottom: 1rem;
+        &::first-letter {
+            font-size: 150%;
+        }
+    }
+}
+.dark-text {
+    h2, h3, h4, h5, span, h6 {
+        color:rgb(69, 69, 69);;
+    }
+}
+.straipsniai{
+    h3 {
+        background-image: linear-gradient(to right, #2f78a8, #114161);
     }
 }
 
