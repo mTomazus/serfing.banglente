@@ -81,7 +81,7 @@ nav .knopkes {
 }
 
 main {
-  min-height: 100vh;
+  max-height: 100vh;
   padding-top: max(5vh, 40px);
   overflow: hidden;
 }
@@ -771,7 +771,7 @@ button:hover {
 .carousel {
   position: relative;
   height: 100%;
-  width: 270px;
+  width: 80vw;
   margin: 0 auto;
   transition: 0.5s ease-in-out 0.5s;
 }
@@ -790,16 +790,15 @@ button:hover {
 }
 .carousel button img {
   width: 2rem;
-  filter: invert(100%);
 }
 .carousel button:focus {
   outline: transparent;
 }
 .carousel .b-right {
-  right: -2.5rem;
+  right: 1rem;
 }
 .carousel .b-left {
-  left: -2.5rem;
+  left: 1rem;
   z-index: 2;
 }
 
@@ -1365,6 +1364,7 @@ button:hover {
 
   main {
     padding-top: 0;
+    padding-bottom: max(5vh, 40px);
   }
 
   .knopkes {

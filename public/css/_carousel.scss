@@ -42,7 +42,7 @@
 .carousel {
     position: relative;
     height: 100%;
-    width: 270px;
+    width: 80vw;
     margin: 0 auto;
     transition: 0.5s ease-in-out 0.5s;
     button {
@@ -59,17 +59,17 @@
         transform: translateY(-50%);
         img {
             width: 2rem;
-            filter: invert(100%);
+            // filter: invert(100%);
         }
     }
     button:focus {
         outline: transparent;
     }
     .b-right {
-        right: -2.5rem;
+        right: 1rem;
     }
     .b-left {
-        left: -2.5rem;
+        left: 1rem;
         z-index: 2;
     }
 }
