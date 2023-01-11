@@ -1,6 +1,40 @@
 .s1, .s2, .s3, .s4, .s5, .s6, .s11, .s12, .s13, .s14 {
     min-height: 95vh;
 }
+.s3 {
+    div:nth-child(1){
+        background-color: rgba(0, 0, 0, 0.46);
+        h2 {
+            font-size: 3rem;
+            letter-spacing: 0.5rem;
+            color: white;
+        }
+    }
+    div:nth-child(2){
+        margin: 5rem 0;
+    }
+    div:nth-child(3){
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        button {
+            background-color: $alt-text-color;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            width: min-content;
+            border-radius: 3px;
+            color: white;
+            letter-spacing: 2px;
+        }
+        a {
+            color:white;
+        }
+    }
+
+}
 
 //--------------------------
 //---- Media min 1200px ----

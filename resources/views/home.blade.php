@@ -4,15 +4,15 @@
 
     <main>
         <div class="s3 section">
-            <div style="background: #000000a8;padding: 1rem 2rem;">
-                <h2>NAUJIENA</h2>
+            <div class="py-4">
+                <h2 class="blink">NAUJIENA</h2>
             </div>
-            <div class="heading mb-3">
+            <div class="heading py-3">
                 <h1>BANGLENČIŲ SPORTO SEKCIJA</h1>
             </div>
-            <a href="/burelis/">
-                <button>REGISRUOKIS</button>                      
-            </a>  
+            <div class="py-2">
+                <button class="btn"><a href="/burelis/">REGISRUOKIS</a></button>                
+            </div>  
         </div>
     </main>
 
@@ -29,17 +29,6 @@
 
 @section('scripts')
     
-    <script type="text/javascript" src="/js/fullpage.js"></script>
     <script type="text/javascript" src="/js/topnav.js"></script>
-    <script>
-        fullpage('#fullpage', {
-            autoScrolling: true,
-            navigation: true,
-            controlArrows: false,
-            scrollBar: true,
-            slidesNavigation: true,
-
-        })
-    </script>
 
 @endsection
