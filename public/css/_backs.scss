@@ -2,21 +2,19 @@
     min-height: 95vh;
 }
 .s3 {
+    display: grid;
+    grid-template-rows: 20vh 50vh 20vh;
+    align-items: center;
     div:nth-child(1){
         background-color: rgba(0, 0, 0, 0.46);
+        align-self: start;
         h2 {
             font-size: 3rem;
             letter-spacing: 0.5rem;
             color: white;
         }
     }
-    div:nth-child(2){
-        margin: 5rem 0;
-    }
     div:nth-child(3){
-        position: absolute;
-        left: 0;
-        right: 0;
         text-align: center;
         button {
             background-color: $alt-text-color;

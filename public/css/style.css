@@ -60,30 +60,18 @@ a {
   background-image: linear-gradient(to right, #2f78a8, #114161);
 }
 
-nav .logo-pic {
-  position: absolute;
-  left: 1rem;
-}
-nav .burger {
-  position: absolute;
-  right: 1rem;
-}
-nav .logo {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-}
-nav .knopkes {
-  position: absolute;
-  left: 0px;
-  text-align: center;
-  right: 0px;
+.blur {
+  filter: blur(8px);
 }
 
 main {
-  max-height: 100vh;
-  padding-top: max(5vh, 40px);
+  min-height: 100vh;
+  padding-top: max(10vh, 65px);
   overflow: hidden;
+}
+
+.one-page {
+  max-height: 90vh;
 }
 
 .krta {
@@ -93,13 +81,15 @@ main {
   right: 0;
 }
 
-.lg {
-  display: none;
+.kortele {
+  color: #114161;
+}
+.kortele h3, .kortele h4 {
+  color: #114161;
 }
 
-#fullpage ul span {
-  background: white !important;
-  box-shadow: 0px 0px 3px white;
+.lg {
+  display: none;
 }
 
 @keyframes blink {
@@ -226,13 +216,6 @@ section h4 {
   justify-content: center;
 }
 
-.knopkes svg {
-  filter: drop-shadow(0 0.2rem 0.2rem #00000075);
-}
-.knopkes svg path {
-  fill: white;
-}
-
 .social img {
   width: 120%;
   margin-bottom: 2vw;
@@ -267,51 +250,81 @@ section h4 {
 }
 
 /* --------------------------------------- */
-/* ---------------NAVIGATION-------------- */
+/* --------------- header-------------- */
 /* --------------------------------------- */
 header {
   display: flex;
   position: fixed;
-  height: max(5vh, 40px);
+  height: max(10vh, 65px);
   box-shadow: black 0px 1px 10px;
   background-image: linear-gradient(to right, #2f78a8, #114161);
   font-family: "Anton", sans-serif;
   z-index: 100;
 }
-header nav {
+
+nav {
   display: flex;
   align-items: center;
   width: 100vw;
 }
-
-#fp-nav .fp-right {
-  right: 0;
+nav .knopkes {
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  right: 0px;
 }
-
-.fp-slidesNav.fp-bottom {
-  bottom: 0px;
+nav .knopkes svg {
+  filter: drop-shadow(0 0.2rem 0.2rem #00000075);
+}
+nav .knopkes svg path {
+  fill: white;
 }
 
 .logo-pic {
+  position: absolute;
+  left: 1rem;
   margin: auto;
 }
 .logo-pic img {
-  height: max(4vh, 30px);
+  height: max(5vh, 30px);
   filter: drop-shadow(0 0.2rem 0.2rem #00000075);
   vertical-align: auto;
 }
 
+.logo-pic:hover {
+  filter: brightness(50%) sepia(100) saturate(100) hue-rotate(25deg) drop-shadow(0 0.2rem 0.2rem #00000075);
+}
+
 .logo {
+  position: absolute;
+  max-width: fit-content;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin: auto auto auto 1rem;
 }
 .logo h6 {
   font-size: 2rem;
   margin: 0;
   text-align: center;
   text-shadow: 0 0.2rem 0.5rem #00000075;
+}
+
+.burger {
+  position: absolute;
+  right: 1rem;
+  margin: auto;
+  cursor: pointer;
+}
+.burger div {
+  width: 30px;
+  height: 3px;
+  background-color: lightskyblue;
+  margin: 7px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
 }
 
 .nav-links {
@@ -333,42 +346,70 @@ header nav {
 }
 
 .meganav-links {
+  display: flex;
   position: absolute;
   transform: translateX(100%);
-  transition: transform ease-in-out 1s;
+  opacity: 0.7;
+  filter: blur(8px);
+  transition: transform ease-in-out 1s, opacity ease-in-out 1s, filter ease-in-out 1s;
   width: 100%;
-  top: max(5vh, 40px);
+  top: max(10vh, 65px);
   background: #296c99bf;
-  height: max(95vh, calc(100vh - 40px));
+  height: max(90vh, calc(100vh - 65px));
   padding: 1rem;
 }
 
 .mega-active {
   transform: translateX(0%);
-  display: flex;
+  opacity: 1;
+  filter: blur(0);
 }
 
-.burger {
-  margin: auto;
-  cursor: pointer;
-}
-.burger div {
-  width: 30px;
-  height: 3px;
-  background-color: lightskyblue;
-  margin: 7px;
-  border-radius: 15px;
-  transition: all 0.3s ease;
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
 }
 
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-7px, -7px);
+}
+
+@media screen and (min-width: 1199px) {
+  .logo {
+    display: block !important;
+    transform: translate(0);
+    left: 0;
+    right: 0;
+    top: 0;
   }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
+  .logo h6 {
+    font-size: 1.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .logo, .logo-pic, .burger {
+    position: relative !important;
+  }
+
+  .knopkes {
+    display: none !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    margin: 0 2rem;
+  }
+  .nav-links a {
+    font-size: 1rem;
+    letter-spacing: 0.5vh;
+    color: lightskyblue;
+    transition: color 0.5s ease;
+  }
+  .nav-links a:hover {
+    color: white;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -386,29 +427,27 @@ header nav {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
-
-  .burger div {
-    background-color: white;
-  }
-
   .nav-links li {
     opacity: 0;
     font-size: 24px;
   }
 
-  .logo {
-    cursor: pointer;
-  }
-
   .burger {
     display: block;
   }
-
-  .nav-active {
-    transform: translateX(0%);
-    background-image: linear-gradient(to right, #2f78a8, #114161);
+  .burger div {
+    background-color: white;
   }
 
+  .logo {
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-active {
+    background-image: linear-gradient(to right, #2f78a8, #114161);
+    transform: translateX(0%);
+  }
   .nav-active li:nth-child(1) {
     animation: navLinkFade 1s ease 0.54s forwards;
   }
@@ -437,18 +476,6 @@ header nav {
     animation: navLinkFade 1s ease 0.86s forwards;
   }
 }
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-7px, 7px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-7px, -7px);
-}
-
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -459,33 +486,25 @@ header nav {
     transform: translateX(0px);
   }
 }
-.blur {
-  filter: blur(8px);
-}
-
-.fullpage-wrapper {
-  transition: filter 0.5s 0.2s linear;
-}
-
 .s1, .s2, .s3, .s4, .s5, .s6, .s11, .s12, .s13, .s14 {
   min-height: 95vh;
 }
 
+.s3 {
+  display: grid;
+  grid-template-rows: 20vh 50vh 20vh;
+  align-items: center;
+}
 .s3 div:nth-child(1) {
   background-color: rgba(0, 0, 0, 0.46);
+  align-self: start;
 }
 .s3 div:nth-child(1) h2 {
   font-size: 3rem;
   letter-spacing: 0.5rem;
   color: white;
 }
-.s3 div:nth-child(2) {
-  margin: 5rem 0;
-}
 .s3 div:nth-child(3) {
-  position: absolute;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 .s3 div:nth-child(3) button {
@@ -863,36 +882,6 @@ button:hover {
     line-height: 8vh;
   }
 
-  .logo {
-    display: block !important;
-  }
-  .logo h6 {
-    font-size: 1.5rem;
-    letter-spacing: 0.8rem;
-  }
-
-  .logo, .logo-pic, .burger {
-    position: relative !important;
-  }
-
-  .knopkes {
-    display: none !important;
-  }
-
-  .nav-links {
-    display: flex !important;
-    margin: 0 2rem;
-  }
-  .nav-links a {
-    font-size: 1rem;
-    letter-spacing: 0.5vh;
-    color: lightskyblue;
-    transition: color 0.5s ease;
-  }
-  .nav-links a:hover {
-    color: white;
-  }
-
   .career-list__item {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -920,11 +909,12 @@ button:hover {
 
   .content {
     min-height: 100vh;
-    padding-top: max(5vh, 40px);
+    padding-top: max(10vh, 65px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transition: filter ease-in-out 1s;
   }
 
   .rekvizitai {
@@ -1000,10 +990,6 @@ button:hover {
   }
   .s3-apacia h2 {
     color: #114161;
-  }
-
-  .content {
-    text-align: center;
   }
 
   .stovykla .carousel {
@@ -1303,10 +1289,6 @@ button:hover {
     text-decoration: none;
   }
 
-  .nav-links {
-    display: none;
-  }
-
   .meganav-links a {
     color: lightblue;
     text-decoration: none;
@@ -1364,7 +1346,7 @@ button:hover {
 
   main {
     padding-top: 0;
-    padding-bottom: max(5vh, 40px);
+    padding-bottom: max(10vh, 65px);
   }
 
   .knopkes {
@@ -1437,7 +1419,7 @@ button:hover {
 
   .content {
     overflow: hidden;
-    padding-bottom: 8vh;
+    padding-bottom: 10vh;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
@@ -1446,8 +1428,8 @@ button:hover {
 
   .cont {
     overflow: hidden;
-    padding-bottom: 8vh;
-    height: 92vh;
+    padding-bottom: 10vh;
+    height: 90vh;
     flex-direction: column;
     display: flex;
     justify-content: space-around;

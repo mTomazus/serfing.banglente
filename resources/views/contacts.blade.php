@@ -7,12 +7,12 @@
     <!----------------------------------->
 
     <div class="bg-grad section content contacts-page">
-        <div class="contacts__content">
+        <div class="container contacts__content">
             <div class="lg">
                 <h1>KONTAKTAM</h1>
                 <div class="lg__info">
                     <div class="content-box">
-                        <div>
+                        <div class="kortele">
                             <a href="/karjera/">
                                 <div>
                                     <img src="/img/savanoris.jpg" alt="savanorystė">
@@ -23,17 +23,19 @@
                                 </div>
                             </a>
                         </div>
-                        <div>
+                        <div class="kortele">
                             <a href="/parama/">
                                 <div>
                                     <img src="/img/parama.jpg" alt="skimboards">
                                     <h3>PARAMA</h3>
                                     <h4>Prašome paremti VšĮ „Banglentė“ veiklą.</h4>
-                                    <h4>Iki gegužės 1 d. skirdami mums GPM paramą. Jums ši parama nieko nekainuoja, o mums - tai vienas iš organizacijos finansavimo šaltinių, kuris bus panaudotas sporto plėtojimui, inventoriaus pirkimui ir varžybų organizavimui.</h4>
+                                    <h4>Iki gegužės 1 d. skirdami mums GPM paramą. 
+                                        Jums ši parama nieko nekainuoja, o mums - 
+                                        tai vienas iš organizacijos finansavimo šaltinių.</h4>
                                 </div>
                             </a> 
                         </div>
-                        <div class="mb-0">
+                        <div class="mb-0 kortele">
                             <a href="#">
                                 <div>
                                     <img src="/img/dokumentai.jpg" alt="ataskaitos">

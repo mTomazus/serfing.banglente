@@ -20,6 +20,8 @@
                     <li><a href="/webcamai/">Webcamai</a></li>
                     <li><a href="/straipsniai/">Straipsniai</a></li>
                     <li><a href="#">Nuorodos</a></li>
+                    <li><a href="/login/">Login</a></li>
+
                 </ul>
             </li>
             <li class="col" style="margin: 2rem;">

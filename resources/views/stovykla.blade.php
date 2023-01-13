@@ -6,7 +6,7 @@
 <!-------- SECTION STOVYKLA -------->
 <!---------------------------------->
 <div class="stovykla section bg-grad">
-    <div class="content">    
+    <div class="content container">    
         <div class="content--scroll">
             <div>
                 <h1>VASAROS STOVYKLA 2022</h1>

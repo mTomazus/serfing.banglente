@@ -1,45 +1,64 @@
 /* --------------------------------------- */
-/* ---------------NAVIGATION-------------- */
+/* --------------- header-------------- */
 /* --------------------------------------- */
+
 header {
     display: flex;
     position: fixed;
-    height: max(5vh, 40px);
+    height: max(10vh, 65px);
     box-shadow: black 0px 1px 10px;
     background-image: linear-gradient(to right, #2f78a8, #114161);
     font-family: "Anton", sans-serif;
     z-index: 100;
-    nav{
-        display: flex;
-        align-items: center;
-        width: 100vw;
+}
+
+//------------------ nav --------------------
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    .knopkes{
+        position: absolute;
+        left: 0px;
+        text-align: center;
+        right: 0px;
+        svg {
+            filter: drop-shadow($shadow-deep);
+            path{
+                fill:$fills;
+            }
+        }
     }
 }
 
-//---- Fulpage css overrides----
-#fp-nav {
-    .fp-right {
-        right: 0;
-    }
-}
-.fp-slidesNav.fp-bottom {
-    bottom: 0px;
-}
+//------------------ logo paveiksliukas ---------------------
 
 .logo-pic{
+    position: absolute;
+    left:1rem;
     margin: auto;
     img{
-        height: max(4vh, 30px);
+        height: max(5vh, 30px);
         filter: drop-shadow($shadow-deep);
         vertical-align: auto;
     }
 }
+.logo-pic:hover{
+    filter:brightness(50%) sepia(100) saturate(100) hue-rotate(25deg) drop-shadow(0 0.2rem 0.2rem #00000075);
+}
+
+//-------------------- logo textas --------------------------
 
 .logo{
+    position: absolute;
+    max-width: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin: auto auto auto 1rem;
     h6{
         font-size: 2rem;
         margin: 0;
@@ -47,6 +66,25 @@ header {
         text-shadow: $shadow;
     }
 }
+
+//------------------- burger -------------------
+
+.burger{
+    position: absolute;
+    right: 1rem;
+    margin: auto;
+    cursor: pointer;
+    div{
+        width: 30px;
+        height: 3px;
+        background-color: lightskyblue;
+        margin: 7px;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+}
+
+//-------------------- nav-links --------------------
 
 .nav-links{
     display: flex;
@@ -66,46 +104,73 @@ header {
     }
 }
 
+//------------------ mega-nav ---------------------
+
 .meganav-links{
+    display: flex;
     position: absolute;
     transform: translateX(100%);
-    transition: transform ease-in-out 1s;
+    opacity: 0.7;
+    filter: blur(8px);
+    transition: transform ease-in-out 1s, opacity ease-in-out 1s, filter ease-in-out 1s;
     width: 100%;
-    top: max(5vh, 40px);
+    top: max(10vh, 65px);
     background: #296c99bf;
-    height: max(95vh, calc(100vh - 40px));
+    height: max(90vh, calc(100vh - 65px));
     padding: 1rem;
 }
-
 .mega-active{
     transform: translateX(0%);
-    display: flex;
+    opacity: 1;
+    filter: blur(0);
 }
 
-.burger{
-    // display: none;
-    margin: auto;
-    cursor: pointer;
-    div{
-        width: 30px;
-        height: 3px;
-        background-color: lightskyblue;
-        margin: 7px;
-        border-radius: 15px;
-        transition: all 0.3s ease;
-    }
+//----------------- Burger x closes ---------------
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-7px, 7px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-7px, -7px);
 }
 
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
+//----------------- media queries ---------------------
+
+@media screen and (min-width:1199px){
+    .logo {
+        display: block!important;
+        transform: translate(0);
+        left: 0;
+        right: 0;
+        top: 0;
+        h6 {
+            font-size: 1.5rem;
+            letter-spacing: 0.8rem;
+        }
     }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
+    .logo, .logo-pic, .burger{
+        position: relative!important;
     }
-};
+    .knopkes {
+        display: none!important;
+    }
+    .nav-links {
+        display: flex!important;
+        margin: 0 2rem;
+        a {
+            font-size: 1rem;
+            letter-spacing: .5vh;
+            color: lightskyblue;
+            transition: color 0.5s ease;
+            &:hover {
+            color: white;
+            }
+        }
+    }
+}
 
 @media screen and (max-width:1200px){
     .nav-links{
@@ -121,27 +186,26 @@ header {
         width: 65%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        li{
+            opacity: 0;
+            font-size: 24px;
+        }
     }
     .burger{
+        display: block;
         div{
             background-color: white;
         }
     }
-    .nav-links li{
-        opacity: 0;
-        font-size: 24px;
-    }
     .logo{
         cursor: pointer; 
     }
-    .burger{
-        display: block;
-    }
-    .nav-active{
-        transform: translateX(0%);
+}
+
+@media screen and (max-width:480px){
+    .nav-active {
         background-image: $gradient;
-    }
-    .nav-active{
+        transform: translateX(0%);
         li:nth-child(1){
             animation: navLinkFade 1s ease 0.54s forwards;
         }
@@ -172,34 +236,13 @@ header {
     }
 }
 
-//------ Burger x closes --------
-
-.toggle .line1{
-    transform: rotate(-45deg) translate(-7px, 7px);
-}
-.toggle .line2{
-    opacity: 0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-7px, -7px);
-}
-
 @keyframes navLinkFade{
     from{
         opacity: 0;
         transform: translateX(50px);
-
     }
     to{
         opacity: 1;
         transform: translateX(0px);
     }
-};
-
-//--- Fullpage blur on burger click
-    .blur {
-        filter: blur(8px);
-    }
-    .fullpage-wrapper {
-        transition: filter 0.5s 0.2s linear;
-    }
+}

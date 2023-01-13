@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <main>
+    <main class="one-page">
         <div class="s3 section">
             <div class="py-4">
                 <h2 class="blink">NAUJIENA</h2>

@@ -65,35 +65,18 @@ a {
 .bg-def {
     background-image: $gradient;
 }
-//------------------HEADERIS--------------------
-
-nav {
-    .logo-pic {
-        position: absolute;
-        left:1rem;
-    }
-    .burger {
-        position: absolute;
-        right: 1rem;
-    }
-    .logo{
-        position: absolute;
-        left: 0px;
-        right: 0px;
-    }
-    .knopkes{
-        position: absolute;
-        left: 0px;
-        text-align: center;
-        right: 0px;
-    }
+.blur {
+    filter: blur(8px);
 }
 
 //----------------straipsniai----------------
 main {
-    max-height: 100vh;
-    padding-top: max(5vh, 40px);
+    min-height: 100vh;
+    padding-top: max(10vh, 65px);
     overflow: hidden;
+}
+.one-page {
+    max-height: 90vh;
 }
 .krta {
     position: absolute;
@@ -101,18 +84,19 @@ main {
     left: 0;
     right: 0;
 }
+.kortele {
+    color: #114161;
+    h3, h4 {
+        color: #114161; 
+    }
+}
 
 //----- only for large display -----
+
 .lg {
     display: none;
 }
-#fullpage {
-        //---------- Side fullpage nav dots ------------
-    ul span {
-        background: $fills !important;
-        box-shadow: 0px 0px 3px white;
-    }
-}
+
 //------blinking----------------
 @keyframes blink {
     from {opacity: 1.0;}
@@ -175,6 +159,9 @@ main {
         color: $alt-text-color;
     }
 }
+
+//---------------------- varzybos specific-----------------------
+
 .varzybos {
     section {
         position: relative;
@@ -235,14 +222,7 @@ section {
 .pagination {
     justify-content: center;
 }
-.knopkes {
-    svg {
-        filter: drop-shadow($shadow-deep);
-        path{
-            fill:$fills;
-        }
-    }
-}
+
 .social img {
     width: 120%;
     margin-bottom: 2vw;

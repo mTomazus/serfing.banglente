@@ -26,32 +26,7 @@
         font-size: 8vh;
         line-height: 8vh;
     }
-    .logo {
-        display: block!important;
-        h6 {
-            font-size: 1.5rem;
-            letter-spacing: 0.8rem;
-        }
-    }
-    .logo, .logo-pic, .burger{
-        position: relative!important;
-    }
-    .knopkes {
-        display: none!important;
-    }
-    .nav-links {
-        display: flex!important;
-        margin: 0 2rem;
-        a {
-            font-size: 1rem;
-            letter-spacing: .5vh;
-            color: lightskyblue;
-            transition: color 0.5s ease;
-            &:hover {
-            color: white;
-            }
-        }
-    }
+
     .career-list__item {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -79,11 +54,12 @@
     }
     .content {
         min-height: 100vh;
-        padding-top: max(5vh, 40px);
+        padding-top: max(10vh, 65px);
         overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        transition: filter ease-in-out 1s;
     }
     .rekvizitai {
         margin-bottom: 2rem;
@@ -153,10 +129,6 @@
         h2 {
         color: $alt-text-color;
         }
-    }
-
-    .content {
-        text-align: center;
     }
 
     .stovykla {
