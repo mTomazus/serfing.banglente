@@ -8,20 +8,17 @@
         font-size: 3.5rem;
         line-height: 3.2rem;
     }
-    h2 {
-        margin: auto;
-        text-align: center;
-        color: $alt-text-color;
-    }
     h3 {
         font-size: 1.3rem;
         margin: 10px;
         text-align: center;
     }
     p {
-        font-size: 1.3rem;
-        line-height: 2rem;
-        color: $text-color;
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+        color: white;
+        max-width: unset;
+        margin: 1rem 0;
     }
     .w-90 {
         width: 90vw;
@@ -33,26 +30,21 @@
     .h-120p {
         height: 120px!important;
     }
-    header {
-        bottom: 0;
-    }
     main {
         padding-top: 0;
         padding-bottom: max(10vh, 65px);
+        transition: all 2s;
     }
-    .knopkes {
-        display: none;
-        svg {
-            width: 2.5rem;
-            height: 3rem;
-            margin: .3rem;
+    .title{
+        max-height: 15vh;
+        h1 {
+            font-size: 8vh;
+            margin-top: 2vh;
+            line-height: 5vh;
         }
-        a {
-            text-decoration: none;
+        h2 {
+            font-size: 4vh;
         }
-    }
-    .meganav-links{
-        display: none!important;
     }
     .section {
         transition: all 2s;
@@ -154,21 +146,7 @@
             margin-bottom: 1rem;
         }
     }
-    .logo, .knopkes {
-        display: block
-    }
-    .knopkes{
-        display: none;
-    }
 
-    nav {
-        bottom: 0;
-    }
-    .nav-links {
-        bottom: 8vh;
-        top: -92vh;
-        padding: 5rem 0;
-    }
 //----------- contacts page specific --------------
     
     .contacts__content {
@@ -278,13 +256,6 @@
             color: white;
             font-size: 1.25rem;
             margin: 1rem;
-        }
-        p {
-            font-size: 1.125rem;
-            line-height: 1.125rem;
-            color: white;
-            max-width: unset;
-            margin: 1rem 0;
         }
         li {
             font-family: "Source Sans Pro", sans-serif;

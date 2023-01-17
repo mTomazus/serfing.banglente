@@ -39,7 +39,7 @@ nav {
     left:1rem;
     margin: auto;
     img{
-        height: max(5vh, 30px);
+        height: max(5vh, 45px);
         filter: drop-shadow($shadow-deep);
         vertical-align: auto;
     }
@@ -60,7 +60,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     h6{
-        font-size: 2rem;
+        font-size: 3.5rem;
         margin: 0;
         text-align: center;
         text-shadow: $shadow;
@@ -147,7 +147,7 @@ nav {
         right: 0;
         top: 0;
         h6 {
-            font-size: 1.5rem;
+            font-size: 2.5rem;
             letter-spacing: 0.8rem;
         }
     }
@@ -161,7 +161,7 @@ nav {
         display: flex!important;
         margin: 0 2rem;
         a {
-            font-size: 1rem;
+            font-size: 1.35rem;
             letter-spacing: .5vh;
             color: lightskyblue;
             transition: color 0.5s ease;
@@ -203,6 +203,32 @@ nav {
 }
 
 @media screen and (max-width:480px){
+    header {
+        bottom: 0;
+        transition: all 2s;
+    }
+    .knopkes {
+        display: none;
+        svg {
+            width: 2.5rem;
+            height: 3rem;
+            margin: .3rem;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    nav {
+        bottom: 0;
+    }
+    .nav-links {
+        bottom: 10vh;
+        top: -90vh;
+        padding: 5rem 0;
+    }
+    .meganav-links{
+        display: none!important;
+    }
     .nav-active {
         background-image: $gradient;
         transform: translateX(0%);

@@ -70,6 +70,13 @@ main {
   overflow: hidden;
 }
 
+.title {
+  margin: 1rem 0;
+}
+.title h1 {
+  line-height: 3rem;
+}
+
 .one-page {
   max-height: 90vh;
 }
@@ -286,7 +293,7 @@ nav .knopkes svg path {
   margin: auto;
 }
 .logo-pic img {
-  height: max(5vh, 30px);
+  height: max(5vh, 45px);
   filter: drop-shadow(0 0.2rem 0.2rem #00000075);
   vertical-align: auto;
 }
@@ -306,7 +313,7 @@ nav .knopkes svg path {
   letter-spacing: 5px;
 }
 .logo h6 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   margin: 0;
   text-align: center;
   text-shadow: 0 0.2rem 0.5rem #00000075;
@@ -386,7 +393,7 @@ nav .knopkes svg path {
     top: 0;
   }
   .logo h6 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: 0.8rem;
   }
 
@@ -403,7 +410,7 @@ nav .knopkes svg path {
     margin: 0 2rem;
   }
   .nav-links a {
-    font-size: 1rem;
+    font-size: 1.35rem;
     letter-spacing: 0.5vh;
     color: lightskyblue;
     transition: color 0.5s ease;
@@ -444,6 +451,37 @@ nav .knopkes svg path {
   }
 }
 @media screen and (max-width: 480px) {
+  header {
+    bottom: 0;
+    transition: all 2s;
+  }
+
+  .knopkes {
+    display: none;
+  }
+  .knopkes svg {
+    width: 2.5rem;
+    height: 3rem;
+    margin: 0.3rem;
+  }
+  .knopkes a {
+    text-decoration: none;
+  }
+
+  nav {
+    bottom: 0;
+  }
+
+  .nav-links {
+    bottom: 10vh;
+    top: -90vh;
+    padding: 5rem 0;
+  }
+
+  .meganav-links {
+    display: none !important;
+  }
+
   .nav-active {
     background-image: linear-gradient(to right, #2f78a8, #114161);
     transform: translateX(0%);
@@ -1309,12 +1347,6 @@ button:hover {
     line-height: 3.2rem;
   }
 
-  h2 {
-    margin: auto;
-    text-align: center;
-    color: #114161;
-  }
-
   h3 {
     font-size: 1.3rem;
     margin: 10px;
@@ -1322,9 +1354,11 @@ button:hover {
   }
 
   p {
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
     color: white;
+    max-width: unset;
+    margin: 1rem 0;
   }
 
   .w-90 {
@@ -1340,29 +1374,22 @@ button:hover {
     height: 120px !important;
   }
 
-  header {
-    bottom: 0;
-  }
-
   main {
     padding-top: 0;
     padding-bottom: max(10vh, 65px);
+    transition: all 2s;
   }
 
-  .knopkes {
-    display: none;
+  .title {
+    max-height: 15vh;
   }
-  .knopkes svg {
-    width: 2.5rem;
-    height: 3rem;
-    margin: 0.3rem;
+  .title h1 {
+    font-size: 8vh;
+    margin-top: 2vh;
+    line-height: 5vh;
   }
-  .knopkes a {
-    text-decoration: none;
-  }
-
-  .meganav-links {
-    display: none !important;
+  .title h2 {
+    font-size: 4vh;
   }
 
   .section {
@@ -1468,24 +1495,6 @@ button:hover {
     margin-bottom: 1rem;
   }
 
-  .logo, .knopkes {
-    display: block;
-  }
-
-  .knopkes {
-    display: none;
-  }
-
-  nav {
-    bottom: 0;
-  }
-
-  .nav-links {
-    bottom: 8vh;
-    top: -92vh;
-    padding: 5rem 0;
-  }
-
   .contacts__content {
     font-family: "Source Sans Pro";
     font-weight: 900;
@@ -1588,13 +1597,6 @@ button:hover {
     color: white;
     font-size: 1.25rem;
     margin: 1rem;
-  }
-  .burelis p {
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    color: white;
-    max-width: unset;
-    margin: 1rem 0;
   }
   .burelis li {
     font-family: "Source Sans Pro", sans-serif;

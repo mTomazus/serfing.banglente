@@ -1,7 +1,4 @@
 @extends('layouts.app')
-
-https://web.archive.org/web/20180203183903/https://www.hidrokostiumai.com/
-
 @section('content')
 
 <div class="bg-grad section content">
@@ -14,7 +11,7 @@ https://web.archive.org/web/20180203183903/https://www.hidrokostiumai.com/
             naudojamų savitų žargonų. Taigi mes nusprendėme jums padėti ir parašyti 
             supaprastintą hidrokostiumų pirkimo gidą bei patarti, 
             kokie hidrokostiumai jums bus tinkamiausi.</h5>
-        <div class="content-box-full">
+        <div class="content-box-full text-center">
                 <h2 class="mb-4 border-bottom border-2">Pradžioje pagrindiniai klausimai:</h2>
                 <div class="d-block d-md-flex mb-4">
                     <div class="col mx-2">
