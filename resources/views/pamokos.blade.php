@@ -6,13 +6,15 @@
 <!-------- SECTION PAMOKOS -------->
 <!--------------------------------->
 
-<div class="stovykla bg-grad section">
+<main class="stovykla bg-grad section">
     <div class="content pamokos">
-        <div class="content--scroll">
+        <div class="title">
+            <h1>SURF PAMOKOS</h1>
+            <h2>Išbandykite banglentes (angl. surfing)!</h2>
+        </div>
+        
             <div class="lg container-md">
-                <h1>SURF PAMOKOS</h1>
                 <div class="description">
-                    <h2 class="mb-3">Išbandykite banglentes (angl. surfing)!</h2>
                     <h2 class="mb-3">Puikiai išmanantys banglenčių sportą instruktoriai per pusantros valandos trūkmės pamoką pamokys, kaip pasigauti savo pirmą bangą. Mūsų surf pamokos vedamos trejeis lygiais:</h2>
                         <div class="row m-0">
                             <div class="col mr-3"><h2 class="mb-2 lygis">pirmas lygis</h2><h3 class="mb-2 text-dark">pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h3></div>
@@ -91,9 +93,7 @@
                 </div>
             </div>
             <div class="sm">
-                <h1>SURF PAMOKOS</h1>
                 <div class="description container mt-3">
-                    <h2>Išbandykite banglentes (angl. surfing)!</h2>
                     <h2>Puikiai išmanantys banglenčių sportą instruktoriai per pusantros valandos trūkmės pamoką pamokys, kaip pasigauti savo pirmą bangą. Mūsų surf pamokos vedamos trejais lygiais:</h2>
                         <div class="column">
                             <div class="col"><h2 class="mb-2 lygis">pirmas lygis</h2><h2>pradinis, išmoksite atsistoti ir išstovėti, saugumo bei etiketo taisykles vandenyje. Garantuojam daug gerų emocijų ir linksmai praleisto laiko</h2></div>
@@ -154,7 +154,7 @@
                     @livewire('pamokos-form')
                 </div>
             </div>
-        <div>
+        
     </div>
 </div>    <!--- end SECTION 2  --->
 

@@ -11,7 +11,7 @@
         <div class="lg__info">
             <div class="content-box dark-text">
                 <div class="d-flex">
-                    <div>
+                    <div class="d-grid">
                         <h3>BANGLENTĖ</h3>
                         <h4>nuo 10€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Mes visada jums padėsime išsirinkti tinkamą banglentę, patarsime kur plaukti. Ne vienerius metus daugelyje pasaulio vietų skrieje banga patarsime ir kitais klausimais. Nesidrovėkite klausti.</h4>
@@ -20,14 +20,14 @@
                 </div>
                 <div class="d-flex">
                     <img src="/img/sup-sm.jpg" alt="irklentes standup paddle">
-                    <div>
+                    <div class="d-grid">
                         <h3>IRKLENTĖ</h3>
                         <h4>10€ - valanda</h4>
                         <p class="text-dark font-weight-normal">Kietos įvairaus dydžio irklentės puikiausiai tinka pasiplaukioti jūroje. Gera viso kūno treniruotė su irklente idealiai tiks bet kokioo amžiaus sportuojančiam.</h4>
                     </div>
                 </div>
                 <div class="d-flex">
-                    <div>
+                    <div class="d-grid">
                         <h3>HIDROKOSTIUMAS</h3>
                         <h4>5€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Įvairių dydžių, šilti 5/4 mm. vyriški, moteriški ir vaikiški hidrokostiumų nuoma. Vandens temparatūrai pasiekus bent 13 laipsnių su 5mm. hidrokostiumu, batais ir kapišonu visiškai nešalta</h4>
@@ -36,14 +36,14 @@
                 </div>
                 <div class="d-flex">
                     <img src="/img/skate-sm.jpg" alt="riedlentes skateboards">
-                    <div>
+                    <div class="d-grid">
                         <h3>RIEDLENTĖ</h3>
                         <h4>10€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Surf skeitai - puiki pramoga ir labai gera banglenčių treniruočių priemonė. Turime visų populiariausių brandų surf riedlentes - Carver, SmoothStar ir Miller. Būtinai išmėginkite!</h4>
                     </div>
                 </div>
                 <div class="d-flex">
-                    <div>
+                    <div class="d-grid">
                         <h3>SKIM BOARDAS</h3>
                         <h4>10€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Mažesnė nei banglentė, neturi pelekų ir skirta čiuožti negiliu vandeniu. Viskas prasideda paplūdimyje, metant lntą ant vandens :)</h4>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="d-flex">
                     <img src="/img/body-sm.jpg" alt="puslentės bodyboard">
-                    <div>
+                    <div class="d-grid">
                         <h3>PUSLENTĖ</h3>
                         <h4>10€ - dvi valandos</h4>
                         <p class="text-dark font-weight-light">Puiki priemone suprasti bangų gaudymo mechaniką ir čiuožimo nuo bangos dinamiką.</h4>

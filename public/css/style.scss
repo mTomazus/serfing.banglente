@@ -68,7 +68,6 @@ a {
 .blur {
     filter: blur(8px);
 }
-
 main {
     min-height: 100vh;
     padding-top: max(10vh, 65px);
@@ -80,6 +79,10 @@ main {
     h1 {
         line-height: 3rem;
     }
+}
+.accordion__content {
+    background-color: rgb(88, 88, 88);
+    padding: 0.5rem;
 }
 
 .one-page {
