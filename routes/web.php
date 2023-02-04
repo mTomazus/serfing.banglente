@@ -84,36 +84,24 @@ Route::get('logout/', function() {
 
 
 Route::middleware('auth')->group(function () {
-
     Route::get('user', 'App\Http\Controllers\User\HomeController@index')->name('user-home');
     Route::resource('posts', 'App\Http\Controllers\User\PostsController');
-
 });
 
 
 Route::middleware(['auth', 'admin'])->group(function () {
 
     Route::get('admin', 'App\Http\Controllers\Admin\HomeController@index')->name('admin-home');
-
-    Route::get('stovykla-table', function () {
-        return view('admin.stovykla-table');
-    });
-
-    Route::get('pamokos-table', function () {
-        return view('admin.pamokos-table');
-    });
-
-    Route::get('contacts-table', function () {
-        return view('admin.contacts-table');
-    });
+    Route::get('stovykla-table', 'App\Http\Controllers\Admin\HomeController@getStovyklaTable')->name('stovykla-table');
+    Route::get('pamokos-table', 'App\Http\Controllers\Admin\HomeController@getPamokosTable')->name('pamokos-table');
+    Route::get('contacts-table', 'App\Http\Controllers\Admin\HomeController@getContactsTable')->name('contacts-table');
 
     Route::get('images', 'App\Http\Controllers\GalleryController@index');
-
 });
 
 Route::get('straipsniai/{page}', 'App\Http\Controllers\ArticleController')
     ->name('page')
-    ->where('page', '[1, 2]');
+    ->where('page', '[1, 2, 3, 4]');
 
 Route::get('straipsniai/', function () {
     return view('naujienos');

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="section content nuoma bg-grad">
+<main class="section content nuoma bg-grad">
     <div class="title">
         <h1>NUOMA</h1>         
         <h2>Didžiausias pasirinkimas!</h2>

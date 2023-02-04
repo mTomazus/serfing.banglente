@@ -21,7 +21,7 @@
 <!-------------------------- MAIN ------------------------------>     
 
             <div class="col-md-8">
-                <div class="position-relative">
+                <div class="position-relative article-preview">
                     <img src="/img/article/aipa.jpg" class="w-100 pic">
                     <div class="krta mb-4" style="position: absolute; margin:auto; bottom:0px">
                         <h2>Banglentes</h2>
@@ -34,14 +34,34 @@
 
 <!-------------------------- SIDE ------------------------------>        
             
-            <div class="col-md-4">
-                <div class="position-relative">
+            <div class="col-md-4 mt-4 mt-md-0">
+                <div class="position-relative article-preview">
                     <img src="https://www.skidock.com/wp-content/uploads/2022/03/AdobeStock_244993930.jpeg" class="w-100 pic">
                     <div class="krta mb-4">
                         <h2>Hidrokostiumai</h2>
                         <h4>Ką reikia žinoti!</h4>                        
                     </div>
                     <a href="/straipsniai/2" class="stretched-link"></a>
+                </div>
+                
+                <div class="position-relative article-preview mt-4">
+                    <img src="../img/article/3/poster3.jpg" class="w-100 pic">
+                    <div class="krta mb-4">
+                        <h2>Molas Surf 2015</h2>
+                        <h4>Pirmasis Lietuvos Čempionatas</h4>                        
+                    </div>
+                    <a href="/straipsniai/3" class="stretched-link"></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4">
+                <div class="position-relative article-preview">
+                    <img src="../img/article/4/poster.jpg" class="w-100 pic">
+                    <div class="krta mb-4">
+                        <h2>Molas Surf 2016</h2>
+                        <h4>Lietuvos Banglenčių Čempionatas</h4>                        
+                    </div>
+                    <a href="/straipsniai/4" class="stretched-link"></a>
                 </div>
             </div>
 
@@ -50,6 +70,26 @@
         </div>
     </div>    
 </main>
+<style>
+    .krta {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+        width: 85%;
+        margin: auto;
+        
+    }
+    .article-preview {        
+        padding: 2px;
+        background: white;
+        box-shadow: black 1px 1px 5px;
+    }
+    @media screen and (max-width: 480px) {
+        .three {
+            flex-direction: column-reverse;
+            display: flex;
+        }
+    }
+</style>
 
 @endsection
 

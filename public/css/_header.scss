@@ -18,26 +18,18 @@ nav {
     display: flex;
     align-items: center;
     width: 100vw;
-    .knopkes{
-        position: absolute;
-        left: 0px;
-        text-align: center;
-        right: 0px;
-        svg {
-            filter: drop-shadow($shadow-deep);
-            path{
-                fill:$fills;
-            }
-        }
-    }
+}
+
+//------------------ pozicionavimas ---------------------
+.logo, .logo-pic, .burger, .knopkes {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
 }
 
 //------------------ logo paveiksliukas ---------------------
-
 .logo-pic{
-    position: absolute;
-    left:1rem;
-    margin: auto;
     img{
         height: max(5vh, 45px);
         filter: drop-shadow($shadow-deep);
@@ -51,11 +43,6 @@ nav {
 //-------------------- logo textas --------------------------
 
 .logo{
-    position: absolute;
-    max-width: fit-content;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -67,18 +54,23 @@ nav {
     }
 }
 
+//------------------- knopkes -------------------
+
+.knopkes svg {
+    filter: drop-shadow($shadow-deep);
+    path{
+        fill:$fills;
+    }
+}
+
 //------------------- burger -------------------
 
 .burger{
-    position: absolute;
-    right: 1rem;
-    margin: auto;
-    cursor: pointer;
     div{
         width: 30px;
         height: 3px;
         background-color: lightskyblue;
-        margin: 7px;
+        margin: 7px auto;
         border-radius: 15px;
         transition: all 0.3s ease;
     }
@@ -153,6 +145,7 @@ nav {
     }
     .logo, .logo-pic, .burger{
         position: relative!important;
+        width: auto;
     }
     .knopkes {
         display: none!important;

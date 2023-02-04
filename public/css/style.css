@@ -279,24 +279,14 @@ nav {
   align-items: center;
   width: 100vw;
 }
-nav .knopkes {
-  position: absolute;
-  left: 0px;
+
+.logo, .logo-pic, .burger, .knopkes {
+  position: relative;
+  margin: auto;
   text-align: center;
-  right: 0px;
-}
-nav .knopkes svg {
-  filter: drop-shadow(0 0.2rem 0.2rem #00000075);
-}
-nav .knopkes svg path {
-  fill: white;
+  cursor: pointer;
 }
 
-.logo-pic {
-  position: absolute;
-  left: 1rem;
-  margin: auto;
-}
 .logo-pic img {
   height: max(5vh, 45px);
   filter: drop-shadow(0 0.2rem 0.2rem #00000075);
@@ -308,11 +298,6 @@ nav .knopkes svg path {
 }
 
 .logo {
-  position: absolute;
-  max-width: fit-content;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -324,17 +309,18 @@ nav .knopkes svg path {
   text-shadow: 0 0.2rem 0.5rem #00000075;
 }
 
-.burger {
-  position: absolute;
-  right: 1rem;
-  margin: auto;
-  cursor: pointer;
+.knopkes svg {
+  filter: drop-shadow(0 0.2rem 0.2rem #00000075);
 }
+.knopkes svg path {
+  fill: white;
+}
+
 .burger div {
   width: 30px;
   height: 3px;
   background-color: lightskyblue;
-  margin: 7px;
+  margin: 7px auto;
   border-radius: 15px;
   transition: all 0.3s ease;
 }
@@ -404,6 +390,7 @@ nav .knopkes svg path {
 
   .logo, .logo-pic, .burger {
     position: relative !important;
+    width: auto;
   }
 
   .knopkes {
@@ -952,7 +939,6 @@ button:hover {
 
   .content {
     min-height: 100vh;
-    padding-top: max(10vh, 65px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
