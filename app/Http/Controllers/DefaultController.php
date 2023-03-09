@@ -120,4 +120,9 @@ class DefaultController extends Controller
     {
         return view('burelis');
     }
+
+    public function stovyklos()
+    {
+        return view('stovyklos');
+    }
 }

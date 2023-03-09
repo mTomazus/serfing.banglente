@@ -204,6 +204,7 @@ section {
   color: black;
   padding: 0;
   margin: auto;
+  transition: all 1s ease-in-out;
 }
 section h3 {
   text-align: center;
@@ -265,9 +266,10 @@ section h4 {
 /* --------------- header-------------- */
 /* --------------------------------------- */
 header {
-  display: flex;
+  display: grid;
   position: fixed;
   height: max(10vh, 65px);
+  width: 100%;
   box-shadow: black 0px 1px 10px;
   background-image: linear-gradient(to right, #2f78a8, #114161);
   font-family: "Anton", sans-serif;
@@ -277,7 +279,6 @@ header {
 nav {
   display: flex;
   align-items: center;
-  width: 100vw;
 }
 
 .logo, .logo-pic, .burger, .knopkes {
@@ -418,8 +419,6 @@ nav {
     align-items: center;
     position: absolute;
     right: 0;
-    top: 8vh;
-    height: 92vh;
     background-color: #2f78a8;
     font-size: 20px;
     width: 65%;
@@ -454,7 +453,7 @@ nav {
   .knopkes svg {
     width: 2.5rem;
     height: 3rem;
-    margin: 0.3rem;
+    margin: 0.15rem;
   }
   .knopkes a {
     text-decoration: none;

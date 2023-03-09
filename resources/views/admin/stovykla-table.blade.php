@@ -2,7 +2,10 @@
 
 @section('content')
 
-    <div class="section content bg-grad">
+    <main class="section content bg-grad">
+        <div class="title">
+            <h1>STOVYKLOS LENTELĖ</h1>
+        </div>
 
         <livewire:stovykla-table />
         

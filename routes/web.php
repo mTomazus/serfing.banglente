@@ -25,13 +25,15 @@ Route::get('contacts/', function () {
 
 Route::get('stovykla/', 'App\Http\Controllers\DefaultController@stovykla')->name('stovykla');
 
+Route::get('stovyklos/suaugusiems/lanzarote', 'App\Http\Controllers\DefaultController@keliones')->name('keliones');
+
+Route::get('stovyklos/', 'App\Http\Controllers\DefaultController@stovyklos')->name('stovyklos');
+
 Route::get('burelis/', 'App\Http\Controllers\DefaultController@burelis')->name('burelis');
 
 Route::get('pamokos/', 'App\Http\Controllers\DefaultController@pamokos')->name('pamokos');
 
 Route::get('varzybos/', 'App\Http\Controllers\DefaultController@varzybos')->name('varzybos');
-
-Route::get('keliones/', 'App\Http\Controllers\DefaultController@keliones')->name('keliones');
 
 Route::get('webcamai/', 'App\Http\Controllers\DefaultController@webcamai')->name('webcamai');
 
@@ -101,7 +103,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
 
 Route::get('straipsniai/{page}', 'App\Http\Controllers\ArticleController')
     ->name('page')
-    ->where('page', '[1, 2, 3, 4]');
+    ->where('page', '[1, 2, 3, 4, 5]');
 
 Route::get('straipsniai/', function () {
     return view('naujienos');

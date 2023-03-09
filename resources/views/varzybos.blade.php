@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="d-sm-grid d-none" style="gap:1rem;grid-template-columns:repeat(2, 1fr)">
+        <div class="d-sm-grid d-block" style="gap:1rem;grid-template-columns:repeat(2, 1fr)">
             <div class="bg-white d-grid p-3">
                 <div>
                     <img class="w-100 mb-3 d-sm-block d-none" src="/img/2022-cover.jpg" alt="posteris varžybų">

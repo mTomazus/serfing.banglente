@@ -14,7 +14,6 @@
     <link rel="preload stylesheet prefetch" href="https://fonts.googleapis.com/css2?family=Anton&display=swap" as="style">
     <link rel="shortcut icon" href="/img/icon-b.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="/css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 

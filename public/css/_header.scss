@@ -3,9 +3,10 @@
 /* --------------------------------------- */
 
 header {
-    display: flex;
+    display: grid;
     position: fixed;
     height: max(10vh, 65px);
+    width: 100%;
     box-shadow: black 0px 1px 10px;
     background-image: linear-gradient(to right, #2f78a8, #114161);
     font-family: "Anton", sans-serif;
@@ -17,7 +18,6 @@ header {
 nav {
     display: flex;
     align-items: center;
-    width: 100vw;
 }
 
 //------------------ pozicionavimas ---------------------
@@ -172,8 +172,6 @@ nav {
         align-items: center;
         position: absolute;
         right: 0;
-        top: 8vh;
-        height: 92vh;
         background-color:#2f78a8;
         font-size: 20px;
         width: 65%;
@@ -205,7 +203,7 @@ nav {
         svg {
             width: 2.5rem;
             height: 3rem;
-            margin: .3rem;
+            margin: .15rem;
         }
         a {
             text-decoration: none;

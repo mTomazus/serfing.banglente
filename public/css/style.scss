@@ -209,6 +209,7 @@ section {
     color: black;
     padding: 0;
     margin: auto;
+    transition: all 1s ease-in-out;
     h3 {
         text-align: center;
         text-shadow: $shadow;

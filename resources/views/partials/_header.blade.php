@@ -34,10 +34,10 @@
 
         <li><a href="/pamokos/">Pamokos</a></li>
         <li><a href="/nuoma/">Nuoma</a></li>
-        <li><a href="/stovykla/">Stovykla</a></li>
-        <li><a href="/keliones/">Kelionės</a></li>
+        <li><a href="/stovyklos/">Stovyklos</a></li>
         <li><a href="/varzybos/">Varžybos</a></li>
         <li><a href="/burelis/">Būrelis</a></li>
+        <li><a href="/straipsniai/">Straipsniai</a></li>
         <li><a href="/contacts/">Kontaktai</a></li>
 
         @if (Auth::check())
