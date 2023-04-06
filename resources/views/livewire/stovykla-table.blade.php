@@ -4,17 +4,17 @@
         
         <table>
             <tr>
-                <th class="px-4 py-2 d-none d-md-inline-block">Pamaina</th>
+                <th class="px-4 py-2 d-none d-md-block">Pamaina</th>
                 <th class="px-4 py-2">Stovyklautojas</th>
-                <th class="px-4 py-2 d-none d-md-inline-block">Amžius</th>
+                <th class="px-4 py-2 d-none d-md-block">Amžius</th>
                 <th class="px-4 py-2">Telefonas</th>
             </tr>
     
             @foreach ($lines as $line)
                 <tr>
-                    <td class="border px-4 py-2 d-none d-md-inline-block">{{ $line->pamaina }}</td>
+                    <td class="border px-4 py-2 d-none d-md-block">{{ $line->pamaina }}</td>
                     <td class="border px-4 py-2">{{ $line->name }} {{ $line->surname }}</td>
-                    <td class="border px-4 py-2 d-none d-md-inline-block">{{ $line->age }} metai</td>
+                    <td class="border px-4 py-2 d-none d-md-block">{{ $line->age }} metai</td>
                     <td class="border px-4 py-2">{{ $line->phone }}</td>             
                 </tr>
             @endforeach

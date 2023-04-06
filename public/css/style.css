@@ -396,6 +396,7 @@ nav {
 
   .knopkes {
     display: none !important;
+    justify-content: space-around;
   }
 
   .nav-links {
@@ -1436,7 +1437,6 @@ button:hover {
 
   .content {
     overflow: hidden;
-    padding-bottom: 10vh;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
@@ -1445,7 +1445,6 @@ button:hover {
 
   .cont {
     overflow: hidden;
-    padding-bottom: 10vh;
     height: 90vh;
     flex-direction: column;
     display: flex;

@@ -17,16 +17,18 @@
             </div>
             <select class="form-control" name="pamaina" id="pamaina" wire:model="pamaina">
                 <option value="-1">Pasirinktite pamainą</option>
-                <option value="1. Birželio 20d." disabled>1. Ilgesni mokslo metai.</option>
-                <option value="2. Birželio 27d." disabled>2. Jau nebėra vietų.</option>
-                <option value="3. Liepos 4d." disabled>3. Jau nebėra vietų.</option>
-                <option value="4. Liepos 11d." disabled>4. Jau nebėra vietų.</option>
-                <option value="5. Liepos 18d." disabled>5. Jau nebėra vietų.</option>
-                <option value="6. Liepos 25d." disabled>6. Jau nebėra vietų.</option>
-                <option value="7. Rugpjūčio 1d." disabled>7. Jau nebėra vietų.</option>
-                <option value="8. Rugpjūčio 8d." disabled>8. Jau nebėra vietų.</option>
-                <option value="9. Rugpjūčio 16d." disabled>9. Rugpjūčio 15d. - 19d.</option>
-                <option value="10.	Rugpjūčio 22d.">10. Rugpjūčio 22d. - 26d. (liko 1 vieta)</option>
+                <option value="1. Birželio 12d.">1. Birželio 12d - 16d.</option>
+                <option value="2. Birželio 19d.">2. Birželio 19d - 23d.</option>
+                <option value="3. Birželio 26d.">3. Birželio 26d - 30d.</option>
+                <option value="4. Liepos 3d.">4. Liepos 3d - 7d.</option>
+                <option value="5. Liepos 10d.">5. Liepos 10d - 14d.</option>
+                <option value="6. Liepos 17d.">6. Liepos 17d - 21d.</option>
+                <option value="7. Liepos 24d.">7. Liepos 24d - 28d.</option>
+                <option value="8. Liepos 31d.">8. Liepos 31d - rugpjūčio 4d.</option>
+                <option value="9. Rugpjūčio 9d.">9. Rugpjūčio 7d - 11d.</option>
+                <option value="10. Rugpjūčio 16d.">10. Rugpjūčio 14d - 18d.</option>
+                <option value="11.	Rugpjūčio 21d.">11. Rugpjūčio 21d. - 25d.</option>
+                <option value="12.	Rugpjūčio 28d.">12. Rugpjūčio 28d. - 31d.</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>
@@ -51,6 +53,9 @@
                     <label class="input-group-text" for="metai" aria-describedby="metai">Metai</label>
                 </div>
                 <select class="form-control" name="metai" id="metai" wire:model="age">
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
                     <option value="10">10</option>
                     <option value="11">11</option>
                     <option value="12">12</option>
@@ -59,8 +64,8 @@
                     <option value="15">15</option>
                     <option value="16">16</option>
                     <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="9">9</option>
+                    
+                    
                 </select>
             </div>
             <div class="input-group w-auto">

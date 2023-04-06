@@ -9,7 +9,10 @@
             <h1>STOVYKLOS</h1> 
         </div>
 
-        <h3>Mes aštuntus metus vaikų ir suaugusiųjų poilsį organizuojanti banglenčių mokykla Melnragėje. Stovyklose dirba patyrę ir aukštos kvalifikacijos instruktoriai ir treneriai, kurie pasiruošę mokyti ir padėti savo auklėtiniams išmokti banglenčių sportą nuo pat pradžios.</h3>
+        <h3>Mes aštuntus metus vaikų ir suaugusiųjų poilsį organizuojanti 
+            banglenčių mokykla Melnragėje. Stovyklose dirba patyrę ir aukštos 
+            kvalifikacijos instruktoriai ir treneriai, kurie pasiruošę mokyti 
+            ir padėti savo auklėtiniams išmokti banglenčių sportą nuo pat pradžios.</h3>
 
         <div class="d-grid d-md-inline-flex justify-content-around">
 
@@ -32,9 +35,12 @@
                     <a href="../stovyklos/suaugusiems/lanzarote" class="content-box">
                         <h2>Suaugusiems</h2>
                         <img src="/img/san_juan.jpg">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptate 
-                            odit amet veniam laudantium beatae. Quidem autem dolorum magni, blanditiis 
-                            voluptatibus aliquam earum eveniet suscipit fuga vel, minus aliquid consequatur?</p>
+                        <p>Banglenčių stovykla yra puiki proga, kurios metu keliaujama į skirtingas vietas, 
+                            kad būtų galima pasimėgauti vienomis geriausių pasaulyje bangų. Tai puikus būdas atrasti 
+                            naujas vietas, patirti skirtingas kultūras ir susipažinti su bendraminčiais, turinčiais 
+                            aistrą serfingui. Tipinė surf kelionė gali trukti nuo kelių dienų iki kelių savaičių, priklausomai 
+                            nuo užsibrėštų tikslų ir individualių nuostatų. Nesvarbu, ar esate patyręs profesionalas, 
+                            ar pradedantysis, mūsų stovyklos suteiks neįkainojamą patirtį, pilną nuotykių, adrenalino ir gerų emocijų.</p>
                     </a>
                 </div>
             </div>
@@ -46,6 +52,9 @@
 <style>
     .korta {
         position: relative;
+        border: 1px solid white;
+        height: max-content;
+        margin-top: 1rem;
     }
     .korta h2 {
         position: absolute;
@@ -57,9 +66,13 @@
         background: #00000070;
     }
     .korta p {
+        font-family: alegreya;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        text-align: justify;
+        max-width: 100%;
         padding: 0.75rem 0.75rem;
         margin: 0;
-        text-align: justify;
         background: #292a2a99;
     }
     .korta img {

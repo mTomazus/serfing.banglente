@@ -26,7 +26,7 @@ const navSlide  = () => {
             knopkes.style.display = 'none';
           } else {
             logo.style.display = "none";
-            knopkes.style.display = 'block';
+            knopkes.style.display = 'flex';
           }
 
     });

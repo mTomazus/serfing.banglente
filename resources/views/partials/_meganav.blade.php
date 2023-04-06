@@ -7,7 +7,7 @@
                     <li><a href="/pamokos/">Pamokos</a></li>
                     <li><a href="/nuoma/">Nuoma</a></li>
                     <li><a href="/stovykla/">Stovykla</a></li>
-                    <li><a href="/keliones/">Kelionės</a></li>
+                    <li><a href="/stovyklos/suaugusiems/lanzarote">Kelionės</a></li>
                     <li><a href="/varzybos/">Varžybos</a></li>
                     <li><a href="/burelis/">Būrelis</a></li>
                 </ul>
@@ -30,6 +30,7 @@
                     <li><a href="/contacts/">Kontaktai</a></li>
                     <li><a href="/karjera/">Karjera</a></li>
                     <li><a href="/parama/">Parama</a></li>
+                    <li><a href="#">Įmonėms</a></li>
                     <li><a href="#">Ataskaitos</a></li>
                 </ul>
             </li>
@@ -59,10 +60,10 @@
         </ul>
         <div class="container mb-3 pt-3" style="border-top: 2px solid">
             <div class="d-flex justify-content-around">
-                <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png"></a>
-                <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png"></a>
-                <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png"></a>
-                <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png"></a>
+                <a href="https://www.instagram.com/banglente/" target=“_blank”><img src="/img/in-icon.png" alt="instagram button"></a>
+                <a href="https://www.facebook.com/banglente" target=“_blank”><img src="/img/fb-icon.png" alt="facebook button"></a>
+                <a href="https://www.youtube.com/channel/UCbcobM7kKzfznOQEpIrZJqA" target=“_blank”><img src="/img/yt-icon.png" alt="youtube button"></a>
+                <a href="https://t.me/LT_Serfing" target=“_blank”><img src="/img/tg-icon.png" alt="telegram button"></a>
             </div>
         </div>
         

@@ -5,21 +5,16 @@
     <main class="one-page">
         <div class="s3 section">
             <div class="py-4">
-                <h2 class="blink">REGISTRACIJA ATIDARYTA</h2>
+                <h2 class="blink">NAUJIENA</h2>
             </div>
             <div class="heading py-3">
-                <h1>BANGLENČIŲ SPORTO VAIKŲ STOVYKLA</h1>
+                <h1>BANGLENČIŲ SPORTO SEKCIJA</h1>
             </div>
             <div class="py-2">
-                <button class="btn"><a href="/stovykla/">REGISRUOKIS</a></button>                
+                <button class="btn"><a href="/burelis/">REGISRUOKIS</a></button>                
             </div>  
         </div>
     </main>
-    <style>
-        h2 {
-            font-size: 2rem!important;
-        }
-    </style>
 
 @endsection
 

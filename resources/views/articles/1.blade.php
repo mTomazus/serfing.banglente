@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="bg-grad section content">
+<main class="bg-grad section">
     <div class="container articles">
         <h1 class="mb-0">Banglentės - kaip jos veikia?</h1>
         <h2 class="mb-4">I dalis - "Greitis"</h2>
@@ -56,7 +56,7 @@
         <h2 class="mt-4 text-white">Efektyviai naudojant abu šiuos principus galima pasiekti gan nemažą greitį.</h2>
         <h2 class="mb-4">Sekmės bangose!</h2>
     </div>
-</div>
+</main>
 
 @endsection
 
