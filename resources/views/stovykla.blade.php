@@ -24,10 +24,10 @@
                     išmokti banglenčių sportą nuo pat pradžios.</p>
                 <p>Stovykloje vaikai mokomi ne tik praktinių banglenčių mokymosi aspektų, bet ir teorinių žinių apie banglenčių 
                     įrangą, techniką, saugumą vandenyje. Mes taip pat puikiai žinome ir suprantame savo atsakomybę už vaikų 
-                    saugumą ir atsakingą banglenčių sporto praktiką. Todėl, instruktoriai skiria įpatingą dėmesį mokymo procesui, 
+                    saugumą ir atsakingą banglenčių sporto praktiką, todėl instruktoriai skiria ypatingą dėmesį mokymo procesui, 
                     užtikrinant, kad veikai būtų saugūs ir banglenčių praktika vyktų etiškai ir atsakingai.</p>
-                <p>Stovykla yra profesiolaliausia ne tik lietuvoje, bet visame baltijos regione ir mūsų auklėtiniai užima tik pačias 
-                    aukščiausias tarpautinių banglenčių čempionątų vietas visuose grupėse, pernai net tapo čempionė tarp suaugusiųjų.</p>
+                <p>Stovykla yra profesiolaliausia ne tik Lietuvoje, bet visame Baltijos regione ir mūsų auklėtiniai užima tik pačias 
+                    aukščiausias tarpautinių banglenčių čempionatų vietas visose grupėse - pernai net turėjome čempionę tarp suaugusiųjų.</p>
                 <p>Be to, stovykla orientuota į aplinkos tausojimą ir skatina vaikus rūpintis gamta ir jūros ekosistema.</p> 
             </div>
 
@@ -36,7 +36,7 @@
             <div class="tikslai">
                 <h2>Vaikų stovyklos tikslai</h2>
                 <ul>
-                    <li>Suteikti galimybę vaikams praleisti laiką gamtoje ir išmokti saugiai jaustis šalia vandes telkinių.</li>
+                    <li>Suteikti galimybę vaikams praleisti laiką gamtoje ir išmokti saugiai jaustis šalia vandens telkinių.</li>
                     <li>Suteikti vaikams galimybę išmokti ir veliau tobulinti banglenčių ir riedlenčių sporto įgūdžius.</li>
                     <li>Užtikrinti, kad vaikai turėtų saugią ir priežiūrą užtikrinančią aplinką, kurioje jie galėtų sportuoti ir ugdytis.</li>
                     <li>Suteikti galimybę vaikams patirti bendruomenės dvasią, bendrauti su kitais vaikais ir išmokti bendradarbiauti.</li>
@@ -52,11 +52,11 @@
                 <ul>
                     <li>Banglenčių sporto praktiniai užsiėmimai jūroje.</li>
                     <li>Riedlenčių praktiniai mokymai krante.</li>
-                    <li>Plaukimas itklente esant tam tinkamoms sąlygoms.</li>
+                    <li>Plaukimas irklente esant tam tinkamoms sąlygoms.</li>
                     <li>Smagus laiko praleidimas paplūdimyje žaidžiant tinklinį, kvadratą ar frisbį.</li>
-                    <li>Saugaus elgesio prie vandens mokymai, jūros sąlygas ir kt.</li>
+                    <li>Saugaus elgesio prie vandens mokymai, jūros būkless ir kt.</li>
                     <li>Ekskursijos jūros pakrante pas gelbėtojus.</li>
-                    <li>Vizualios medžiagos peržiūros ir jos analize.</li>
+                    <li>Vizualios medžiagos peržiūros ir jos analizė.</li>
                 </ul>
                 <a class="color-white btn btn-outline-light" href="/incoming/programa.pdf" target="_blank">Preliminari programa</a>
 
@@ -65,7 +65,7 @@
                     <p>Maitinimą: pietūs ir užkanžiai su vaisiais.</p>
                     <p>Visą reikalingą sporto inventorių:</p>
                     <ul class="my-4">
-                        <li>įvairaus dydžio mokomasias banglentes;</li>
+                        <li>įvairaus dydžio mokomąsias banglentes;</li>
                         <li>šiltus hidrokostiumus ir esant reikalui batus;</li>
                         <li>"carver", "smoothstar" ir "classic" tipo riedlentes;</li>
                         <li>taip pat ir irklentes.</li>
@@ -75,9 +75,9 @@
 
                 <article>
                     <h2>Kaip registruotis į stovyklą</h2>
-                    <p>Stovykla organizuojama nuo Birželio vidurio iki Rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje.</p>
+                    <p>Stovykla organizuojama nuo birželio vidurio iki rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje.</p>
                     <P>Grupės sudaromos iš 8-10 mokančių plaukti vaikų nuo 10 iki 18 metų.</P>
-                    <p class="">Į pirmas dvi pamainas ir į paskutinę pamainą priimami vaikai nuo 7 metų.</p>
+                    <p class="">Į pirmas dvi pamainas ir į paskutinę pamainą priimami mokantys plaukti pradinių klasių mokiniai.</p>
                     <p>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30).</p>
                     <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 100 Eur pavedimą į "VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
                     <p>Visada mielai atsakysime į visus jums kylančius klausimus telefonu. </p>

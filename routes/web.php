@@ -92,13 +92,15 @@ Route::middleware('auth')->group(function () {
 
 
 Route::middleware(['auth', 'admin'])->group(function () {
-
+    
     Route::get('admin', 'App\Http\Controllers\Admin\HomeController@index')->name('admin-home');
     Route::get('stovykla-table', 'App\Http\Controllers\Admin\HomeController@getStovyklaTable')->name('stovykla-table');
     Route::get('pamokos-table', 'App\Http\Controllers\Admin\HomeController@getPamokosTable')->name('pamokos-table');
     Route::get('contacts-table', 'App\Http\Controllers\Admin\HomeController@getContactsTable')->name('contacts-table');
 
     Route::get('images', 'App\Http\Controllers\GalleryController@index');
+
+    Route::resource('products', 'App\Http\Controllers\Admin\ProductController');
 });
 
 Route::get('straipsniai/{page}', 'App\Http\Controllers\ArticleController')
