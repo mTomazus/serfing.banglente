@@ -46,7 +46,7 @@ class mailFromStovykla extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email)->subject('Banglente Stovykla forma')->view('emails.fromStovykla')->with([
+        return $this->from('sales@banglente.com')->subject('Banglente Stovykla forma')->view('emails.fromStovykla')->with([
             'senderpamaina' => $this->pamaina,
             'sendername' => $this->name,
             'sendersurname' => $this->surname,

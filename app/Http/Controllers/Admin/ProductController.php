@@ -41,7 +41,9 @@ class ProductController extends Controller
     {
         // validate input
         $request -> validate([
+            'brand' => 'required',
             'name' => 'required',
+            'price' => 'required',
             'description' => 'required',
             'details' => 'required'
         ]);
@@ -101,7 +103,9 @@ class ProductController extends Controller
     {
         // validate input
         $request -> validate([
+            'brand' => 'required',
             'name' => 'required',
+            'price' => 'required',
             'description' => 'required',
             'details' => 'required'
         ]);

@@ -37,6 +37,8 @@ Route::get('varzybos/', 'App\Http\Controllers\DefaultController@varzybos')->name
 
 Route::get('webcamai/', 'App\Http\Controllers\DefaultController@webcamai')->name('webcamai');
 
+Route::get('komanda/', 'App\Http\Controllers\DefaultController@komanda')->name('komanda');
+
 Route::get('parama/', 'App\Http\Controllers\DefaultController@parama')->name('parama');
 
 Route::get('gallery/', 'App\Http\Controllers\DefaultController@gallery')->name('gallery');

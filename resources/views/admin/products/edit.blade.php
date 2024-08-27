@@ -26,8 +26,16 @@
                 @method('PUT')
                 <div class="row">
                     <div class="input-group my-1">
+                        <span class="input-group-text" id="basic-addon1">Brandas</span>
+                        <input type="text" name="brand" class="form-control" value="{{ $product->brand }}" placeholder="Įvesk brandą" aria-label="Brand" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group my-1">
                         <span class="input-group-text" id="basic-addon1">Pavadinimas</span>
                         <input type="text" name="name" class="form-control" value="{{ $product->name }}" placeholder="Įvesk pavadinimą" aria-label="Name" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group my-1">
+                        <span class="input-group-text" id="basic-addon1">Kaina</span>
+                        <input type="number" name="price" class="form-control" value="{{ $product->price }}" placeholder="Įvesk kainą" aria-label="Price" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group col-12 my-1">
                         <span class="input-group-text">Description:</span>

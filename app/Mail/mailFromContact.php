@@ -34,8 +34,9 @@ class mailFromContact extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email)->subject('Banglente contact form')->view('emails.fromContact')->with([
+        return $this->from('sales@banglente.com')->subject('Banglente contact form')->view('emails.fromContact')->with([
             'sendername' => $this->name,
+            'senderemail' => $this->email,
             'sendermessage' => $this->message,
         ]);
     }

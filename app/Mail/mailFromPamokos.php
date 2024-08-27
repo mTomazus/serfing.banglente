@@ -40,7 +40,7 @@ class mailFromPamokos extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email)->subject('Banglente Pamokos forma')->view('emails.fromPamokos')->with([
+        return $this->from('sales@banglente.com')->subject('Banglente Pamokos forma')->view('emails.fromPamokos')->with([
             'senderpaslauga' => $this->paslauga,
             'sendername' => $this->name,
             'senderaddress' => $this->address,

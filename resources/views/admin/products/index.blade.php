@@ -6,7 +6,7 @@
         <div class="container-lg">
             <div class="row">
                 <div class="col-12">
-                    <div>
+                    <div class="m-4 text-center">
                         <a href="{{ route('products.create') }}" class="btn btn-success">CREATE NEW</a>
                     </div>
                 </div>
@@ -45,6 +45,15 @@
                     
                 @endforeach
             </table>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="m-4 text-center">
+                        <a href="{{ route('products.create') }}" class="btn btn-success">CREATE NEW</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
     

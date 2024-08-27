@@ -8,8 +8,9 @@
 </head>
 <body>
     <div style="background: #dab974;">
-        <h1 style="padding-top:2rem;text-align:center;">New email has arrived</h1>
+        <h2 style="padding-top:2rem;text-align:center;">New email has arrived</h2>
         <h2 style="text-align:center;padding-bottom:2rem">from {{ $sendername }}</h2>
+        <h2 style="text-align:center;padding-bottom:2rem">from {{ $senderemail }}</h2>
         <div style="text-align:center;padding-bottom:2rem">
             <pre>{{ $sendermessage }}</pre>
         </div>

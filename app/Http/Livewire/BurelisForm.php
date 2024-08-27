@@ -26,14 +26,14 @@ class BurelisForm extends Component
             'email' => 'required|email',
         ]);
    
-        Bureliais::create($validatedData);
+        Bureliai::create($validatedData);
 
         Mail::to('sales@banglente.com')->send(new mailFromBurelis($this->name, $this->surname, $this->age, $this->email, $this->phone));
         
         Mail::to($this->email)->send(new mailReplyBurelis($this->name, $this->surname, $this->age, $this->email, $this->phone));
 
         $this->reset(['name', 'surname', 'age', 'email', 'phone']);
-        session()->flash('message', 'Būrelio registracija sėkminga!');
+        session()->flash('message', 'Registracija sėkminga!');
     }
 
     public function render()

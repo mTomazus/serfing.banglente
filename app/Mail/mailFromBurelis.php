@@ -39,7 +39,7 @@ class mailFromBurelis extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email)->subject('Registracija į būrelį')->view('emails.fromBurelis')->with([
+        return $this->from('sales@banglente.com')->subject('Registracija į varžybas')->view('emails.fromBurelis')->with([
             'sendername' => $this->name,
             'sendersurname' => $this->surname,
             'senderage' => $this->age,

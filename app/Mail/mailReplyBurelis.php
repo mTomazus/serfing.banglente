@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class mailReplyStovykla extends Mailable
+class mailReplyBurelis extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -38,7 +38,7 @@ class mailReplyStovykla extends Mailable
      */
     public function build()
     {
-        return $this->from('sales@banglente.com')->subject('Būrelio Registracija')->view('emails.fromReplyBurelis')->with([
+        return $this->from('sales@banglente.com')->subject('Varžybų Registracija')->view('emails.fromReplyBurelis')->with([
             'sendername' => $this->name,
             'sendersurname' => $this->surname,
             'senderage' => $this->age,

@@ -17,18 +17,10 @@
             </div>
             <select class="form-control" name="pamaina" id="pamaina" wire:model="pamaina">
                 <option value="-1">Pasirinktite pamainą</option>
-                <option value="1. Birželio 12d."disabled>Baigėsi</option>
-                <option value="2. Birželio 19d."disabled>Baigėsi</option>
-                <option value="3. Birželio 26d."disabled>Baigėsi</option>
-                <option value="4. Liepos 3d." disabled>Baigėsi</option>
-                <option value="5. Liepos 10d." disabled>Baigėsi</option>
-                <option value="6. Liepos 17d." disabled>Baigėsi</option>
-                <option value="7. Liepos 24d." disabled>Baigėsi</option>
-                <option value="8. Liepos 31d." disabled>Baigėsi</option>
-                <option value="9. Rugpjūčio 7d." disabled>Baigėsi</option>
-                <option value="10. Rugpjūčio 14d." disabled>Baigėsi</option>
-                <option value="11.	Rugpjūčio 21d." disabled>Baigėsi</option>
-                <option value="12.	Rugpjūčio 28d."" disabled>Baigėsi</option>
+                <option disabled value="9. Rugpjūčio 5d." >9. pilna pamaina</option>
+                <option value="10. Rugpjūčio 12d." >10. Rugpjūčio 12d. - 16d.</option>
+                <option value="11. Rugpjūčio 19d." >11.	Rugpjūčio 19d. - 23d</option>
+                <option value="12.	Rugpjūčio 26d." >12. Rugpjūčio 26d. - 30d.</option>
             </select>
             @error('pamaina') <span class="text-danger small error">{{ $message }}</span> @enderror
         </div>

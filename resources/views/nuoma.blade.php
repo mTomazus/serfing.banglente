@@ -13,7 +13,7 @@
                 <div class="d-flex">
                     <div class="d-grid">
                         <h3>BANGLENTĖ</h3>
-                        <h4>nuo 10€ - dvi valandos</h4>
+                        <h4>nuo 15€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Mes visada jums padėsime išsirinkti tinkamą banglentę, patarsime kur plaukti. Ne vienerius metus daugelyje pasaulio vietų skrieje banga patarsime ir kitais klausimais. Nesidrovėkite klausti.</h4>
                     </div>
                     <img src="/img/bangle-sm.jpg" alt="banglentes surfboards">
@@ -22,14 +22,14 @@
                     <img src="/img/sup-sm.jpg" alt="irklentes standup paddle">
                     <div class="d-grid">
                         <h3>IRKLENTĖ</h3>
-                        <h4>10€ - valanda</h4>
+                        <h4>15€ - valanda</h4>
                         <p class="text-dark font-weight-normal">Kietos įvairaus dydžio irklentės puikiausiai tinka pasiplaukioti jūroje. Gera viso kūno treniruotė su irklente idealiai tiks bet kokioo amžiaus sportuojančiam.</h4>
                     </div>
                 </div>
                 <div class="d-flex">
                     <div class="d-grid">
                         <h3>HIDROKOSTIUMAS</h3>
-                        <h4>5€ - dvi valandos</h4>
+                        <h4>10€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Įvairių dydžių, šilti 5/4 mm. vyriški, moteriški ir vaikiški hidrokostiumų nuoma. Vandens temparatūrai pasiekus bent 13 laipsnių su 5mm. hidrokostiumu, batais ir kapišonu visiškai nešalta</h4>
                     </div>
                     <img src="/img/hidro-sm.jpg" alt="hidrokostiumai wetsuits">
@@ -38,7 +38,7 @@
                     <img src="/img/skate-sm.jpg" alt="riedlentes skateboards">
                     <div class="d-grid">
                         <h3>RIEDLENTĖ</h3>
-                        <h4>10€ - dvi valandos</h4>
+                        <h4>15€ - dvi valandos</h4>
                         <p class="text-dark font-weight-normal">Surf skeitai - puiki pramoga ir labai gera banglenčių treniruočių priemonė. Turime visų populiariausių brandų surf riedlentes - Carver, SmoothStar ir Miller. Būtinai išmėginkite!</h4>
                     </div>
                 </div>
@@ -62,8 +62,8 @@
             <div class="content-side">
                 <h2>PROGNOZĖ</h2>
                 <iframe width="100%" height="262" src="https://embed.windy.com/embed2.html?lat=55.479&amp;lon=20.742&amp;zoom=5&amp;level=surface&amp;overlay=wind&amp;menu=&amp;message=true&amp;marker=&amp;calendar=now&amp;pressure=true&amp;type=map&amp;location=coordinates&amp;detail=&amp;detailLat=55.282&amp;detailLon=13.590&amp;metricWind=m%2Fs&amp;metricTemp=%C2%B0C&amp;radarRange=-1" frameborder="0"></iframe>
-                <h2>VANDENS TEMPERATŪRA</h2>
-                <img width="100%" src="https://a.nordicweather.net/maps/water.png">
+                <h2>TEMPERATŪRA</h2>
+                <iframe width="300" height="218" src="https://weather-stats.com/i/9qa7d/current/1458/4" style="display:block; margin:1rem auto; border: 0px; outline: 0px; display: inline-block;"></iframe>
                 <h2>WEB KAMERA</h2>
                 <iframe width="100%" height="300" src="https://www.delfi.lt/video/transliacijos/24-7/stream.php?hls=https://s1.dcdn.lt/livecam/kl011.stream/playlist.m3u8&amp;autoplay=true" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" allowtransparency="true" autoplay="true"></iframe>
             </div>
@@ -82,8 +82,8 @@
                     <img src="/img/lenta-9.jpg" alt="banglentes nuoma">
                     <div class="info">
                         <h4>pradedantiesiems</h4>
-                        <h4>10 eur - 2 val.</h4>
-                        <h4>20 eur - diena</h4>
+                        <h4>15 eur - 2 val.</h4>
+                        <h4>25 eur - diena</h4>
                     </div>
                 </li>
                 <li class="carousel-slide current-slide">
@@ -91,8 +91,8 @@
                     <img src="/img/wetsuit-1.jpg" alt="hidrokostiumai vyriski moteriski">
                     <div class="info">
                         <h4>stori - 5/4 mm.</h4>
-                        <h4>5 eur - 2 val.</h4>
-                        <h4>10 eur - diena</h4>
+                        <h4>10 eur - 2 val.</h4>
+                        <h4>20 eur - diena</h4>
                     </div>
                 </li>
                 <li class="carousel-slide">
@@ -100,7 +100,7 @@
                     <img src="/img/sup-1.jpg" alt="irklentes - sup'ai">
                     <div class="info">
                         <h4>kietos nuo 10"</h4>
-                        <h4>10 eur - 1 val.</h4>
+                        <h4>15 eur - 1 val.</h4>
                         <h4>40 eur - diena</h4>
                     </div>
                 </li>
@@ -136,8 +136,8 @@
                     <img src="/img/lenta-6.jpg" alt="">
                     <div class="info">
                         <h4>Pažengusiems</h4>
-                        <h4>15 eur - 2 val.</h4>
-                        <h4>30 eur - diena</h4>
+                        <h4>20 eur - 2 val.</h4>
+                        <h4>35 eur - diena</h4>
                     </div>
                 </li>
             </ul>

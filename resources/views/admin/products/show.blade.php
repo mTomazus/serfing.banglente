@@ -5,27 +5,45 @@
     <main class="bg-grad section">
         <div class="container-lg">
             
-            <div class="d-block m-4">
+            <div class="d-block m-4 text-center">
                 <a href="{{ route('products.index') }}" class="btn btn-primary">BACK</a>
             </div>
 
             <div class="d-grid">
-                <h1>{{ $product->name }}</h1>
-                <h3>{{ $product->description }}</h3>
-                <h3>{{ $product->details }}</h3>
+            
+                <div>
+                    @if (count($product->images)>0)
+                        @foreach ($product->images as $img)
+                            <div class="mb-4">
+                                <img width="100%" src="/{{ $img->url }}" alt="product image">
+                            </div>
+                        @endforeach
+                    @endif
+                </div>
 
-                @if (count($product->images)>0)
-                    @foreach ($product->images as $img)
-                        <img width="100%" src="/{{ $img->url }}" alt="product image">
-                    @endforeach
-                @endif
+                <div class="product-info">
+                    <h2 class="mb-3">{{ $product->brand }}</h2>
+                    <h1 class="mb-3">{{ $product->name }}</h1>
+                    <h2 class="mb-3">{{ $product->price }}</h2>
+                    <h2 class="mb-3">{{ $product->description }}</h2>
+                    <h3 class="mb-3">{{ $product->details }}</h3>
+                </div>
+
+            </div>
+
+            <div class="d-block m-4 text-center">
+                <a href="{{ route('products.index') }}" class="btn btn-primary">BACK</a>
             </div>
 
         </div>
     </main>
     <style>
         .d-grid {
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 3fr 2fr;
+            gap: 15px;
+        }
+        .product-info h1, h2, h3{
+            font-family: serif;
         }
     </style>
     

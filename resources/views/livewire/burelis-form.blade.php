@@ -25,21 +25,13 @@
         <div class="row mb-3 justify-content-around">
             <div class="input-group w-auto">
                 <div class="input-group-append">
-                    <label class="input-group-text" for="metai" aria-describedby="metai">Metai</label>
+                    <label class="input-group-text" for="metai" aria-describedby="metai">Pogrupis</label>
                 </div>
                 <select class="form-control" name="metai" id="metai" wire:model="age">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13" selected>13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="9">9</option>
-                    <option value="9">8</option>
-                    <option value="9">7</option>
+                    <option selected>choose</option>
+                    <option value="U-14">U-14</option>
+                    <option value="U-16">U-16</option>
+                    <option value="U-18">U-18</option>
                 </select>
             </div>
 

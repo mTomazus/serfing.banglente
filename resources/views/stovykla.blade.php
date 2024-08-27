@@ -9,7 +9,7 @@
     <div class="container-lg">
 
         <div class="title">
-            <h1>VAIKŲ VASAROS BANGLENČIŲ STOVYKLA 2023</h1>
+            <h1>VAIKŲ VASAROS BANGLENČIŲ STOVYKLA 2024</h1>
             <img class="d-none d-sm-block w-100" src="/img/camp-2023.png" alt="stovyklos koliadzas">
             <img class="d-block d-sm-none" src="/img/camp-2023s.png" alt="stovyklos koliadzas">
             <h2>Dienos stovykla prie jūros</h2>
@@ -29,6 +29,25 @@
                 <p>Stovykla yra profesiolaliausia ne tik Lietuvoje, bet visame Baltijos regione ir mūsų auklėtiniai užima tik pačias 
                     aukščiausias tarpautinių banglenčių čempionatų vietas visose grupėse - pernai net turėjome čempionę tarp suaugusiųjų.</p>
                 <p>Be to, stovykla orientuota į aplinkos tausojimą ir skatina vaikus rūpintis gamta ir jūros ekosistema.</p> 
+            </div>
+
+            <div class="champas">
+                <h2>PASIEKIMAI</h2>
+                <p class="mb-3">Jaunieji stovyklos auklėtiniai dalyvauja tiek Lietuvos/Latvijos tiek Pasaulio čempionatuose. 
+                    Eilę metų mūsų mokiniai užėma prizines lietuvos čempionato vietas. 
+                    2024 metais net 3 mūsų sportininkai išvyko į Pasaulio jaunimo čempionatą atstovauti Lietuvą. 
+                    Jie buvo vieninteliai Lietuvos deleguoti sportininkai.</p>
+
+                <div class="d-md-flex d-grid">
+                    <img src="/img/LTU_Team_1_small.jpg" class="mb-1 col-md-3 col-12" alt="LTU Team">
+                    <img src="/img/LTU_Team_2_small.jpg" class="mb-1 col-md-3 col-12" alt="LTU Team">
+                    <img src="/img/LTU_Antanas_small.jpg" class="mb-1 col-md-3 col-12" alt="LTU Team">
+                    <img src="/img/LTU_Goda_small.jpg" class="mb-1 col-md-3 col-12" alt="LTU Team">
+                </div>
+                <p class="mb-3">Bet turbūt ne surinkti balai ir ne vietos ar prizai čia svarbiausi. 
+                    Svarbiausia – galimybė pabūti tarp bendraminčių iš viso pasaulio, 
+                    „pasimatuoti“ kitokias bangas ir įgyti neįkainojamos tiek sportinės, 
+                    tiek gyvenimiškos patirties. </p>
             </div>
 
             <img src="/img/camp-300.jpg" class="rimas" alt="vaikų stovykla">
@@ -76,14 +95,13 @@
                 <article>
                     <h2>Kaip registruotis į stovyklą</h2>
                     <p>Stovykla organizuojama nuo birželio vidurio iki rugpjūčio pabaigos, grupės yra riboto dydžio, todėl skambinkite arba registruokites dabar, kad gautumėte vietą norimoje pamainoje.</p>
-                    <P>Grupės sudaromos iš 8-10 mokančių plaukti vaikų nuo 10 iki 18 metų.</P>
-                    <p class="">Į pirmas dvi pamainas ir į paskutinę pamainą priimami mokantys plaukti pradinių klasių mokiniai.</p>
+                    <P>Grupės sudaromos iš 8-10 mokančių plaukti vaikų nuo 7 iki 18 metų.</P>
                     <p>Pamaina trunka 5 dienas nuo pirmadienio iki penktadienio (nuo 9:00 iki 17:30).</p>
                     <p>Norint užsiregistruoti, reikia užpildyti registracijos formą ir atlikti avansini 100 Eur pavedimą į "VšĮ Banglentė" sąskaitą - LT22 7300 0101 4459 4068 (swed). Neatvykus į stovyklą avansas negrąžinamas.</p>
                     <p>Visada mielai atsakysime į visus jums kylančius klausimus telefonu. </p>
                 </article>
                 
-                <h2 class="text-center blink">Pamainos kaina 250€.</h2>
+                <h2 class="text-center blink">Pamainos kaina 275€.</h2>
             </div>
 
             <div class="side">
@@ -430,6 +448,7 @@
         gap: 0rem;
         grid-template-areas:
             "apie apie apie atsiliepimai atsiliepimai"
+            "champas champas champas champas champas"
             "rimas tikslai tikslai tikslai tikslai" 
             "front front front side side";
         margin-bottom: 2rem;
@@ -440,6 +459,9 @@
     }
     .apie {
         grid-area: apie;
+    }
+    .champas {
+        grid-area: champas;
     }
     .tikslai {
         grid-area: tikslai;
@@ -609,10 +631,11 @@
 
 @section('meta')
 
-    <title>Banglentė - Vaikų vasaros dienos stovykla 2023!</title>
-    <link rel="canonical" href="https://www.banglente.com/vaiku-stovykla/">
-    <meta name="description" content="Vaikų vasaros stovykla 2023 Klaipėdoje. Ant bangos 2023.">
-    <meta name="keywords" content="banglenčių stovykla vaikams, vaikų vasaros stovykla 2023, Vaikų banglenčių dienos stovykla Klaipėdoje, dienos stovykla, vaikų stovyklos, vaikų stovykla, stovykla prie jūros, banglenčių stovykla, surf camp">
+    <title>Banglentė - Vaikų vasaros dienos stovykla 2024!</title>
+    <link rel="canonical" href="https://www.banglente.com/stovykla">
+    <meta name="description" content="Vaikų vasaros stovykla 2024 Klaipėdoje. Ant bangos 2024.">
+    <meta name="keywords" content="banglenčių stovykla vaikams, vaikų vasaros stovykla 2024, Vaikų banglenčių dienos stovykla Klaipėdoje, dienos stovykla, vaikų stovyklos, vaikų stovykla, stovykla prie jūros, banglenčių stovykla, surf camp">
+    <meta name="og:image" content="img/evelina.jpg">
 
 @endsection
 

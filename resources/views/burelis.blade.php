@@ -57,7 +57,6 @@
 
                     <div>
                         <h2>REGISTRACIJA</h2>
-                        @livewire('burelis-form')
                     </div>
                     <div>
                         <h2>TIKSLAI</h2>
